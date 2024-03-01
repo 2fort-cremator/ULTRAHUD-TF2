@@ -121,7 +121,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 255 200"
+		"fillcolor"		"0 255 0 255"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
 		
