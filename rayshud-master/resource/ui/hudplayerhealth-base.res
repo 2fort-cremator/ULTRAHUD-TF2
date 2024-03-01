@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"30"	
+		"xpos"			"65"	
 		"ypos"			"c165"
 		"zpos"			"2"
 		"wide"			"128"
@@ -145,6 +145,24 @@
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
 		"fgcolor"		"ColorWhite"
+		
+		"proportionaltoparent"	"1"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthShadow"
+		"xpos"			"2"
+		"ypos"			"32.5"
+		"zpos"			"4"
+		"wide"			"32"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Cerbetica18Alt"
+		"fgcolor"		"0 0 0 200"
 		
 		"proportionaltoparent"	"1"
 	}
