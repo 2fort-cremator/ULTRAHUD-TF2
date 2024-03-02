@@ -34,7 +34,7 @@ Scheme
 		"Health Hurt"				"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
 		"Damage Numbers"			"72 255 255 255"
-		"ItemPanelBG"				"50 50 50 255"
+		"ItemPanelBG"				"100 0 0 255"
 		"Button Color"				"72 255 255 255"
 		//---------------------------------------------
 		// Crosshair Colors

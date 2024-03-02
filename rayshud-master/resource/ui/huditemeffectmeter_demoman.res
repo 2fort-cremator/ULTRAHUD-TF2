@@ -5,22 +5,22 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c155"
-		"ypos"					"c120"
+		"xpos"					"c-400"
+		"ypos"					"c192"
 		"xpos_minmode"			"c95"
 		"ypos_minmode"			"c75"
 		"wide"					"40"
 		"tall"					"40"
-		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+		"MeterFG"				"39 217 217 255"
+		"MeterBG"				"39 217 217 150"
 	}
 
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"-6"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"10"
@@ -33,7 +33,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"ItemFontAttribLarge"
+		"font"					"Cerbetica6Alt"
 		"font_minmode"			"Cerbetica10"
 	}
 
@@ -60,8 +60,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"10"
+		"xpos"					"-6"
+		"ypos"					"4"
 		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
@@ -74,7 +74,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica28"
+		"font"					"Cerbetica18Alt"
 		"font_minmode"			"Cerbetica16"
 	}
 
@@ -97,9 +97,26 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica28"
+		"font"					"Cerbetica18Alt"
 		"font_minmode"			"Cerbetica16"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"ItemEffectMeterCount"
+	}
+	"ItemEffectMeterLabelBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterLabelBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"xpos_minmode"			"-1"
+		"ypos_minmode"			"-1"
+		"zpos"					"-1"
+		"wide"					"28"
+		"tall"					"28"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 150"
+
 	}
 }

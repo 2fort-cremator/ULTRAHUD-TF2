@@ -11,8 +11,8 @@
 		"ypos_minmode"		"c48"
 		"wide"				"120"
 		"tall"				"8"
-		"MeterFG"			"ULTRACyan"
-		"MeterBG"			"ULTRARed"
+		"MeterFG"			"39 217 217 255"
+		"MeterBG"			"100 0 0 255"
 	}
 
 	"ItemEffectMeterLabel"

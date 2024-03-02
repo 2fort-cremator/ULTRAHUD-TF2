@@ -2896,5 +2896,12 @@ Scheme
 				}
 			}
 		}
+			//CUSTOM BY CREMATOR
+
+			Rounded
+			{
+				"inset" "0 0 0 0"
+				"backgroundtype" "2"
+			}
 	}
 }

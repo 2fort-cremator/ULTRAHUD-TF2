@@ -17,11 +17,15 @@
 
 	"AccountBG"
 	{
-		"ControlName"			"CTFImagePanel"
+		"ControlName"			"ImagePanel"
 		"fieldName"				"AccountBG"
-		"xpos"					"9999"
-		"visible"				"0"
-		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"1000"
+		"tall"					"28"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 150"
 	}
 
 	"MetalIcon"
@@ -29,7 +33,7 @@
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MetalIcon"
 		"xpos"					"3"
-		"ypos"					"10"
+		"ypos"					"15"
 		"zpos"					"1"
 		"wide"					"5"
 		"tall"					"5"
@@ -44,8 +48,8 @@
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MetalIconShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"5"
 		"tall"					"5"
@@ -62,7 +66,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"AccountValue"
 		"xpos"					"5"
-		"ypos"					"0"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"

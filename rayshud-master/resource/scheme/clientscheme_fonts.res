@@ -238,6 +238,86 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Cerbetica8"
+		{
+			"1"
+			{
+				"name"			"BroshK"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica8Alt" //Alt version that uses VCR OSD
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica6"
+		{
+			"1"
+			{
+				"name"			"BroshK"
+				"tall"			"6"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica6Alt" //Alt version that uses VCR OSD
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"6"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica4"
+		{
+			"1"
+			{
+				"name"			"BroshK"
+				"tall"			"4"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica4Alt" //Alt version that uses VCR OSD
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"4"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica2"
+		{
+			"1"
+			{
+				"name"			"BroshK"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica2Alt" //Alt version that uses VCR OSD
+		{
+			"1"
+			{
+				"name"			"VCR OSD Mono"
+				"tall"			"2"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		// DEFAULT
 		"Default"
 		{
