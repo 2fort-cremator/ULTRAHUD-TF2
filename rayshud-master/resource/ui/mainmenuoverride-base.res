@@ -222,8 +222,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"500"
-		"ypos"			"200"
+		"xpos"			"c-210"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"70"
@@ -234,7 +234,7 @@
 		"tabPosition"	"0"
 		"labelText"		"Team Fortress 2"
 		"font"			"Cerbetica56Alt"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
@@ -335,8 +335,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"30"
-		"ypos"			"205"
+		"xpos"			"c-440"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"170"
 		"tall"			"50"
@@ -346,8 +346,21 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
 		"show_model"	"0"
+	
+		"pin_to_sibling"	"RankPanelBG"
 	}
-
+	"RankPanelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankPanelBG"
+		"xpos"			"c-105"
+		"ypos"			"110"
+		"zpos"			"-55"
+		"wide"			"200"
+		"tall"			"50"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 150"
+	}
 	"NoGCMessage"
 	{
 		"ControlName"		"Label"
@@ -473,14 +486,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
-		"xpos"			"40"
-		"ypos"			"270"
+		"xpos"			"-10"
+		"ypos"			"-5"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"150"
+		"tall"			"140"
 		"visible"		"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"Transparent"
+		
+		"pin_to_sibling"	"BGpanel1"
 
 		"TitleLabel"
 		{
@@ -489,12 +504,12 @@
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"-10"
+			"ypos"			"120"
 			"wide"			"260"
 			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 		}
 
@@ -593,10 +608,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"30"
-		"ypos"			"82"
+		"xpos"			"c-443"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
@@ -607,29 +622,35 @@
 		"textinsetx"	"25"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
-
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
-	}
+		"armedBgColor_override" 	"Transparent"
 
+		"pin_to_sibling"	"CharacterSetupButtonBG"
+	}
+	"CharacterSetupButtonBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CharacterSetupButtonBG"
+		"xpos"			"c-125"
+		"ypos"			"170"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"GeneralStoreButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"30"
-		"ypos"			"102"
+		"xpos"			"c-443"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"#StoreTitle"
+		"labeltext"		"STORE"
 		"command" 		"engine open_store"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
@@ -637,29 +658,36 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"pin_to_sibling"	"GeneralStoreButtonBG"
 
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
+		"armedBgColor_override" 	"Transparent"
 	}
-
+	"GeneralStoreButtonBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"GeneralStoreButtonBG"
+		"xpos"			"c15"
+		"ypos"			"170"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"SteamWorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
-		"xpos"			"30"
-		"ypos"			"122"
+		"xpos"			"c-430"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"labeltext"		"#MMenu_SteamWorkshop"
+		"labeltext"		"WORKSHOP"
 		"command"		"engine OpenSteamWorkshopDialog"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
@@ -667,24 +695,31 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"pin_to_sibling"	"SteamWorkshopButtonBG"
 
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
+		"armedBgColor_override" 	"Transparent"
 	}
-
+	"SteamWorkshopButtonBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SteamWorkshopButtonBG"
+		"xpos"			"c-125"
+		"ypos"			"270"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"SettingButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingButton"
-		"xpos"			"30"
-		"ypos"			"142"
+		"xpos"			"c-435"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
@@ -697,29 +732,36 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"pin_to_sibling"	"SettingButtonBG"
 
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
+		"armedBgColor_override" 	"Transparent"
 	}
-
+	"SettingButtonBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SettingButtonBG"
+		"xpos"			"c-125"
+		"ypos"			"220"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"30"
-		"ypos"			"162"
+		"xpos"			"c-430"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"labeltext"		"#MMenu_Tooltip_AdvOptions"
+		"labeltext"		"ADVANCED"
 		"command"		"OpenTF2Options"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
@@ -727,29 +769,36 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"pin_to_sibling"	"TF2SettingButtonBG"
 
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
+		"armedBgColor_override" 	"Transparent"
 	}
-
+	"TF2SettingButtonBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TF2SettingButtonBG"
+		"xpos"			"c15"
+		"ypos"			"220"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"MinmodeToggle"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MinmodeToggle"
-		"xpos"			"30"
-		"ypos"			"182"
+		"xpos"			"c-435"
+		"ypos"			"-5"
 		"zpos"			"11"
-		"wide"			"260"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"labeltext"		"MINMODE TOGGLE"
+		"labeltext"		"MINMODE"
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
@@ -757,16 +806,23 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"pin_to_sibling"	"MinmodeToggleBG"
 
 		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
+		"armedBgColor_override" 	"Transparent"
 	}
-
+	"MinmodeToggleBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MinmodeToggleBG"
+		"xpos"			"c15"
+		"ypos"			"270"
+		"zpos"			"-55"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"AchievementsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1240,11 +1296,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel1"
-		"xpos"			"30"
-		"ypos"			"57"
+		"xpos"			"c-135"
+		"ypos"			"315"
 		"zpos"			"-55"
 		"wide"			"260"
-		"tall"			"370"
+		"tall"			"150"
 		"visible"		"1"
 		"bgcolor_override"	"25 25 25 168"
 		"PaintBackgroundType"	"2"
