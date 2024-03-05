@@ -106,7 +106,7 @@
 			"angles_y" 			"180"
 			"angles_z" 			"0"
 			"origin_x" 			"200"
-			"origin_y" 			"5"
+			"origin_y" 			"-5"
 			"origin_z" 			"-60"
 			"frame_origin_x" 	"0"
 			"frame_origin_y" 	"0"
