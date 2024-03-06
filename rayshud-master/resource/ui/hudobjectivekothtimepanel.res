@@ -55,12 +55,12 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"-2"
 				"wide"			"26"
 				"tall"			"25"
 				"textAlignment"	"south"
 				"textinsety"	"-2"
-				"font"			"HudFontSmallest"
+				"font"			"Cerbetica10Alt"
 			}
 		}
 	}
@@ -112,12 +112,12 @@
 			{
 				"proportionaltoparent"	"1"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"-2"
 				"wide"			"26"
 				"tall"			"25"
 				"textAlignment"	"south"
 				"textinsety"	"-2"
-				"font"			"HudFontSmallest"
+				"font"			"Cerbetica10Alt"
 			}
 		}
 	}

@@ -115,7 +115,19 @@
 			"modelname"			""
 		}
 	}
-
+	"classmodelpanelBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldname"		"classmodelpanelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"999"
+		"tall"			"999"
+		"fillcolor"		"0 0 0 150"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 	"CarryingWeapon"
 	{
 		"ControlName"			"EditablePanel"
