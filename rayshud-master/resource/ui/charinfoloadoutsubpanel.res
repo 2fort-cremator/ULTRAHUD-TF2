@@ -7,7 +7,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"wide"						"f0"
-		"tall"						"480"
+		"tall"						"100000"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -15,9 +15,9 @@
 		"tabPosition"				"0"
 		"settitlebarvisible"		"0"
 		"PaintBackgroundType"		"0"
-		"bgcolor_override"			"DarkGrey"
-		"infocus_bgcolor_override"	"DarkGrey"
-		"outoffocus_bgcolor_override"	"DarkGrey"
+		"bgcolor_override"			"0 0 0 0"
+		"infocus_bgcolor_override"	"0 0 0 0"
+		"outoffocus_bgcolor_override"	"0 0 0 0"
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
 		"class_ypos"				"40"
@@ -31,7 +31,18 @@
 		"itemcountcolor"			"ColorCyan"
 		"itemcountcolor_noitems"	"TextColor"
 	}
-
+	"CharInfoLoadoutSubPanelBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldname"		"CharInfoLoadoutSubPanelBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
 	"scout"
 	{
 		"ControlName"				"ImageButton"
@@ -410,7 +421,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"ShowArmoryLabel"
-		"font"						"HudFontSmall"
+		"font"						"Cerbetica12Alt"
 		"labelText"					"#Armory"
 		"textAlignment"				"north"
 		"xpos"						"0"
