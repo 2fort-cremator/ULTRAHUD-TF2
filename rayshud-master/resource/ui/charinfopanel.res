@@ -42,7 +42,7 @@
 		"tall"				"47"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 200"
+		"fillcolor"			"0 0 0 250"
 		"tileImage"			"1"
 	}
 	"BackgroundHeader2"
@@ -71,7 +71,7 @@
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 200"
+		"fillcolor"			"0 0 0 250"
 		"tileImage"			"1"
 	}
 	"BackgroundFooter2"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"BackButton"
-		"xpos"				"c-20"
+		"xpos"				"c-60"
 		"ypos"				"437"
 		"zpos"				"2"
 		"wide"				"100"

@@ -41,7 +41,7 @@
 		"tall"			"1000"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 250"
 	}
 	"scout"
 	{
