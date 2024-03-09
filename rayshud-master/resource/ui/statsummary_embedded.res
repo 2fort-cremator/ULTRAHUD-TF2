@@ -210,7 +210,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"Cerbetica24"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -1433,7 +1433,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1450,7 +1450,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1467,7 +1467,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1484,7 +1484,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1501,7 +1501,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1518,7 +1518,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1535,7 +1535,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1552,7 +1552,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1569,7 +1569,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1586,7 +1586,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1603,7 +1603,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1620,7 +1620,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1637,7 +1637,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1654,7 +1654,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1671,7 +1671,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1688,7 +1688,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1705,7 +1705,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1722,7 +1722,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1739,7 +1739,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1756,7 +1756,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1773,7 +1773,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1790,7 +1790,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1807,8 +1807,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"Cerbetica10Alt"
-			"labelText"		"%classrecord12label%"
+			"font"			"Cerbetica8Alt"
+			"labelText"		"Most sentry kills:"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
 			"ypos"			"362"
@@ -1824,7 +1824,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1841,7 +1841,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1858,7 +1858,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1875,7 +1875,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1892,7 +1892,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
@@ -1909,7 +1909,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"	"west"
 			"xpos"			"c+128"
@@ -1926,7 +1926,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"Cerbetica10Alt"
+			"font"			"Cerbetica8Alt"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"	"west"
 			"xpos"			"c+210"
