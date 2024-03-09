@@ -70,7 +70,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"HudFontSmall"
+		"font"				"Cerbetica8Alt"
 		"xpos"				"35"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -90,9 +90,9 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
-		"font"				"HudFontSmall"
-		"xpos"				"-1"
-		"ypos"				"-1"
+		"font"				"Cerbetica8Alt"
+		"xpos"				"-2"
+		"ypos"				"-2"
 		"zpos"				"1"
 		"wide"				"115"
 		"tall"				"15"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"HudFontSmallest"
+		"font"				"Cerbetica10Alt"
 		"xpos"				"35"
 		"ypos"				"15"
 		"zpos"				"1"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabelShadow"
-		"font"				"HudFontSmallest"
+		"font"				"Cerbetica10Alt"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
