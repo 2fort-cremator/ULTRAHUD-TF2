@@ -11,9 +11,9 @@
 	//--------------------------------------------------------------
 	"CustomCrosshair"
 	{
-		"visible"			"0"
-		"enabled"			"0"
-		"labelText"			"<"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"5"
 		"controlName"		"CExLabel"
 		"fieldName"			"CustomCrosshair"
 		"zpos"				"0"
@@ -21,7 +21,7 @@
 		"ypos"				"cs-0.5"
 		"wide"				"f0"
 		"tall"				"f0"
-		"font"				"Size:18 | Outline:OFF"
+		"font"				"Size:18 | Outline:ON"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
 	}
