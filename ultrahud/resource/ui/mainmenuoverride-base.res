@@ -244,7 +244,7 @@
 		"sound_depressed"	""
 		"sound_released"	"UI/SwiggitySwooty.mp3"
 
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "ColorRed"
 		"armedFgColor_override" "ColorCyan"
 		"depressedFgColor_override" "ColorCyan"
 
@@ -637,7 +637,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"GeneralStoreButton"
 	{
@@ -673,7 +673,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"SteamWorkshopButton"
 	{
@@ -710,7 +710,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"SettingButton"
 	{
@@ -747,7 +747,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"TF2SettingsButton"
 	{
@@ -784,7 +784,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"MinmodeToggle"
 	{
@@ -821,7 +821,7 @@
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 100"
 	}
 	"AchievementsButton"
 	{
