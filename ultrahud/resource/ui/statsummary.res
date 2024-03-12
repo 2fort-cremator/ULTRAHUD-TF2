@@ -22,7 +22,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../console/background_upward"
+		"image"			"../console/background_loading.vtf"
 		"scaleImage"	"1"
 	}
 
@@ -36,7 +36,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			"../console/background_loading.vtf"
 		"scaleImage"	"1"
 	}
 
@@ -45,6 +45,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapInfo"
 		"xpos"			"9999"
+		"image"			"../console/background_loading.vtf"
 	}
 
 	"OnYourWayLabel"
