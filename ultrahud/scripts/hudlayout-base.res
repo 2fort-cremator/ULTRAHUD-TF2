@@ -1056,7 +1056,7 @@
 		"fieldName"			"HudTeamSwitch"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-160"
+		"xpos"				"cs-0.5"
 		"ypos"				"75"
 		"wide"				"320"
 		"tall"				"100"

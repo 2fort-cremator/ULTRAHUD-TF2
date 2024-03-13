@@ -15,19 +15,34 @@
 		"tabPosition"	"0"
 	}
 	
-	"SidePanelBG"
+	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"SidePanelBG"
+		"fieldName"		"TerminalBG"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
+		"ypos"			"c-100"
+		"zpos"			"-10"
 		"wide"			"255"
-		"tall"			"f0"
+		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 100"
+		"image"		"../console/teamselect_background"
+	}
+	
+	"TerminalBGDimmer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBGDimmer"
+		"xpos"			"-0"
+		"ypos"			"c-100"
+		"zpos"			"-5"
+		"wide"			"255"
+		"tall"			"200"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"0 0 0 200"
 	}
 
 	"SysMenu"
@@ -81,10 +96,10 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"0"
+		"xpos"			"-50"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"255"
+		"wide"			"50"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -97,17 +112,18 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"Cerbetica20"
+		"font"			"Cerbetica20Alt"
+		"border"		"WhiteBorder"
 		
-		"defaultBgColor_override" 	"Blue"
-		"armedBgColor_override"		"BlueSolid"
-		"depressedBgColor_override" "Blue"
-		"selectedBgColor_override" 	"BlueSolid"
+		"defaultBgColor_override" 	"Transparent"
+		"armedBgColor_override"		"Transparent"
+		"depressedBgColor_override" "Transparent"
+		"selectedBgColor_override" 	"Transparent"
 		
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override"		"255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" 	"255 255 255 255"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -124,7 +140,7 @@
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"255"
+		"wide"			"50"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -137,17 +153,17 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"Cerbetica20"
+		"font"			"Cerbetica20Alt"
 		
-		"defaultBgColor_override" 	"Red"
-		"armedBgColor_override"		"RedSolid"
-		"depressedBgColor_override" "Red"
-		"selectedBgColor_override" 	"RedSolid"
+		"defaultBgColor_override" 	"Transparent"
+		"armedBgColor_override"		"Transparent"
+		"depressedBgColor_override" "Transparent"
+		"selectedBgColor_override" 	"Transparent"
 		
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override"		"255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" 	"255 255 255 255"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -256,7 +272,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"0"
+		"xpos"			"-50"
 		"ypos"			"0"
 		"zpos"			"2"
 		"zpos"			"3"
@@ -270,7 +286,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica20"
+		"font"			"Cerbetica18Alt"
 		"fgcolor"		"255 255 255 128"
 		
 		"pin_to_sibling"		"teambutton0"
@@ -282,7 +298,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"0"
+		"xpos"			"-50"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"20"
@@ -295,7 +311,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Cerbetica20"
+		"font"			"Cerbetica18Alt"
 		"fgcolor"		"255 255 255 128"
 		
 		"pin_to_sibling"		"teambutton1"
