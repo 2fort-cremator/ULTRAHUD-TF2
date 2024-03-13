@@ -56,6 +56,19 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"Cerbetica32Alt"
+		{
+			"1"
+			{
+				"name"			"BroshK"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+
 		"Cerbetica28"
 		{
 			"1"
