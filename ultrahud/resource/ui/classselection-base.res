@@ -87,6 +87,24 @@
 		"pin_to_sibling"		"scout"
 	}
 
+	"Label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label"
+		"xpos"			"-20"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"56"
+		"labelText"		"CLASS SELECTION"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"Cerbetica20Alt"
+		"fgcolor_override"	"White"
+
+		"pin_to_sibling"		"TerminalBG"
+	}
+
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -113,7 +131,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -128,7 +146,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"0"
+		"xpos"				"-3"
 		"ypos"				"0"
 		"zpos"				"6"
 		"wide"				"100"
@@ -149,7 +167,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -189,7 +207,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -229,7 +247,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -269,7 +287,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -309,7 +327,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -349,7 +367,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -389,7 +407,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -429,7 +447,7 @@
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorWhite"
+		"selectedFgColor_override" 	"ColorGreyMid"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1101,8 +1119,8 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"TFPlayerModel"
 		"xpos"				"350"
-		"ypos"				"100"
-		"zpos"				"6"
+		"ypos"				"110"
+		"zpos"				"-9"
 		"wide"				"255"
 		"tall"				"270"
 		"autoResize"		"0"
@@ -1110,7 +1128,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"render_texture"	"0"
-		"fov"				"30"
+		"fov"				"35"
 		"allow_rot"			"1"
 		"paintbackground"	"0"
 		"bgcolor_override" 	"255 255 255 0"
