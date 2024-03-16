@@ -50,11 +50,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TerminalBGDimmer"
-		"xpos"			"-0"
-		"ypos"			"0"
+		"xpos"			"400"
+		"ypos"			"200"
 		"zpos"			"-5"
-		"wide"			"255"
-		"tall"			"200"
+		"wide"			"1055"
+		"tall"			"1000"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -69,24 +69,24 @@
 		"xpos"			"9999"
 	}
 
-	"SelectClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SelectTeamLabel"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"30"
-		"labelText"		"CLASS SELECTION"
-		"textAlignment"	"center"
-		"font"			"Cerbetica32"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor"		"ColorWhite"
-		"pin_to_sibling"		"scout"
-	}
-
+	//"SelectClassLabel"
+	//{
+	//	"ControlName"	"CExLabel"
+	//	"fieldName"		"SelectTeamLabel"
+	//	"xpos"			"0"
+	//	"ypos"			"15"
+	//	"zpos"			"6"
+	//	"wide"			"255"
+	//	"tall"			"30"
+	//	"labelText"		"CLASS SELECTION"
+	//	"textAlignment"	"center"
+	//	"font"			"Cerbetica32"
+	//	"visible"		"0"
+	//	"enabled"		"0"
+	//	"fgcolor"		"ColorWhite"
+	//	"pin_to_sibling"		"scout"
+	//}
+	//The commented out section doesn't appear for some reason.
 	"Label"
 	{
 		"ControlName"	"CExLabel"
@@ -738,7 +738,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"-145"
+		"xpos"			"-135"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -763,7 +763,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"-145"
+		"xpos"			"-155"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -788,7 +788,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"-145"
+		"xpos"			"-135"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -838,7 +838,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"-145"
+		"xpos"			"-135"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -888,7 +888,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"-145"
+		"xpos"			"-140"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
@@ -913,7 +913,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"-145"
+		"xpos"			"-155"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
