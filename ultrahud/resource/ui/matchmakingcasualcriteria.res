@@ -167,15 +167,15 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"			"100"
-			"ypos"			"35"
+			"xpos"			"127"
+			"ypos"			"37"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"Cerbetica10Alt"
 			"fgcolor_override"	"TanDark"
 			"mouseinputenabled"	"1"
 		}

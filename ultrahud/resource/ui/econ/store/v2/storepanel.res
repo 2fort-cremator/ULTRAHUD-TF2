@@ -40,7 +40,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 250"
+		"fillcolor"		"0 0 0 200"
 		"tileImage"		"1"
 	}
 
@@ -70,7 +70,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 250"
+		"fillcolor"		"0 0 0 200"
 		"tileImage"		"1"
 	}
 	"BackgroundFooter2"
@@ -82,8 +82,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
 	}
@@ -161,8 +161,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Exit Store (&Q)"
-		"font"				"HudFontMediumSmall"
+		"labelText"			"(Q) Exit Store"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
