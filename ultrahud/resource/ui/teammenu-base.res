@@ -124,9 +124,9 @@
 		"selectedBgColor_override" 	"Transparent"
 		
 		"defaultFgColor_override" 	"0 0 255 200"
-		"armedFgColor_override"		"0 0 255 200"
+		"armedFgColor_override"		"0 0 168 200"
 		"depressedFgColor_override" "0 0 255 200"
-		"selectedFgColor_override" 	"0 0 255 200"
+		"selectedFgColor_override" 	"0 0 168 200"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -164,9 +164,9 @@
 		"selectedBgColor_override" 	"Transparent"
 		
 		"defaultFgColor_override" 	"255 0 0 200"
-		"armedFgColor_override"		"255 0 0 200"
+		"armedFgColor_override"		"168 0 0 200"
 		"depressedFgColor_override" "255 0 0 200"
-		"selectedFgColor_override" 	"255 0 0 200"
+		"selectedFgColor_override" 	"168 0 0 200"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"

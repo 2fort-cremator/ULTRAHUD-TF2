@@ -25,9 +25,9 @@ Scheme
 		"TextColor"					"117 107 94 255"
 		//---------------------------------------------
 		// Gameplay
-		"Ammo In Clip"				"48 255 48 255"
-		"Ammo In Reserve"			"72 255 255 255"
-		"Ammo In Clip Low"			"255 64 0 255"
+		"Ammo In Clip"				"255 255 255 255"
+		"Ammo In Reserve"			"141 141 141 255"
+		"Ammo In Clip Low"			"129 15 0 255"
 		"Ammo In Reserve Low"		"255 251 0 255"
 		"Health Normal"				"235 226 202 255"
 		"Health Buff"				"39 217 217 255"
