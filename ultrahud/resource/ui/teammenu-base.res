@@ -303,7 +303,7 @@
 		"fieldName"		"RedCount"
 		"xpos"			"-15"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"30"
 		"autoResize"	"0"
