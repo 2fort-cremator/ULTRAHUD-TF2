@@ -913,7 +913,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"-155"
+		"xpos"			"-120"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"100"
