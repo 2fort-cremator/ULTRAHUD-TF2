@@ -220,7 +220,7 @@
 	
 	"HudName"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"xpos"			"c-210"
 		"ypos"			"50"
@@ -233,7 +233,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Team Fortress 2"
-		"font"			"Cerbetica56Alt"
+		"font"			"Cerbetica72Alt"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -241,15 +241,9 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"sound_depressed"	""
-		"sound_released"	"UI/SwiggitySwooty.mp3"
 
-		"defaultFgColor_override" "ColorRed"
-		"armedFgColor_override" "ColorCyan"
-		"depressedFgColor_override" "ColorCyan"
+		"fgcolor"	"ColorRed"
 
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"ColorCyan"
 	}
 
 	"TFLogoImage"
