@@ -12,7 +12,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"379"
+		"HealthBonusPosAdj"	"380"
 		"HealthDeathWarning"	"1.0"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
