@@ -117,7 +117,7 @@
 		"xpos"			"-144"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"128"
+		"wide"			"130"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
