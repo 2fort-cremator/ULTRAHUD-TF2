@@ -57,6 +57,20 @@
 		"tall"				"480"
 	}
 
+"HudPlayerClassBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HudPlayerClassBG"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"65"
+		"ypos"				"340"
+		"zpos"				"-1"
+		"wide"				"128"
+		"tall"				"90"
+		"fillcolor"			"0 0 0 150"
+	}
+
 	"HudWeaponAmmo"
 	{
 		"fieldName"			"HudWeaponAmmo"
