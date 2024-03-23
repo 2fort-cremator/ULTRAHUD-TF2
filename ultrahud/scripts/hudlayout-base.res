@@ -129,9 +129,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"25"
-		"ypos"				"c192"
+		"ypos"				"c100"
 		"wide"				"100"
-		"tall"				"40"
+		"tall"				"150"
 	}
 
 	"HudDemomanCharge"
