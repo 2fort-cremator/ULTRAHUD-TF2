@@ -223,7 +223,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"xpos"			"c-210"
-		"ypos"			"50"
+		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"70"
@@ -243,6 +243,34 @@
 		"paintbackground""0"
 
 		"fgcolor"	"ColorRed"
+
+	}
+
+	"HudSubtitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HudSubtitle"
+		"xpos"			"c-210"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"400"
+		"tall"			"70"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"//== EARLY ACCESS ==\\"
+		"font"			"Cerbetica16Alt"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+
+		"fgcolor"	"ColorWhite"
 
 	}
 
