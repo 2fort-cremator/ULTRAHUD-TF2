@@ -26,11 +26,11 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
-		"xpos"				"c-60"
-		"ypos"				"c103"
+		"xpos"				"5"
+		"ypos"				"4"
 		"zpos"				"2"
 		"ypos_minmode"		"c60"
-		"wide"				"120"
+		"wide"				"117"
 		"tall"				"8"
 		"tall_minmode"		"5"
 		"autoResize"		"0"
@@ -40,6 +40,40 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"		"ColorCyan"
+	}
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"117"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ChargeMeter"
+	}
+
+	"ChargeMeterBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ChargeMeterBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"170"
+		"tall"				"90"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 150"
 	}
 
 	"PipesPresentPanel"
