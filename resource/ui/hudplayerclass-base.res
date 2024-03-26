@@ -28,6 +28,7 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"
 	}
+
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
