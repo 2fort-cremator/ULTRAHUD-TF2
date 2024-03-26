@@ -5,12 +5,12 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
-		"xpos"				"c-60"
-		"ypos"				"c93"
+		"xpos"				"70"
+		"ypos"				"c226"
 		"xpos_minmode"		"c-60"
 		"ypos_minmode"		"c55"
 		"zpos"				"2"
-		"wide"				"120"
+		"wide"				"117"
 		"tall"				"8"
 		"tall_minmode"		"5"
 		"autoResize"		"0"
@@ -21,6 +21,25 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
+	}
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"117"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ChargeMeter"
 	}
 
 	"ItemEffectMeterLabel"
