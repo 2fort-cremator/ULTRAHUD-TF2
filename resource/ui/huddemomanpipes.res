@@ -66,14 +66,16 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ChargeMeterBG"
-		"xpos"				"60"
-		"ypos"				"30"
+		"xpos"				"5"
+		"ypos"				"4"
 		"zpos"				"2"
 		"wide"				"128"
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 150"
+		
+		"pin_to_sibling"	"ChargeMeter"
 	}
 
 	"PipesPresentPanel"
