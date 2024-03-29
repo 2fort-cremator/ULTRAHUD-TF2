@@ -4,13 +4,23 @@
 {
 	"HudItemEffectMeter"
 	{
-		"tall"				"20"
+		"tall"				"40"
 	}
+
 	"ItemEffectMeterBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"ItemEffectMeterBG"
-		"xpos"				"9999"
+		"xpos"				"5"
+		"ypos"				"4"
+		"zpos"				"1"
+		"wide"				"128"
+		"tall"				"16"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 150"
+		
+		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
 	"ItemEffectIcon"
@@ -22,8 +32,8 @@
 		"zpos"				"2"
 		"wide"				"32"
 		"tall"				"32"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"image"				"../hud/pyro_jetpack_off2"
 		"scaleImage"		"1"
 		"visible_minmode"	"0"
@@ -36,8 +46,27 @@
 
 	"ItemEffectMeter"
 	{
-		"wide"				"60"
+		"wide"				"56"
 		"wide_minmode"		"50"
+	}
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"56"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
 	"ItemEffectMeter2"
@@ -45,11 +74,11 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter2"
 		"font"				"Default"
-		"xpos"				"60"
+		"xpos"				"107"
 		"xpos_minmode"		"51"
-		"ypos"				"0"
+		"ypos"				"28"
 		"zpos"				"2"
-		"wide"				"60"
+		"wide"				"56"
 		"tall"				"8"
 		"wide_minmode"		"50"
 		"tall_minmode"		"5"
@@ -60,5 +89,25 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+
+	}
+
+	"Modulate2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"56"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ItemEffectMeter2"
 	}
 }

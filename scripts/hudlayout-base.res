@@ -46,6 +46,11 @@
 	}
 	//--------------------------------------------------------------
 
+	//--------------------------------------------------------------
+	// CENTRAL HUD
+	//--------------------------------------------------------------
+	// To move most of the in game hud at once, alter the x and y values of HudPlayerStatus. 
+	//--------------------------------------------------------------
 	"HudPlayerStatus"
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -56,32 +61,21 @@
 		"wide"				"f0"
 		"tall"				"480"
 	}
-
-"HudPlayerClassBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"HudPlayerClassBG"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"65"
-		"ypos"				"340"
-		"zpos"				"-1"
-		"wide"				"128"
-		"tall"				"90"
-		"fillcolor"			"0 0 0 150"
-	}
+	//--------------------------------------------------------------
 
 	"HudWeaponAmmo"
 	{
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-230"
-		"ypos"				"c192"
+		"xpos"				"-196"
+		"ypos"				"-432"
 		"xpos_minmode"		"c25"
 		"ypos_minmode"		"c30"
 		"wide"				"60"
 		"tall"				"28"
+
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudObjectiveStatus"
@@ -121,6 +115,8 @@
 		"tall"				"480"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
+
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudMedicCharge"
@@ -128,10 +124,12 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"60"
-		"ypos"				"c100"
+		"xpos"				"-60"
+		"ypos"				"-339"
 		"wide"				"140"
 		"tall"				"150"
+
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudDemomanCharge"
@@ -146,6 +144,8 @@
 		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
+
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudBowCharge"
@@ -1218,14 +1218,16 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
-		"xpos"				"60"
-		"NormalY"			"320"
-		"EngineerY"			"270"
+		"xpos"				"-60"
+		"NormalY"			"-320"
+		"EngineerY"			"-270"
 		"zpos"				"-10"
 		"wide"				"f0"
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
+
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudTrainingInfoMsg"

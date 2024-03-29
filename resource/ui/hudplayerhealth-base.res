@@ -1,15 +1,30 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
+
+	//BG for player class
+	"HudPlayerClassBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HudPlayerClassBG"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"128"
+		"tall"				"90"
+		"fillcolor"			"0 0 0 150"
+	}
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"65"	
-		"ypos"			"c165"
+		"ypos"			"c100"
 		"zpos"			"2"
 		"wide"			"128"
-		"tall"			"100"
+		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"380"
@@ -65,7 +80,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName" 		"HealthBG"
 		"xpos"			"0"
-		"ypos"			"27"
+		"ypos"			"92"
 		"zpos"			"-10"
 		"wide"			"225"
 		"tall"			"28"
@@ -79,7 +94,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BarBG"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"-8"
 		"zpos"			"0"
 		"wide"			"128"
 		"tall"			"10"
@@ -88,6 +103,8 @@
 		"fillcolor"		"ColorRed"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"HealthBG"
 	}
 	
 	"HurtBar"
@@ -135,7 +152,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"2"
-		"ypos"			"32"
+		"ypos"			"97"
 		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"16"
@@ -151,9 +168,9 @@
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthShadow"
-		"xpos"			"2"
-		"ypos"			"32.5"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"32"
 		"tall"			"16"
@@ -163,7 +180,8 @@
 		"textAlignment"	"center"	
 		"font"			"Cerbetica18Alt"
 		"fgcolor"		"0 0 0 200"
-		
+
+		"pin_to_sibling"	"PlayerStatusHealthValue"
 		"proportionaltoparent"	"1"
 	}
 	"PlayerStatusMaxHealthValue"
