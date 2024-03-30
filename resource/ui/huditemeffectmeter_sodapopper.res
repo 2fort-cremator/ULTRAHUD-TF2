@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
+		"xpos"			"20"	[$WIN32]
+		"ypos"			"r63"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r83"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -20,31 +20,27 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ItemEffectMeterBG"
+		"xpos"				"2"
+		"ypos"				"4"
+		"zpos"				"1"
+		"wide"				"40"
+		"tall"				"16"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 150"
+		
+		"pin_to_sibling"	"ItemEffectMeter"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"45"
 		"ypos"					"25"
-		"zpos"					"2"
+		"zpos"					"10"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
@@ -60,7 +56,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Cerbetica8Alt"
 	}
 
 	"ItemEffectMeter"
@@ -69,13 +65,13 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"47"
-		"ypos"					"23"
+		"ypos"					"28"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
+		"wide"					"36"
 		"wide_minmode"			"50"
-		"tall"					"5"				
+		"tall"					"8"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -83,5 +79,24 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+	}		
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"36"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ItemEffectMeter"
 	}					
 }

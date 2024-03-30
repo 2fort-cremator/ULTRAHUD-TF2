@@ -2,19 +2,30 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
-		"tall"				"40"
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"61"
+		"ypos"			"r63"
+		"xpos_minmode"	"r52"
+		"ypos_minmode"	"r68"
+		"x_offset_minmode"		"0"
+		"wide"			"200"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ItemEffectMeterBG"
-		"xpos"				"5"
+		"xpos"				"2"
 		"ypos"				"4"
 		"zpos"				"1"
-		"wide"				"128"
+		"wide"				"43"
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
@@ -46,7 +57,7 @@
 
 	"ItemEffectMeter"
 	{
-		"wide"				"56"
+		"wide"				"39"
 		"wide_minmode"		"50"
 	}
 
@@ -57,7 +68,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"56"
+		"wide"			"39"
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
@@ -69,16 +80,32 @@
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
+	"ItemEffectMeterBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ItemEffectMeterBG2"
+		"xpos"				"2"
+		"ypos"				"4"
+		"zpos"				"1"
+		"wide"				"43"
+		"tall"				"16"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 150"
+		
+		"pin_to_sibling"	"ItemEffectMeter2"
+	}
+
 	"ItemEffectMeter2"
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter2"
 		"font"				"Default"
-		"xpos"				"107"
+		"xpos"				"91"
 		"xpos_minmode"		"51"
 		"ypos"				"28"
 		"zpos"				"2"
-		"wide"				"56"
+		"wide"				"39"
 		"tall"				"8"
 		"wide_minmode"		"50"
 		"tall_minmode"		"5"
@@ -99,7 +126,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"56"
+		"wide"			"39"
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
