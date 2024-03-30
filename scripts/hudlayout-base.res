@@ -231,16 +231,18 @@
 	"CHudAccountPanel"
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-420"
-		"ypos"					"c192"
+		"xpos"					"196"
+		"ypos"					"r98"
 		"zpos"					"0"
-		"wide"					"55"
+		"wide"					"60"
 		"tall"  				"70"
 		"xpos_minmode"			"c130"
 		"ypos_minmode"			"c83"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"HudPlayerStatus"
 	}
 
 	"CHealthAccountPanel"
@@ -329,7 +331,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"5"
-		"ypos"					"c-100"
+		"ypos"					"c-180"
 		"wide"					"640"
 		"tall"					"480"
 	}
@@ -1220,7 +1222,7 @@
 		"fieldName"			"HudAchievementTracker"
 		"xpos"				"-60"
 		"NormalY"			"-320"
-		"EngineerY"			"-270"
+		"EngineerY"			"-320"
 		"zpos"				"-10"
 		"wide"				"f0"
 		"tall"				"f0"

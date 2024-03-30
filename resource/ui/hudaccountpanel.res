@@ -32,8 +32,8 @@
 	{
 		"ControlName"			"CIconPanel"
 		"fieldName"				"MetalIcon"
-		"xpos"					"3"
-		"ypos"					"15"
+		"xpos"					"4"
+		"ypos"					"17"
 		"zpos"					"1"
 		"wide"					"5"
 		"tall"					"5"
@@ -41,7 +41,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"icon"					"ico_metal"
-		"iconColor"				"TanLight"
+		"iconColor"				"ColorWhite"
 	}
 
 	"MetalIconShadow"
@@ -65,8 +65,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"AccountValue"
-		"xpos"					"5"
-		"ypos"					"3"
+		"xpos"					"8"
+		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"
@@ -79,8 +79,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSecondary"
+		"font"					"Cerbetica24Alt"
 		"font_minmode"			"HudFontMediumSecondary"
+		"fgcolor_override"		"ColorWhite"
 	}
 
 	"AccountValueShadow"
@@ -101,7 +102,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSecondary"
+		"font"					"Cerbetica24Alt"
 		"font_minmode"			"HudFontMediumSecondary"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"AccountValue"
