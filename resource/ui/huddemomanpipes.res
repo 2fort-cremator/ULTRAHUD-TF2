@@ -27,7 +27,7 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"xpos"				"65"
-		"ypos"				"13"
+		"ypos"				"104"
 		"zpos"				"2"
 		"ypos_minmode"		"c60"
 		"wide"				"117"
@@ -82,8 +82,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PipesPresentPanel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"191"
+		"ypos"				"10"
 		"ypos_minmode"		"c35"
 		"zpos"				"1"
 		"wide"				"f0"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"-14"
+			"xpos"				"-29"
 			"ypos"				"2"
 			"zpos"				"2"
 			"wide"				"120"
@@ -109,8 +109,8 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"Cerbetica18Alt"
-			"font_minmode"		"Cerbetica20"
+			"font"				"HudFontMedium"
+			"fgcolor"	"ColorWhite"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -131,7 +131,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"Cerbetica18Alt"
+			"font"				"HudFontMedium"
 			"font_minmode"		"Cerbetica20"
 			"fgcolor"			"TransparentBlack"
 			"pin_to_sibling"	"NumPipesLabel"
@@ -143,7 +143,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"57"
+			"wide"			"60"
 			"tall"			"28"
 			"fillcolor"		"0 0 0 150"
 		}
@@ -157,7 +157,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Stickylabel"
-			"xpos"				"-40"
+			"xpos"				"-30"
 			"ypos"				"3"
 			"zpos"				"2"
 			"wide"				"120"
@@ -172,8 +172,10 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"Cerbetica8Alt"
+			"font"				"Cerbetica12Alt"
 			"font_minmode"		"Cerbetica20"
+			"fgcolor"			"ColorWhite"
+			"alpha"				"25"
 		}
 	}
 

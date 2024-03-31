@@ -1039,11 +1039,12 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"5"
-		"ypos"				"432"
+		"xpos"				"-5"
+		"ypos"				"-362"
 		"zpos"				"2"
-		"wide"				"192"
-		"tall"				"50"
+		"wide"				"280"
+		"tall"				"200"
+		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudTeamGoal"
