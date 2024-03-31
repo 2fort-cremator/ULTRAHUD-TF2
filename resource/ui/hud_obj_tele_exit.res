@@ -14,7 +14,18 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-"BuildingBG"
+
+	"Background"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Background"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"BuildingBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingBG"
