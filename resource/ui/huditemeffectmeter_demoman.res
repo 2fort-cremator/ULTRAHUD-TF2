@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"184"	[$WIN32]
 		"ypos"			"r98"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos_minmode"	"121"	[$WIN32]
+		"ypos_minmode"	"r98"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -24,6 +24,7 @@
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"28"
+		"wide"			"60"
 		"fillcolor"		"0 0 0 150"
 		"visible"		"1"
 		"enabled"		"1"				

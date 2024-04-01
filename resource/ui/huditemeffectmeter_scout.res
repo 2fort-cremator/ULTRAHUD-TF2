@@ -8,11 +8,6 @@
 		"x_offset"		"40"
 		"xpos"			"103"	[$WIN32]
 		"ypos"			"r58"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -47,10 +42,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"

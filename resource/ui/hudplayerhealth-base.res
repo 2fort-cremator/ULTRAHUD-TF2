@@ -13,6 +13,8 @@
 		"zpos"				"-1"
 		"wide"				"128"
 		"tall"				"90"
+		"wide_minmode"				"0"
+		"tall_minmode"				"0"
 		"fillcolor"			"0 0 0 150"
 	}
 	// player health data

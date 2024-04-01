@@ -9,10 +9,6 @@
 		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"1.25"
 		"delta_item_font"		"HudFontMedium"
-		"delta_item_x_minmode"			"18"
-		"delta_item_start_y_minmode"	"10"
-		"delta_item_end_y_minmode"		"25"
-		"delta_item_font_minmode"		"HudFontSmall"
 	}
 
 	"AccountBG"
@@ -67,6 +63,7 @@
 		"fieldName"				"AccountValue"
 		"xpos"					"8"
 		"ypos"					"4"
+		"xpos_minmode"			"10"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"
@@ -80,7 +77,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica24Alt"
-		"font_minmode"			"HudFontMediumSecondary"
 		"fgcolor_override"		"ColorWhite"
 	}
 
@@ -103,7 +99,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica24Alt"
-		"font_minmode"			"HudFontMediumSecondary"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"AccountValue"
 	}
