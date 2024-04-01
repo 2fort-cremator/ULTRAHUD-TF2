@@ -278,10 +278,12 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"65"
-		"ypos"					"c160"
+		"xpos"					"-65"
+		"ypos"					"-340"
 		"wide"					"128"
 		"tall"					"170"
+
+		"pin_to_sibling"		"HudPlayerStatus"
 	}
 
 	"CMainTargetID"
