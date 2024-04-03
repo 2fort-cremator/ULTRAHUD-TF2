@@ -58,6 +58,8 @@
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"-20"
+		"xpos_minmode"				"290"
+		"ypos_minmode"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
 	}
@@ -231,7 +233,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"196"
 		"ypos"					"r98"
-		"xpos_minmode"			"65"
+		"xpos_minmode"			"355"
+		"ypos_minmode"					"r178"
 		"zpos"					"0"
 		"wide"					"60"
 		"tall"  				"70"
