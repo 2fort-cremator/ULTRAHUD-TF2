@@ -201,6 +201,8 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
+		"visible_minmode"		"0"
+		"enabled_minmode"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"south"	
 		"font"			"Cerbetica10Alt"

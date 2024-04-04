@@ -72,6 +72,8 @@
 		"enabled"			"1"
 		"xpos"				"-196"
 		"ypos"				"-432"
+		"xpos_minmode"				"-105"
+		"ypos_minmode"				"-370"
 		"wide"				"60"
 		"tall"				"28"
 
@@ -333,8 +335,8 @@
 		"ControlName"			"EditablePanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"5"
-		"ypos"					"c-180"
+		"xpos"					"730"
+		"ypos"					"c-90"
 		"wide"					"640"
 		"tall"					"480"
 	}

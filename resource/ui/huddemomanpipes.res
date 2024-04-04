@@ -92,8 +92,9 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabel"
-			"xpos"				"-25"
+			"xpos"				"-30"
 			"ypos"				"2"
+			"xpos_minmode"				"-27"
 			"zpos"				"2"
 			"wide"				"120"
 			"tall"				"24"
@@ -138,8 +139,9 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"66"
+			"wide"			"60"
 			"tall"			"28"
+			"wide_minmode"			"66"
 			"fillcolor"		"0 0 0 150"
 		}
 		"PipeIcon"
@@ -167,7 +169,8 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"Cerbetica14Alt"
+			"font"				"Cerbetica12Alt"
+			"font_minmode"				"Cerbetica14Alt"
 			"fgcolor"			"ColorWhite"
 			"alpha"				"25"
 		}
