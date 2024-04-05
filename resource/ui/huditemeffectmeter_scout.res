@@ -8,7 +8,7 @@
 		"x_offset"		"40"
 		"xpos"			"103"	[$WIN32]
 		"ypos"			"r58"	[$WIN32]
-		"xpos_minmode"			"393"	[$WIN32]
+		"xpos_minmode"			"398"	[$WIN32]
 		"ypos_minmode"			"r138"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
