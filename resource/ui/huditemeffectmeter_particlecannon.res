@@ -6,13 +6,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r216"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
+		"xpos"			"22"	[$WIN32]
+		"ypos"			"r58"	[$WIN32]
+		"xpos_minmode"	"317"	[$WIN32]
+		"ypos_minmode"	"342"	[$WIN32]
+		"wide"			"127"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -20,47 +18,40 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ItemEffectMeterBG"
+		"xpos"				"2"
+		"ypos"				"4"
+		"zpos"				"1"
+		"wide"				"90"
+		"tall"				"16"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 150"
+		
+		"pin_to_sibling"	"ItemEffectMeter"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
-		"zpos"					"2"
+		"xpos"					"65"
+		"ypos"					"20"
+		"zpos"					"10"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Cerbetica8Alt"
+		"alpha"					"200"
 	}
 
 	"ItemEffectMeter"
@@ -70,12 +61,9 @@
 		"font"					"Default"
 		"xpos"					"45"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
-		"tall"					"5"				
+		"wide"					"80"
+		"tall"					"8"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -83,5 +71,24 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}			
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"80"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/modulate"
+		"scaleImage"	"1"	
+		"alpha"			"255"	
+		"drawcolor"			"c_hudnumbersdefault"	
+
+		"pin_to_sibling"	"ItemEffectMeter"
+	}		
 }
