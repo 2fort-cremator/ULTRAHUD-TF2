@@ -161,7 +161,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Back (Q)"
+		"labelText"			"Back &Q"
 		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"

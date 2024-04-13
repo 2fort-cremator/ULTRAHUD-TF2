@@ -31,6 +31,7 @@
 		"itemcountcolor"			"ColorCyan"
 		"itemcountcolor_noitems"	"TextColor"
 	}
+	
 	"CharInfoLoadoutSubPanelBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -39,10 +40,26 @@
 		"ypos"			"0"
 		"wide"			"1000"
 		"tall"			"1000"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"0 0 0 250"
 	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"50"
+		"ypos"			"5"
+		"zpos"			"-10"
+		"wide"			"750"
+		"tall"			"368"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/teamselect_background"
+	}
+
 	"scout"
 	{
 		"ControlName"				"ImageButton"
@@ -2070,7 +2087,7 @@
 		"ypos"				"0"
 		"zpos"				"2000"
 		"wide"				"f0"
-		"tall"				"f100"
+		"tall"				"400"
 		"visible"			"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"		"DarkGrey"
