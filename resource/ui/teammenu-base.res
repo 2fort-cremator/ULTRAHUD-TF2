@@ -19,32 +19,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TerminalBG"
-		"xpos"			"c-130"
-		"ypos"			"c-100"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-10"
-		"wide"			"255"
-		"tall"			"200"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"		"../console/teamselect_background"
 		"alpha"		"200"
-	}
-	
-	"TerminalBGDimmer"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBGDimmer"
-		"xpos"			"-0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"255"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 100"
-		"pin_to_sibling"	"TerminalBG"
 	}
 
 	"SysMenu"
@@ -81,8 +65,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"SelectTeamLabel"
-		"xpos"			"0"
-		"ypos"			"c-260"
+		"xpos"			"-20"
+		"ypos"			"-20"
 		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"25"
@@ -99,8 +83,8 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"-50"
-		"ypos"			"25"
+		"xpos"			"500"
+		"ypos"			"c40"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"30"
@@ -109,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"#TF_BlueTeam_Name"
+		"labelText"		" "
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -130,18 +114,51 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+	}
+
+	"BlueImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueImage"
+		"xpos"			"25"
+		"ypos"			"100"
+		"zpos"			"-10"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/v1_head"
 		
-		"pin_to_sibling"			"SelectTeamLabel"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"	"teambutton0"
+	}
+
+	"BlueImageButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueImageButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-9"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		" "
+		"command"		"jointeam blue"
+		
+		"pin_to_sibling"	"BlueImage"
+
+		"defaultBgColor_override"	"Transparent"
+		"armedBgColor_override"	"0 0 0 100"
 	}
 
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"0"
-		"ypos"			"5"
+		"xpos"			"200"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"30"
@@ -150,12 +167,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"#TF_RedTeam_Name"
+		"labelText"		" "
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
-		"team"			"4"		// Red Team
 		"font"			"Cerbetica20Alt"
 		
 		"defaultBgColor_override" 	"Transparent"
@@ -172,16 +188,51 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
 		"pin_to_sibling"			"teambutton0"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+
+	"RedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedImage"
+		"xpos"			"25"
+		"ypos"			"100"
+		"zpos"			"-10"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/v2_head"
+
+		"pin_to_sibling"	"teambutton1"
+	}
+
+	"RedImageButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedImageButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-9"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		" "
+		"command"		"jointeam red"
+		
+		"pin_to_sibling"	"RedImage"
+
+		"defaultBgColor_override"	"Transparent"
+		"armedBgColor_override"	"0 0 0 100"
 	}
 
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"-100"
-		"ypos"			"-65"
+		"xpos"			"cs-0.5"
+		"ypos"			"c-40"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"30"
@@ -210,18 +261,14 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"pin_to_sibling"			"teambutton1"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"0"
-		"ypos"			"5"
+		"xpos"			"cs-0.5"
+		"ypos"			"c15"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"30"
@@ -250,10 +297,6 @@
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"pin_to_sibling"			"teambutton2"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"MenuBG"

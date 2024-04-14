@@ -645,7 +645,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 
 	"GeneralStoreButton"
@@ -667,7 +670,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 	
 	"SteamWorkshopButton"
@@ -689,7 +695,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 	
 	"SettingButton"
@@ -711,7 +720,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 	
 	"TF2SettingButton"
@@ -733,7 +745,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 	
 	"MinmodeToggle"
@@ -756,7 +771,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"255 255 255 50"
+		"armedBgColor_override"		"255 255 255 3"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
 	}
 	"AchievementsButton"
 	{

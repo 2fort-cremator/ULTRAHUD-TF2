@@ -58,6 +58,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"		"../console/teamselect_background"
+		"alpha"		"150"
 	}
 
 	"scout"
