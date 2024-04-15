@@ -14,9 +14,9 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 250"
-		"infocus_bgcolor_override"		"0 0 0 250"
-		"outoffocus_bgcolor_override" 	"0 0 0 250"
+		"bgcolor_override"				"0 0 0 0"
+		"infocus_bgcolor_override"		"0 0 0 0"
+		"outoffocus_bgcolor_override" 	"0 0 0 0"
 
 		"item_xpos_offcenter_a"			"-310"
 		"item_xpos_offcenter_b"			"165"
@@ -153,6 +153,22 @@
 		}
 	}
 
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"50"
+		"ypos"			"5"
+		"zpos"			"-10"
+		"wide"			"750"
+		"tall"			"368"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/teamselect_background"
+		"alpha"		"200"
+	}
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -167,8 +183,8 @@
 		"tall"				"16"
 		"autoResize"		"1"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fgcolor_override"	"ColorPurple"
 	}
 

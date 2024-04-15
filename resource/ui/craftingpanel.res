@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 250"
-		"infocus_bgcolor_override"		"0 0 0 250"
-		"outoffocus_bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"				"0 0 0 0"
+		"infocus_bgcolor_override"		"0 0 0 0"
+		"outoffocus_bgcolor_override"	"0 0 0 0"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
@@ -140,6 +140,22 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"50"
+		"ypos"			"5"
+		"zpos"			"-10"
+		"wide"			"750"
+		"tall"			"368"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/teamselect_background"
+		"alpha"		"200"
 	}
 
 	"ClassLabel"

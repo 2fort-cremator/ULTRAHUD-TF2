@@ -13,9 +13,9 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 250"
-		"infocus_bgcolor_override"		"0 0 0 250"
-		"outoffocus_bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"				"0 0 0 0"
+		"infocus_bgcolor_override"		"0 0 0 0"
+		"outoffocus_bgcolor_override"	"0 0 0 0"
 		"thumbnail_bgcolor"				"Grey"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
@@ -54,6 +54,22 @@
 				"allow_rot"				"0"
 			}
 		}
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"50"
+		"ypos"			"5"
+		"zpos"			"-10"
+		"wide"			"750"
+		"tall"			"368"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/teamselect_background"
+		"alpha"		"200"
 	}
 
 	"CaratLabel"

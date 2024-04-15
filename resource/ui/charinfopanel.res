@@ -31,6 +31,22 @@
 		"sheetinset_bottom"					"40"
 	}
 
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"0"
+		"ypos"			"25"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"455"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"../console/teamselect_background"
+		"alpha"		"150"
+	}
+
 	"BackgroundHeader"
 	{
 		"ControlName"		"ImagePanel"
@@ -40,8 +56,8 @@
 		"zpos"				"-2"
 		"wide"				"f0"
 		"tall"				"47"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fillcolor"			"0 0 0 250"
 		"tileImage"			"1"
 	}
@@ -69,8 +85,8 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fillcolor"			"0 0 0 250"
 		"tileImage"			"1"
 	}
@@ -83,8 +99,8 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"fillcolor"			"0 0 0 0"
 		"tileImage"			"1"
 	}

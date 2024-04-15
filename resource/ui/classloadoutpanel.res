@@ -14,9 +14,9 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"0 0 0 250"
-		"infocus_bgcolor_override"		"0 0 0 250"
-		"outoffocus_bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"				"0 0 0 0"
+		"infocus_bgcolor_override"		"0 0 0 0"
+		"outoffocus_bgcolor_override"	"0 0 0 0"
 
 		"item_xpos_offcenter_a"			"-310"
 		"item_xpos_offcenter_b"			"165"
@@ -112,7 +112,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"		"../console/teamselect_background"
-		"alpha"		"150"
+		"alpha"		"200"
 	}
 
 	"ClassLabel"

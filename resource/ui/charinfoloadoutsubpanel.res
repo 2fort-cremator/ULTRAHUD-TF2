@@ -45,22 +45,6 @@
 		"fillcolor"		"0 0 0 250"
 	}
 
-	"TerminalBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBG"
-		"xpos"			"50"
-		"ypos"			"5"
-		"zpos"			"-10"
-		"wide"			"750"
-		"tall"			"368"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
-		"alpha"		"150"
-	}
-
 	"scout"
 	{
 		"ControlName"				"ImageButton"
