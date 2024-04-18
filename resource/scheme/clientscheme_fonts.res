@@ -20,7 +20,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"72"
 				"additive"		"0"
 				"antialias"		"1"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -81,7 +81,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -93,7 +93,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -113,7 +113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -133,7 +133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -155,7 +155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -175,7 +175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -195,7 +195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -235,7 +235,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -255,7 +255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -275,7 +275,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -295,7 +295,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"6"
 				"additive"		"0"
 				"antialias"		"1"
@@ -315,7 +315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"4"
 				"additive"		"0"
 				"antialias"		"1"
@@ -335,7 +335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"BroshK"
+				"name"			"BroshKill"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2944,8 +2944,8 @@ Scheme
 		}
 		"11"
 		{
-			"font" 	"resource/fonts/BroshK.ttf"
-			"name" 	"BroshK"
+			"font" 	"resource/fonts/BroshKill-Regular.otf"
+			"name" 	"BroshKill"
 		}
 	}
 }
