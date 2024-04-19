@@ -83,10 +83,10 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ArmoryLabel"
-		"font"					"HudFontMedium"
+		"font"					"Cerbetica40"
 		"labelText"				"#Armory"
-		"textAlignment"			"west"
-		"xpos"					"c-300"
+		"textAlignment"			"center"
+		"xpos"					"cs-0.5"
 		"ypos"					"5"
 		"zpos"					"1"
 		"wide"					"560"
@@ -95,6 +95,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+		"fgcolor_override"		"ColorRed"
 	}
 
 	"FiltersLabel"

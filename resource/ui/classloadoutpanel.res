@@ -119,11 +119,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"HudFontMedium"
+		"font"				"Cerbetica40"
 		"labelText"			"#ClassBeingEquipped"
-		"textAlignment"		"west"
-		"xpos"				"c-270"
-		"ypos"				"15"
+		"textAlignment"		"center"
+		"xpos"				"cs-0.5"
+		"ypos"				"17"
 		"zpos"				"1"
 		"wide"				"350"
 		"tall"				"40"
@@ -132,6 +132,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"allcaps"			"1"
+
+		"fgcolor_override"	"ColorRed"
 	}
 
 	"TauntCaratLabel"
