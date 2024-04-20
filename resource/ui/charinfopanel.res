@@ -167,19 +167,19 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"BackButton"
-		"xpos"				"c-350"
-		"ypos"				"437"
+		"xpos"				"c-330"
+		"ypos"				"r100"
 		"zpos"				"2"
 		"wide"				"100"
-		"tall"				"20"
+		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Back &Q"
+		"labelText"			"Back (&Q)"
 		"font"				"HudFontMediumSmall"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"default"			"0"
@@ -187,6 +187,11 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"fgcolor_override"		"ColorWhite"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
 	}
 
 	"NotificationsPresentPanel"

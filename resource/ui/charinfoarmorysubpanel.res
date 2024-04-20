@@ -61,10 +61,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TerminalBG"
 		"xpos"			"50"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"-10"
 		"wide"			"750"
-		"tall"			"368"
+		"tall"			"390"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -87,7 +87,7 @@
 		"labelText"				"#Armory"
 		"textAlignment"			"center"
 		"xpos"					"cs-0.5"
-		"ypos"					"5"
+		"ypos"					"15"
 		"zpos"					"1"
 		"wide"					"560"
 		"tall"					"25"
@@ -106,9 +106,9 @@
 		"labelText"				"#Store_FilterLabel"
 		"textAlignment"			"west"
 		"xpos"					"c-300"
-		"ypos"					"32"
+		"ypos"					"37"
 		"zpos"					"1"
-		"wide"					"60"
+		"wide"					"65"
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
@@ -121,8 +121,8 @@
 		"ControlName"			"ComboBox"
 		"fieldName"				"FilterComboBox"
 		"font"					"HudFontSmall"
-		"xpos"					"c-260"
-		"ypos"					"32"
+		"xpos"					"-20"
+		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"150"
 		"tall"					"20"
@@ -144,6 +144,8 @@
 		"selectionColor_override"			"DarkerGrey"
 		"selectionTextColor_override"		"TanLight"
 		"defaultSelectionBG2Color_override"	"DarkerGrey"
+
+		"pin_to_sibling"			"FiltersLabel"
 	}
 
 	"DataPanel"
@@ -297,8 +299,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"prevpage"
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"ColorWhite"
+		"armedFgColor_override"		"ColorRed"
+		"depressedFgColor_override" "ColorWhite"
+		"selectedFgColor_override" 	"ColorRed"
+		"bgcolor_override"		"Transparent"
 	}
 
 	"CurPageLabel"
@@ -317,7 +327,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"ColorCyan"
+		"fgcolor_override"		"ColorRed"
 	}
 
 	"NextPageButton"
@@ -340,8 +350,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"nextpage"
+		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"ColorWhite"
+		"armedFgColor_override"		"ColorRed"
+		"depressedFgColor_override" "ColorWhite"
+		"selectedFgColor_override" 	"ColorRed"
+		"bgcolor_override"		"Transparent"
 	}
 
 	"WikiButton"
@@ -359,13 +377,20 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Wiki"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontSmallest"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"wiki"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"ColorWhite"
+		"armedFgColor_override"		"ColorRed"
+		"depressedFgColor_override" "ColorWhite"
+		"selectedFgColor_override" 	"ColorRed"
+		"bgcolor_override"		"Transparent"
 	}
 
 	"ViewSetButton"
@@ -388,8 +413,16 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"viewset"
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"ColorWhite"
+		"armedFgColor_override"		"ColorRed"
+		"depressedFgColor_override" "ColorWhite"
+		"selectedFgColor_override" 	"ColorRed"
+		"bgcolor_override"		"Transparent"
 	}
 
 	"StoreButton"
@@ -415,21 +448,12 @@
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-	}
-	
-	"raysfox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"raysfox"
-		"xpos"			"c-150"
-		"ypos"			"r65"
-		"zpos"			"99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\hmm"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
+
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"ColorWhite"
+		"armedFgColor_override"		"ColorRed"
+		"depressedFgColor_override" "ColorWhite"
+		"selectedFgColor_override" 	"ColorRed"
+		"bgcolor_override"		"Transparent"
 	}
 }
