@@ -214,7 +214,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 	
@@ -332,7 +332,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"armedFgColor_override" 	"ColorRed"
 		"depressedFgColor_override" "TanLight"
 	}
 
@@ -544,7 +544,7 @@
 			"zpos"			"501"
 			"wide"			"f20"
 			"tall"			"150"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -635,10 +635,10 @@
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
-		"labeltext"		"ITEMS"
-		"textinsetx"	"80"
-		"textinsety"	"-3"
+		"labeltext"		"#MMenu_CharacterSetup"
+		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
+		"allcaps"		"1"
 		"command"		"engine open_charinfo"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -660,10 +660,10 @@
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
-		"labeltext"		"STORE"
-		"textinsetx"	"80"
-		"textinsety"	"-3"
-		"font"			"HudFontSmallishBold"
+		"labeltext"		"#StoreTitle"
+		"textalignment"		"center"
+		"font"			"Cerbetica10Alt"
+		"allcaps"		"1"
 		"command" 		"engine open_store"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -685,10 +685,10 @@
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
-		"labeltext"		"WORKSHOP"
-		"textinsetx"	"40"
-		"textinsety"	"-3"
+		"labeltext"		"#MMenu_SteamWorkshop"
+		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
+		"allcaps"		"1"
 		"command"		"engine OpenSteamWorkshopDialog"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -710,10 +710,10 @@
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
-		"labeltext"		"SETTINGS"
-		"textinsetx"	"40"
-		"textinsety"	"-3"
+		"labeltext"		"#MMenu_Tooltip_Options"
+		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
+		"allcaps"		"1"
 		"command"		"OpenOptionsDialog"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -735,10 +735,10 @@
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
-		"labeltext"		"ADVANCED"
-		"textinsetx"	"40"
-		"textinsety"	"-3"
-		"font"			"HudFontSmallishBold"
+		"labeltext"		"#MMenu_Tooltip_AdvOptions"
+		"textalignment"		"center"
+		"font"			"Cerbetica10Alt"
+		"allcaps"		"1"
 		"command"		"OpenTF2Options"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -761,9 +761,9 @@
 		"wide"			"100"
 		"tall"			"30"
 		"labeltext"		"MINMODE"
-		"textinsetx"	"45"
-		"textinsety"	"-3"
+		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
+		"allcaps"		"1"
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -811,7 +811,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 	
@@ -854,7 +854,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 	
@@ -897,7 +897,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -940,7 +940,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -983,7 +983,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 	
@@ -1026,7 +1026,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 	
@@ -1069,7 +1069,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -1112,7 +1112,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -1155,7 +1155,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -1198,7 +1198,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -1241,7 +1241,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
