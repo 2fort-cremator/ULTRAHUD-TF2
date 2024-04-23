@@ -630,7 +630,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"CharacterSetupButtonBG"
-		"xpos"			"c-125"
+		"xpos"			"s0.1"
 		"ypos"			"170"
 		"zpos"			"-55"
 		"wide"			"100"
@@ -655,8 +655,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c15"
-		"ypos"			"170"
+		"xpos"			"0"
+		"ypos"			"10"
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
@@ -666,6 +666,7 @@
 		"allcaps"		"1"
 		"command" 		"engine open_store"
 		"visible"		"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -674,6 +675,9 @@
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"	"CharacterSetupButtonBG"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 	
 	"SteamWorkshopButton"
@@ -705,8 +709,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"SettingButton"
-		"xpos"			"c-125"
-		"ypos"			"220"
+		"xpos"			"rs1.1"
+		"ypos"			"170"
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
@@ -730,8 +734,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"TF2SettingButton"
-		"xpos"			"c15"
-		"ypos"			"220"
+		"xpos"			"0"
+		"ypos"			"10"
 		"zpos"			"-55"
 		"wide"			"100"
 		"tall"			"30"
@@ -741,6 +745,7 @@
 		"allcaps"		"1"
 		"command"		"OpenTF2Options"
 		"visible"		"1"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -749,6 +754,9 @@
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"SettingButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 	
 	"MinmodeToggle"
