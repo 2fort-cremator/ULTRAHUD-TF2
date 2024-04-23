@@ -171,6 +171,21 @@
 			"tall"		"f0"
 		}
 	}
+
+	"BackgroundDimmer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundDimmer"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-199"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150"
+
+	}
 	
 	"Notifications_ShowButtonPanel"
 	{
@@ -223,7 +238,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"xpos"			"c-210"
-		"ypos"			"40"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"70"
@@ -283,8 +298,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"-183"
-		"ypos"			"-33"
+		"xpos"			"-283"
+		"ypos"			"-3"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -309,7 +324,7 @@
 		"armedFgColor_override" 	"ColorRed"
 		"depressedFgColor_override" "TanLight"
 
-		"pin_to_sibling"		"RankPanelBG"
+		"pin_to_sibling"		"RankPanel"
 	}
 
 	"RankTooltipPanel"
@@ -333,10 +348,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-440"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"r70"
 		"zpos"			"0"
-		"wide"			"170"
+		"wide"			"300"
 		"tall"			"50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -344,21 +359,23 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
 		"show_model"	"0"
-	
-		"pin_to_sibling"	"RankPanelBG"
 	}
-	"RankPanelBG"
+
+	"UltrahudLogo"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"RankPanelBG"
-		"xpos"			"c-105"
-		"ypos"			"r100"
-		"zpos"			"-55"
-		"wide"			"200"
-		"tall"			"50"
+		"fieldName"		"BlueImage"
+		"xpos"			"cs-2"
+		"ypos"			"r120"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"75"
 		"visible"		"1"
-		"fillcolor"		"0 0 0 150"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/ultrahud/ultrahudlogo"
 	}
+
 	"NoGCMessage"
 	{
 		"ControlName"		"Label"
@@ -484,8 +501,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
-		"xpos"			"10"
-		"ypos"			"r160"
+		"xpos"			"cs-0.5"
+		"ypos"			"240"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"140"
@@ -500,7 +517,7 @@
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
-			"xpos"			"-10"
+			"xpos"			"0"
 			"ypos"			"115"
 			"wide"			"260"
 			"tall"			"20"
@@ -599,32 +616,31 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 
-		"TerminalBG"
+		"FriendsBG"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"TerminalBG"
+			"fieldName"		"FriendsBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-10"
-			"wide"			"250"
+			"wide"			"300"
 			"tall"			"140"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"		"../console/teamselect_background"
-			"alpha"		"200"
+			"fillcolor"		"0 0 0 200"
 		}
 	}
 
-	"CharacterSetupButtonBG"
+	"CharacterSetupButton"
 	{
 		"ControlName"		"CExImageButton"
-		"fieldName"		"CharacterSetupButtonBG"
-		"xpos"			"s0.1"
-		"ypos"			"170"
+		"fieldName"		"CharacterSetupButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"100"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"30"
+		"wide"			"230"
+		"tall"			"40"
 		"labeltext"		"#MMenu_CharacterSetup"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -645,12 +661,12 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"0"
-		"ypos"			"10"
+		"xpos"			"3"
+		"ypos"			"-20"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"30"
-		"labeltext"		"#StoreTitle"
+		"wide"			"50"
+		"tall"			"20"
+		"labeltext"		"Store"
 		"textalignment"		"center"
 		"font"			"Cerbetica10Alt"
 		"allcaps"		"1"
@@ -666,19 +682,19 @@
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
 
-		"pin_to_sibling"	"CharacterSetupButtonBG"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"	"CharacterSetupButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRight"
 	}
 	
 	"SteamWorkshopButton"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
-		"xpos"			"c-125"
-		"ypos"			"455"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"110"
+		"tall"			"40"
 		"labeltext"		"#MMenu_SteamWorkshop"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -693,17 +709,20 @@
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"SettingButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 	
 	"SettingButton"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"SettingButton"
-		"xpos"			"rs1.1"
-		"ypos"			"170"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"30"
+		"wide"			"230"
+		"tall"			"40"
 		"labeltext"		"#MMenu_Tooltip_Options"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -718,18 +737,21 @@
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"CharacterSetupButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 	
 	"TF2SettingButton"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"TF2SettingButton"
-		"xpos"			"0"
-		"ypos"			"10"
+		"xpos"			"3"
+		"ypos"			"-20"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"30"
-		"labeltext"		"#MMenu_Tooltip_AdvOptions"
+		"wide"			"20"
+		"tall"			"20"
+		"labeltext"		"+"
 		"textalignment"		"center"
 		"font"			"Cerbetica10Alt"
 		"allcaps"		"1"
@@ -746,18 +768,18 @@
 		"armedFgColor_override"	"255 255 255 255"
 
 		"pin_to_sibling"		"SettingButton"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 	
 	"MinmodeToggle"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"MinmodeToggle"
-		"xpos"			"c15"
-		"ypos"			"455"
+		"xpos"			"s-1.0"
+		"ypos"			"5"
 		"zpos"			"-55"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"110"
+		"tall"			"40"
 		"labeltext"		"MINMODE"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -773,6 +795,9 @@
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"SettingButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 	"AchievementsButton"
 	{
