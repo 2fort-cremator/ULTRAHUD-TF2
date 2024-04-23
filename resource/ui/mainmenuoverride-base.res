@@ -246,34 +246,6 @@
 
 	}
 
-	"HudSubtitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HudSubtitle"
-		"xpos"			"c-210"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"400"
-		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"//== EARLY ACCESS ==\\"
-		"font"			"Cerbetica12Alt"
-		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-
-		"fgcolor"	"ColorWhite"
-
-	}
-
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -293,24 +265,26 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"140"
-		"ypos"			"cs-0.5-15"
-		"zpos"			"0"
+		"xpos"			"47"
+		"ypos"			"410"
+		"zpos"			"-1"
 		"wide"			"0"
-		"tall"			"800"
+		"tall"			"0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"show_progress"	"0"
+
+		"pin_to_sibling"		"RankPanelBG"
 	}
 
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c78"
-		"ypos"			"c-97"
+		"xpos"			"-183"
+		"ypos"			"-33"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -334,6 +308,8 @@
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"ColorRed"
 		"depressedFgColor_override" "TanLight"
+
+		"pin_to_sibling"		"RankPanelBG"
 	}
 
 	"RankTooltipPanel"
@@ -376,7 +352,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankPanelBG"
 		"xpos"			"c-105"
-		"ypos"			"110"
+		"ypos"			"r100"
 		"zpos"			"-55"
 		"wide"			"200"
 		"tall"			"50"
@@ -508,16 +484,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
-		"xpos"			"-10"
-		"ypos"			"-5"
+		"xpos"			"10"
+		"ypos"			"r160"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"140"
 		"visible"		"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"Transparent"
-		
-		"pin_to_sibling"	"BGpanel1"
 
 		"TitleLabel"
 		{
@@ -527,12 +501,12 @@
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
 			"xpos"			"-10"
-			"ypos"			"120"
+			"ypos"			"115"
 			"wide"			"260"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 		}
 
 		"InnerShadow"
@@ -556,8 +530,8 @@
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldName"		"SteamFriendsList"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"3"
+			"ypos"			"4"
 			"zpos"			"500"
 			"wide"			"242"
 			"tall"			"150"
@@ -618,11 +592,27 @@
 			"zpos"			"499"
 			"wide"			"f20"
 			"tall"			"150"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"bgcolor_override"	"0 0 0 100"
+		}
+
+		"TerminalBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TerminalBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"250"
+			"tall"			"140"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"		"../console/teamselect_background"
+			"alpha"		"200"
 		}
 	}
 
@@ -685,10 +675,10 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
 		"xpos"			"c-125"
-		"ypos"			"270"
+		"ypos"			"455"
 		"zpos"			"-55"
 		"wide"			"100"
-		"tall"			"30"
+		"tall"			"25"
 		"labeltext"		"#MMenu_SteamWorkshop"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -764,10 +754,10 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"		"MinmodeToggle"
 		"xpos"			"c15"
-		"ypos"			"270"
+		"ypos"			"455"
 		"zpos"			"-55"
 		"wide"			"100"
-		"tall"			"30"
+		"tall"			"25"
 		"labeltext"		"MINMODE"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
@@ -1251,19 +1241,5 @@
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"ColorRed"
 		}
-	}
-
-	"BGPanel1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel1"
-		"xpos"			"c-135"
-		"ypos"			"315"
-		"zpos"			"-55"
-		"wide"			"260"
-		"tall"			"150"
-		"visible"		"1"
-		"bgcolor_override"	"25 25 25 168"
-		"PaintBackgroundType"	"2"
 	}
 }
