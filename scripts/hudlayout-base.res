@@ -49,7 +49,7 @@
 	//--------------------------------------------------------------
 	// CENTRAL HUD
 	//--------------------------------------------------------------
-	// To move most of the in game hud at once, alter the x and y values of HudPlayerStatus. 
+	// To move most of the in game hud at once, alter the x and y values of HudPlayerStatus.
 	//--------------------------------------------------------------
 	"HudPlayerStatus"
 	{
@@ -295,7 +295,7 @@
 		"enabled" 				"1"
 		"xpos"					"c-100"
 		"ypos"					"c110"
-		"ypos_minmode"			"c80"
+		"ypos_minmode"			"c135"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"100"
@@ -322,7 +322,7 @@
 		"enabled" 				"1"
 		"xpos"					"c-100"
 		"ypos"					"c145"
-		"ypos_minmode"			"c140"
+		"ypos_minmode"			"c175"
 		"wide"					"600"
 		"tall"					"50"
 		"priority"				"35"
