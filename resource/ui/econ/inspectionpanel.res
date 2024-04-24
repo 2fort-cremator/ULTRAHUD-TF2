@@ -16,20 +16,63 @@
 		"proportionaltoparent" "1"
 	}
 
+	"ScreenName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ScreenName"
+		"xpos"			"cs-0.5"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"70"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"WARpAINTS"
+		"font"			"Cerbetica40"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+
+		"fgcolor"	"ColorRed"
+
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"50"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"750"
+		"tall"			"390"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/teamselect_background"
+		"alpha"		"200"
+	}
+
 	"ItemName"
 	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"ItemName"
-		"xpos"				"100"
-		"ypos"				"6"
+		"xpos"				"s-0.5"
+		"ypos"				"-45"
 		"zpos"				"5"
-		"wide"				"400"
+		"wide"				"200"
 		"tall"				"60"
 		"visible"			"1"
 		"paintborder"		"0"
 		"mouseinputenabled"	"0"
-		"text_ypos"			"15"
-		"text_center"		"0"
+		"textalignment"		"south"
 		"paint_icon_hide"	"1"
 		"model_hide"		"1"
 		"text_forcesize"	"0"
@@ -38,6 +81,9 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TanDark"
 		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"		"ModelInspectionPanel"
+		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 
 		"consume_mode"
 		{
@@ -56,11 +102,11 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"cs-0.7"
-		"ypos"			"20"
+		"xpos"			"180"
+		"ypos"			"cs-0.6"
 		"zpos"			"5"
-		"wide"			"o1.5"
-		"tall"			"p0.8"
+		"wide"			"230"
+		"tall"			"230"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"force_use_model"		"1"
@@ -70,7 +116,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"75"
+		"fov"					"57"
 
 		"model"
 		{
@@ -99,7 +145,7 @@
 			"spot light"
 			{
 				"name"				"spot"
-				"color"				"1 .9 .9"
+				"color"				"0 0 1"
 				"attenuation"		"4.5 0 0"
 				"origin"			"0 0 100"
 				"direction"			"1 0 -0.5"
@@ -117,6 +163,23 @@
 				"maxDistance"		"1000"
 			}
 		}
+	}
+
+	"ModelInspectionPanelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ModelInspectionPanelBG"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"250"
+		"tall"			"250"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/teamselect_background"
+
+		"pin_to_sibling"		"ModelInspectionPanel"
 	}
 
 	"TeamNavPanel"
@@ -235,6 +298,23 @@
 		"proportionaltoparent"	"1"
 		"paintborder"			"0"
 
+		"ModelInspectionPanelBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ModelInspectionPanelBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"250"
+			"tall"			"200"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"		"replay/thumbnails/teamselect_background"
+
+			"pin_to_sibling"		"ModelInspectionPanel"
+		}
+
 		"fixed_item"
 		{
 			"tall"		"80"
@@ -329,12 +409,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"bgcolor_override"	"Transparent"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "Transparent"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "TanLight"
+			"selectionTextColor_override" "ColorWhite"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -353,7 +433,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_paintkit"
 			{
@@ -396,12 +476,12 @@
 				"visible"	"0"
 			}
 
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorWhite"
 			"bgcolor_override"	"Transparent"
 			"disabledFgColor_override" "TanDark"
 			"disabledBgColor_override" "Transparent"
 			"selectionColor_override" "Transparent"
-			"selectionTextColor_override" "TanLight"
+			"selectionTextColor_override" "ColorWhite"
 			"defaultSelectionBG2Color_override" "Transparent"
 		}
 
@@ -409,7 +489,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Cerbetica10Alt"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -426,7 +506,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_item"
 			{
@@ -477,7 +557,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Cerbetica10Alt"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -494,7 +574,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"ColorWhite"
 
 			"fixed_paintkit"
 			{
@@ -512,7 +592,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"8"
+			"xpos"			"9"
 			"ypos"			"125"
 
 			"fixed_item"
@@ -526,7 +606,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"234"
+			"wide"			"230"
 			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -543,7 +623,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"command"	"random_seed"
 
-			"defaultFgColor_override"	"TanLight"
+			"defaultFgColor_override"	"ColorWhite"
 			"armedFgColor_override"		"White"
 
 			"consume_mode"
@@ -582,9 +662,9 @@
 			"maxchars"		"20"
 			"textAlignment"	"center"
 			"defaultFgColor_override"	"DarkGrey"
-			"defaultBgColor_override"	"TanLight"
+			"defaultBgColor_override"	"ColorWhite"
 			"selectedFgColor_override"	"DarkGrey"
-			"selectedBgColor_override"	"TanLight"
+			"selectedBgColor_override"	"ColorWhite"
 
 			"consume_mode"
 			{
@@ -596,7 +676,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"xpos"			"8"
+			"xpos"			"9"
 			"ypos"			"155"
 
 			"fixed_item"
@@ -610,7 +690,7 @@
 			}
 
 			"zpos"			"100"
-			"wide"			"234"
+			"wide"			"230"
 			"tall"			"25"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
 			"font"			"HudFontMediumSmall"
@@ -622,7 +702,7 @@
 			"actionsignallevel" 	"2"
 			"RoundedCorners"		"0"
 
-			"defaultFgColor_override"	"TanLight"
+			"defaultFgColor_override"	"ColorWhite"
 			"armedFgColor_override"		"White"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"

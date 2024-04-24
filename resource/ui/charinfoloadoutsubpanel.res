@@ -2075,6 +2075,6 @@
 		"tall"				"400"
 		"visible"			"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"Transparent"
 	}
 }

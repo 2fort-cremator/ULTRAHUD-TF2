@@ -228,9 +228,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"170"
+			"xpos"			"160"
 			"ypos"			"20"
-			"wide"			"100"
+			"wide"			"150"
 			"zpos"			"100"
 			"tall"			"30"
 			"visible"		"1"
