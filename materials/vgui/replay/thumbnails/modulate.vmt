@@ -1,6 +1,6 @@
 "Modulate"
 {
-	"$baseTexture" "console/modulatecyan"
+	"$baseTexture" "vgui/replay/thumbnails/modulatecyan"
 	"$vertexalpha" 1
 	"$translucent" 0
 	"$additive" 1

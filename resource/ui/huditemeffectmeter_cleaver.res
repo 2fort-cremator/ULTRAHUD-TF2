@@ -15,7 +15,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -28,10 +28,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 150"
-		
+
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -56,7 +56,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -64,7 +64,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"39"
-		"tall"					"8"				
+		"tall"					"8"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -72,7 +72,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}		
+	}
 
 	"Modulate"
 	{
@@ -85,11 +85,11 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/modulate"
-		"scaleImage"	"1"	
-		"alpha"			"255"	
-		"drawcolor"			"c_hudnumbersdefault"	
+		"image"			"replay/thumbnails/modulate"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"drawcolor"			"c_hudnumbersdefault"
 
 		"pin_to_sibling"	"ItemEffectMeter"
-	}			
+	}
 }
