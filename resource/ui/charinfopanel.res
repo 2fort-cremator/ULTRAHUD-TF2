@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"150"
 	}
 

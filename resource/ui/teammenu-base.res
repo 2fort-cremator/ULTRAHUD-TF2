@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"200"
 	}
 
@@ -101,17 +101,17 @@
 		"team"			"3"		// Blue Team
 		"font"			"Cerbetica20Alt"
 		"border"		"WhiteBorder"
-		
+
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override"		"Transparent"
 		"depressedBgColor_override" "Transparent"
 		"selectedBgColor_override" 	"Transparent"
-		
+
 		"defaultFgColor_override" 	"0 0 255 200"
 		"armedFgColor_override"		"0 0 168 200"
 		"depressedFgColor_override" "0 0 255 200"
 		"selectedFgColor_override" 	"0 0 168 200"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -128,8 +128,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/v1_head"
-		
+		"image"			"replay/thumbnails/heads/v1_head"
+
 		"pin_to_sibling"	"teambutton0"
 	}
 
@@ -146,7 +146,7 @@
 		"enabled"		"1"
 		"labeltext"		" "
 		"command"		"jointeam blue"
-		
+
 		"pin_to_sibling"	"BlueImage"
 
 		"defaultBgColor_override"	"Transparent"
@@ -173,20 +173,20 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"font"			"Cerbetica20Alt"
-		
+
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override"		"Transparent"
 		"depressedBgColor_override" "Transparent"
 		"selectedBgColor_override" 	"Transparent"
-		
+
 		"defaultFgColor_override" 	"255 0 0 200"
 		"armedFgColor_override"		"168 0 0 200"
 		"depressedFgColor_override" "255 0 0 200"
 		"selectedFgColor_override" 	"168 0 0 200"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling"			"teambutton0"
 	}
 
@@ -202,7 +202,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/v2_head"
+		"image"			"replay/thumbnails/heads/v2_head"
 
 		"pin_to_sibling"	"teambutton1"
 	}
@@ -220,7 +220,7 @@
 		"enabled"		"1"
 		"labeltext"		" "
 		"command"		"jointeam red"
-		
+
 		"pin_to_sibling"	"RedImage"
 
 		"defaultBgColor_override"	"Transparent"
@@ -248,17 +248,17 @@
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"font"			"Cerbetica8Alt"
-		
+
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override"		"Transparent"
 		"depressedBgColor_override" "Transparent"
 		"selectedBgColor_override" 	"Transparent"
-		
+
 		"defaultFgColor_override" 	"255 255 255 200"
 		"armedFgColor_override"		"255 255 255 200"
 		"depressedFgColor_override" "255 255 255 200"
 		"selectedFgColor_override" 	"255 255 255 200"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -284,17 +284,17 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica8Alt"
-		
+
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override"		"Transparent"
 		"depressedBgColor_override" "Transparent"
 		"selectedBgColor_override" 	"Transparent"
-		
+
 		"defaultFgColor_override" 	"255 255 255 200"
 		"armedFgColor_override"		"255 255 255 200"
 		"depressedFgColor_override" "255 255 255 200"
 		"selectedFgColor_override" 	"255 255 255 200"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -334,7 +334,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica40Alt"
 		"fgcolor"		"0 0 255 25"
-		
+
 		"pin_to_sibling"		"teambutton0"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -359,7 +359,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica40Alt"
 		"fgcolor"		"255 0 0 25"
-		
+
 		"pin_to_sibling"		"teambutton1"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

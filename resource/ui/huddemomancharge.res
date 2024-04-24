@@ -31,9 +31,9 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/modulate"
-		"scaleImage"	"1"	
-		"alpha"			"255"		
+		"image"			"replay/thumbnails/modulate"
+		"scaleImage"	"1"
+		"alpha"			"255"
 
 		"pin_to_sibling"	"ChargeMeter"
 	}

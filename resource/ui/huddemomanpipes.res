@@ -51,10 +51,10 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/modulate"
-		"scaleImage"	"1"	
-		"alpha"			"255"	
-		"drawcolor"			"c_hudnumbersdefault"	
+		"image"			"replay/thumbnails/modulate"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"drawcolor"			"c_hudnumbersdefault"
 
 		"pin_to_sibling"	"ChargeMeter"
 	}
@@ -71,7 +71,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 150"
-		
+
 		"pin_to_sibling"	"ChargeMeter"
 	}
 
@@ -188,7 +188,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 150"
-		
+
 		"NoPipelabel"
 		{
 			"ControlName"		"CExLabel"

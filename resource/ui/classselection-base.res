@@ -29,7 +29,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 100"
 	}
-	
+
 	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,10 +42,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"200"
 	}
-	
+
 	"TerminalBGDimmer"
 	{
 		"ControlName"	"ImagePanel"
@@ -127,7 +127,7 @@
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		"textinsetx"		"13"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -163,7 +163,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -176,7 +176,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"scout"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -203,7 +203,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -216,7 +216,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"soldier"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -243,7 +243,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -256,7 +256,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"pyro"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -283,7 +283,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -296,7 +296,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"demoman"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -323,7 +323,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -336,7 +336,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"heavyweapons"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -363,7 +363,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -376,7 +376,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"engineer"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -403,7 +403,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -416,7 +416,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"medic"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -443,7 +443,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorCyan"
 		"depressedFgColor_override" "ColorWhite"
@@ -456,7 +456,7 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
+
 		"pin_to_sibling"			"sniper"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -491,7 +491,7 @@
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		"Default"			"1"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorGreyMid"
 		"depressedFgColor_override" "ColorWhite"
@@ -500,7 +500,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"pin_to_sibling"			"spy"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -526,7 +526,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"0"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorGreyMid"
 		"depressedFgColor_override" "ColorWhite"
@@ -535,7 +535,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"pin_to_sibling"			"random2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
@@ -561,7 +561,7 @@
 		"font"				"Cerbetica20Alt"
 		"paintbackground"	"0"
 		"allcaps"			"0"
-		
+
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorGreyMid"
 		"depressedFgColor_override" "ColorWhite"
@@ -570,12 +570,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"pin_to_sibling"			"EditLoadoutButton"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"LoadoutButtonBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -627,7 +627,7 @@
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 50"
 	}
-	
+
 	"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -641,7 +641,7 @@
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 	}
-	
+
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1163,7 +1163,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"200"
 
 		"pin_to_sibling"	"TFPlayerModel"

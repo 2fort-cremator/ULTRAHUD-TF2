@@ -165,7 +165,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"200"
 	}
 
@@ -413,13 +413,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
-		
+
 		"paintbackground"			"0"
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorRed"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -465,13 +465,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
-		
+
 		"paintbackground"			"0"
 		"defaultFgColor_override" 	"ColorWhite"
 		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorRed"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 

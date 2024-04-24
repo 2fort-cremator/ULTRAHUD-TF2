@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"../console/teamselect_background"
+		"image"		"replay/thumbnails/teamselect_background"
 		"alpha"		"200"
 	}
 
@@ -350,7 +350,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"nextpage"
-		
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 

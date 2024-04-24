@@ -186,7 +186,7 @@
 		"fillcolor"		"0 0 0 150"
 
 	}
-	
+
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -232,7 +232,7 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-	
+
 	"HudName"
 	{
 		"ControlName"	"CExLabel"
@@ -518,7 +518,7 @@
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"115"
+			"ypos"			"120"
 			"wide"			"260"
 			"tall"			"20"
 			"visible"		"1"
@@ -649,7 +649,7 @@
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -675,7 +675,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -685,7 +685,7 @@
 		"pin_to_sibling"	"CharacterSetupButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRight"
 	}
-	
+
 	"SteamWorkshopButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -703,7 +703,7 @@
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -713,7 +713,7 @@
 		"pin_to_sibling"		"SettingButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"SettingButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -731,7 +731,7 @@
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -741,7 +741,7 @@
 		"pin_to_sibling"		"CharacterSetupButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"TF2SettingButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -760,7 +760,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -770,7 +770,7 @@
 		"pin_to_sibling"		"SettingButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"MinmodeToggle"
 	{
 		"ControlName"		"CExImageButton"
@@ -789,7 +789,7 @@
 		"enabled"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 
@@ -837,7 +837,7 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-	
+
 	"ReplayButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -880,7 +880,7 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-	
+
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1009,7 +1009,7 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-	
+
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1052,7 +1052,7 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-	
+
 	"CoachPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
