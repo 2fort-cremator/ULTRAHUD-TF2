@@ -179,7 +179,7 @@
 			"enabled"				"1"
 			"fgcolor"				"TanLight"
 			"wrap"					"1"
-			"highlight_color"		"ColorCyan"
+			"highlight_color"		"ColorRed"
 			"itemset_color"			"216 244 9 255"
 			"link_color"			"ColorPurple"
 			"image_up_arrow"				"scroll_up_off"

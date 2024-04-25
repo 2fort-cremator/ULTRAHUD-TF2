@@ -81,7 +81,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"ColorCyan"
+			"fgcolor_override"	"ColorRed"
 			"wrap"				"1"
 		}
 
@@ -108,7 +108,7 @@
 			}
 		}
 	}
-	
+
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -144,7 +144,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -159,7 +159,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"pin_to_sibling"	"QuestLogButton"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -186,9 +186,9 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 
@@ -228,9 +228,9 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
+			"armedFgColor_override"		"ColorRed"
 		}
 	}
 }

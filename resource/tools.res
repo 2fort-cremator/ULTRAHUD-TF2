@@ -41,7 +41,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintbackground" 		"0"
-				"fgcolor_override"		"ColorCyan"
+				"fgcolor_override"		"ColorRed"
 				"labelText"				"#TF_OptionCategory_HUD"
 				"allcaps"				"1"
 			}
@@ -134,7 +134,7 @@
 			"fieldName"				"MOTD_NextButton"
 			"xpos"					"9999"
 		}
-		
+
 		"ReloadScheme"
 		{
 			"ControlName"			"CExImageButton"
@@ -153,12 +153,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"MOTD_HeaderContainer"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
-		
+
 		"ChatToggle"
 		{
 			"ControlName"			"CExImageButton"
@@ -177,12 +177,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
-		
+
 		"ClosedCaptionsON"
 		{
 			"ControlName"			"CExImageButton"
@@ -201,12 +201,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"ClosedCaptionsOFF"
 		{
 			"ControlName"			"CExImageButton"
@@ -225,12 +225,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"ClosedCaptionsON"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
-		
+
 		"SoundFix"
 		{
 			"ControlName"			"CExImageButton"
@@ -249,12 +249,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"ClosedCaptionsON"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"InviliblePlayersFix"
 		{
 			"ControlName"			"CExImageButton"
@@ -273,12 +273,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
-		
+
 		"NetgraphToggle"
 		{
 			"ControlName"			"CExImageButton"
@@ -297,12 +297,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"MatchStatusToggle"
 		{
 			"ControlName"			"CExImageButton"
@@ -321,12 +321,12 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
-		
+
 		"DamageLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -344,12 +344,12 @@
 			"textAlignment"			"center"
 			"fgcolor_override"		"TanLight"
 			"wrap"					"1"
-			
+
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
-		
+
 		"DamageWhite"
 		{
 			"ControlName"			"CExImageButton"
@@ -367,19 +367,19 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override"	"255 255 255 255"
 			"armedFgColor_override"		"150 150 150 255"
 			"depressedFgColor_override"	"255 255 255 255"
 		}
-		
+
 		"DamageYellow"
 		{
 			"ControlName"			"CExImageButton"
@@ -397,19 +397,19 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageWhite"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 255 0 255"
 			"armedFgColor_override" 	"150 150 0 255"
 			"depressedFgColor_override" "255 255 0 255"
 		}
-		
+
 		"DamageRed"
 		{
 			"ControlName"			"CExImageButton"
@@ -427,19 +427,19 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageYellow"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 0 0 255"
 			"armedFgColor_override" 	"150 0 0 255"
 			"depressedFgColor_override" "255 0 0 255"
 		}
-		
+
 		"DamageGreen"
 		{
 			"ControlName"			"CExImageButton"
@@ -457,19 +457,19 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageWhite"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-			
+
 			"defaultFgColor_override" 	"0 255 0 255"
 			"armedFgColor_override" 	"0 150 0 255"
 			"depressedFgColor_override" "0 255 0 255"
 		}
-		
+
 		"DamageCyan"
 		{
 			"ControlName"			"CExImageButton"
@@ -487,14 +487,14 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageGreen"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"0 255 255 255"
 			"armedFgColor_override" 	"0 150 150 255"
 			"depressedFgColor_override" "0 255 255 255"
@@ -517,19 +517,19 @@
 			"font"					"CustomIcons"
 			"textAlignment"			"center"
 			"paintbackground"		"0"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"pin_to_sibling"		"DamageCyan"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 			"defaultFgColor_override" 	"255 0 255 255"
 			"armedFgColor_override" 	"150 0 150 255"
 			"depressedFgColor_override" "255 0 255 255"
 		}
-		
+
 		"VersionLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -546,7 +546,7 @@
 			"font"					"HudFontSmall"
 			"textAlignment"			"center"
 			"fgcolor_override"		"TanLight"
-			
+
 			"pin_to_sibling"		"MatchStatusToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"

@@ -2054,7 +2054,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"10"
+				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2065,7 +2065,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"12"
+				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2076,7 +2076,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"14"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2087,7 +2087,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"18"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2098,7 +2098,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"10"
+				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2109,7 +2109,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"10"
+				"tall"			"8"
 				"antialias"		"1"
 				"weight"		"500"
 			}
@@ -2119,7 +2119,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"10"
+				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2130,7 +2130,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2141,7 +2141,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"14"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"

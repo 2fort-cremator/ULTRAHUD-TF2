@@ -129,7 +129,7 @@
 		"textinsetx"		"13"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -165,7 +165,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -205,7 +205,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -245,7 +245,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -285,7 +285,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -325,7 +325,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -365,7 +365,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -405,7 +405,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 
@@ -445,7 +445,7 @@
 		"allcaps"			"1"
 
 		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorCyan"
+		"armedFgColor_override"		"ColorRed"
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorGreyMid"
 

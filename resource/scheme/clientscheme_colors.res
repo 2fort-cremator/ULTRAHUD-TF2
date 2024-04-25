@@ -12,6 +12,7 @@ Scheme
 		"ColorCyan"					"72 255 255 255"
 		"ULTRACyan"					"39 217 217 255"
 		"ColorCyanShadow"			"72 100 100 255"
+		"ColorRedShadow"			"100 0 0 255"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"
 		"ColorMagenta"				"255 0 255 255"

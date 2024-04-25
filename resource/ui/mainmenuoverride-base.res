@@ -54,8 +54,8 @@
 				"paintbackground"	"0"
 
 				"defaultFgColor_override"	"TanLight"
-				"armedFgColor_override"		"ColorCyan"
-				"depressedFgColor_override" "ColorCyan"
+				"armedFgColor_override"		"ColorRed"
+				"depressedFgColor_override" "ColorRed"
 			}
 		}
 
@@ -390,7 +390,7 @@
 		"textinsetx"		"15"
 		"textinsety"		"5"
 		"font"				"HudFontSmall"
-		"fgcolor_override"	"ColorCyan"
+		"fgcolor_override"	"ColorRed"
 		"labelText"			"#TF_MM_NoGC_Rank"
 		"textAlignment"		"north-west"
 		"bgcolor_override"	"Transparent"

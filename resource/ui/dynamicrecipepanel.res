@@ -242,7 +242,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "ColorCyan"
+			"fgcolor_override" "ColorRed"
 		}
 		"NextInputPageButton"
 		{
@@ -341,7 +341,7 @@
 			"wrap"			"1"
 			"fgcolor"		"TanLight"
 		}
-		
+
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
@@ -365,8 +365,8 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
-		
+		}
+
 		"PrevPageButton"
 		{
 			"ControlName"	"CExButton"
@@ -406,7 +406,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "ColorCyan"
+			"fgcolor_override" "ColorRed"
 		}
 		"NextPageButton"
 		{

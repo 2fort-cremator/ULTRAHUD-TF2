@@ -28,10 +28,10 @@
 		"class_tall_max"			"200"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
-		"itemcountcolor"			"ColorCyan"
+		"itemcountcolor"			"ColorRed"
 		"itemcountcolor_noitems"	"TextColor"
 	}
-	
+
 	"CharInfoLoadoutSubPanelBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -631,7 +631,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"ColorCyan"
+		"fgcolor_override"	"ColorRed"
 	}
 
 	"LoadoutChangesLabel"
