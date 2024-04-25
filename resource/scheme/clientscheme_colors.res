@@ -43,9 +43,9 @@ Scheme
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Uber Bar Color"			"ColorCyan"
-		"Solid Color Uber"			"ColorCyan"
-		"Flashing Uber Color1"		"ColorCyan"
+		"Uber Bar Color"			"72 255 255 255"
+		"Solid Color Uber"			"72 255 255 255"
+		"Flashing Uber Color1"		"72 255 255 255"
 		"Flashing Uber Color2"		"39 107 217 255"
 		//---------------------------------------------
 		// Player Stats
