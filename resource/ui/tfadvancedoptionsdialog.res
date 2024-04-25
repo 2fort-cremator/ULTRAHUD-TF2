@@ -42,7 +42,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"ColorCyan"
+		"fgcolor_override"	"ColorRed"
 		"allcaps"			"1"
 	}
 

@@ -224,7 +224,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ColorRed"
 	}
 
 	"ClientArea"
@@ -250,7 +250,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ColorRed"
 		}
 
 		"CartItemsLabel"

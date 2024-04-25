@@ -100,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ColorRed"
 	}
 
 	"Sheet"
@@ -128,7 +128,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ColorRed"
 		}
 
 		"tabskv"

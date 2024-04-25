@@ -117,7 +117,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
+		"bgcolor_override"		"ColorRed"
 	}
 
 	"Sheet"
@@ -143,7 +143,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"ColorCyan"
+			"bgcolor_override"		"ColorRed"
 		}
 
 		"tabskv"

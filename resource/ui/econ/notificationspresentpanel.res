@@ -13,12 +13,12 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 	}
-	
+
 	"TextLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"ColorCyan"
+		"fgcolor"		"ColorRed"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"
