@@ -6,7 +6,7 @@
 		"fieldname"		"SafeMode"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"50"
+		"zpos"			"10002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
@@ -69,15 +69,16 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"titlelabel"
-			"xpos"					"20"
-			"ypos"					"15"
+			"xpos"					"cs-0.5"
+			"ypos"					"20"
 			"zpos"					"100"
-			"wide"					"360"
+			"wide"					"260"
 			"tall"					"30"
 			"visible"				"1"
 			"enabled"				"1"
 			"font"					"Cerbetica40"
 			"labeltext"				"HUD CALIBRATION"
+			"textAlignment"		"center"
 			"fgcolor"				"ColorRed"
 
 		}
@@ -88,44 +89,28 @@
 
 		"exitbutton"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"exitbutton"
-			"xpos"			"553"
-			"ypos"			"13"
+			"xpos"			"r80"
+			"ypos"			"10"
 			"zpos"			"10"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"56"
+			"tall"			"56"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"default"		"0"
 			"actionsignallevel"	"2"
-
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"			"engine toggle cl_mainmenu_safemode"
-			"image_default"		"replay/thumbnails/buttons/x"
-			"image_armed"		"replay/thumbnails/buttons/x_armed"
+			"font"		"Cerbetica40Alt"
+			"labelText"		"X"
+			"Command"			"engine cl_mainmenu_safemode 0"
 			
-			"paintbackground"	"0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"28"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image_default"		"replay/thumbnails/buttons/x"
-				"image_armed"		"replay/thumbnails/buttons/x_armed"
-			}		
+			"defaultfgcolor_override"	"ColorWhite"	
+			"armedfgcolor_override"		"ColorRed"
+
+			"defaultbgcolor_override"		"Transparent"
+			"armedbgcolor_override"		"Transparent"
 		}	
 
 		
@@ -170,336 +155,18 @@
 			}
 
 
-	"Container"
+	
+
+
+
+	"Customization" //MARK: CUSTOMIZATION
 {
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Container"
+		"fieldName"		"Customization"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"743"
-		"tall"		"200"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"PaintBackgroundType"	"0"
-
-		"pin_to_sibling"		"Container2"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-
-
-	"TitleLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabel"
-			"xpos"					"2"
-			"ypos"					"0"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"30"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica32Alt"
-			"labeltext"				"utilities"
-			"fgcolor"				"ColorRed"
-
-		}
-
-		
-	
-	"filler"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"filler"
-			"xpos"					"2"
-			"ypos"					"30"
-			"zpos"					"100"
-			"wide"					"f0"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-			"fgcolor_override"		"ColorWhite"
-		}
-
-	"ItemTestButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ItemTestButton"
-		"xpos"			"10"
-		"ypos"			"50"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine sv_cheats 1;  map itemtest"
-		"actionsignallevel"		"4"
-		"labelText"		"Itemtest"
-		"allcaps"		"1"
-		"font"			"Cerbetica16Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-		
-	}
-
-	"walkwaybutton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"walkwaybutton"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine sv_cheats 1; sv_allow_point_servercommand always; mp_teams_unbalance_limit 0; map tr_walkway_rc2"
-		"actionsignallevel"		"4"
-		"labelText"		"walkway"
-		"allcaps"		"1"
-		"font"			"Cerbetica14Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"ItemTestButton"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-	"Drawtree"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"Drawtree"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine sv_cheats 1; vgui_drawtree 1"
-		"actionsignallevel"		"4"
-		"labelText"		"Drawtree"
-		"allcaps"		"1"
-		"font"			"Cerbetica16Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"WalkwayButton"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-	}
-
-	"reload"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"reload"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine hud_reloadscheme"
-		"actionsignallevel"		"4"
-		"labelText"		"Reload HUD"
-		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"Drawtree"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-
-	"fullReload"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"fullReload"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
-		"actionsignallevel"		"4"
-		"labelText"		"hud reload +"
-		"allcaps"		"1"
-		"font"			"Cerbetica10Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"Reload"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-	
-	"target pos"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"target pos"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine toggle tf_spectator_target_location"
-		"actionsignallevel"		"4"
-		"labelText"		"target.pos."
-		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"fullReload"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-
-
-	"chat on/off"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"chat on/off"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine toggle cl_enable_text_chat 0 1"
-		"actionsignallevel"		"4"
-		"labelText"		"chat toggle"
-		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"target pos"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-
-	//	"low on/off" ///////// does not work :( i will think about it later (COMMENTED OUT, ADD TO PR FOR WEIRDCORE LATER - CREMATOR)
-//	{
-//		"ControlName"	"CExButton"
-//		"fieldName"		"low on/off"
-//		"xpos"			"190"
-//		"ypos"			"100"
-//		"zpos"			"2"
-//		"wide"			"80"
-//		"tall"			"30"
-//		"pinCorner"		"3"
-//		"visible"		"0"
-//		"enabled"		"0"
-//		"Command"		"engine hudplayerhealth_alt"
-//		"actionsignallevel"		"4"
-//		"labelText"		"low hp on/off"
-//		"font"			"pixel8"
-//		"textAlignment"	"center"
-//		"fgcolor_override"		"violet"
-//		"armedBgColor_override"		"HUDdarkgray"	
-//		"defaultBgColor_override"	"WHUDblack"
-//		"sound_depressed"	"UI/1.wav"
-//		
-//	}
-
-	"3d icons"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"3dicons"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine toggle cl_hud_playerclass_use_playermodel"
-		"actionsignallevel"		"4"
-		"labelText"		"classmodel"
-		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
-		"textAlignment"	"center"
-		"sound_depressed"	"UI/1.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"chat on/off"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-	}
-
-
-
-	"Container2"
-{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Container2"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"743"
-		"tall"		"340"
+		"tall"		"310"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -538,13 +205,47 @@
 			"fillcolor"				"ColorWhite"
 		}
 
+		"CrosshairSelectLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"CrosshairSelectLabel"
+			"xpos"					"2"
+			"ypos"					"40"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"Crosshairs"
+			"fgcolor"				"ColorRed"
+
+		}
+
+		"CrosshairFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"CrosshairFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"400"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"CrosshairSelectLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+
 		"Crosshair 1"
 		{
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 1"
 			
-			"xpos"	"2"	
-			"ypos"	"50"	
+			"xpos"	"0"	
+			"ypos"	"5"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -564,7 +265,10 @@
 			"armedBgColor_override"		"255 255 255 3"	
 			"defaultBgColor_override"	"ColorBlack"	
 
-			"fgcolor_override"		"ColorWhite"		
+			"fgcolor_override"		"ColorWhite"	
+
+			"pin_to_sibling"		"CrosshairSelectLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"	
 			
 		}
 
@@ -573,8 +277,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 2"
 			
-			"xpos"	"35"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -595,6 +299,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"	
+
+			"pin_to_sibling"		"Crosshair 1"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			
 		}
 
@@ -603,8 +310,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 3"
 			
-			"xpos"	"70"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -625,6 +332,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"	
+
+			"pin_to_sibling"		"Crosshair 2"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			
 		}
 
@@ -633,8 +343,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 4"
 			
-			"xpos"	"105"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -655,6 +365,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 3"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			
 		}
 
@@ -664,8 +377,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 5"
 			
-			"xpos"	"140"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -686,6 +399,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 4"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			
 		}
 
@@ -694,8 +410,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 6"
 			
-			"xpos"	"175"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -716,6 +432,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 5"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"Crosshair 7"
@@ -723,8 +442,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 7"
 			
-			"xpos"	"210"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -745,6 +464,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 6"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"Crosshair 8"
@@ -752,8 +474,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"Crosshair 8"
 			
-			"xpos"	"245"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"26"	
 			"tall"	"26"
@@ -774,6 +496,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 7"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 		"crosshairToggle"
@@ -781,8 +506,8 @@
 			"ControlName"	"CExButton"	
 			"fieldname"	"crosshairToggle"
 			
-			"xpos"	"280"	
-			"ypos"	"50"	
+			"xpos"	"10"	
+			"ypos"	"0"	
 			"zpos"	"16"	
 			"wide"	"70"	
 			"tall"	"26"
@@ -803,6 +528,9 @@
 			"defaultBgColor_override"	"ColorBlack"	
 
 			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"Crosshair 8"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 
 			"CrosshairSize"
@@ -810,11 +538,11 @@
 				"ControlName"	"EditablePanel"	
 				"fieldName"	"CrosshairSize"
 
-				"xpos"	"30"	
-				"ypos"	"0"	
+				"xpos"	"10"	
+				"ypos"	"-2"	
 				"zpos"	"15"	
-				"wide"	"348"	
-				"tall"	"30"
+				"wide"	"400"	
+				"tall"	"20"
 
 				"pin_to_sibling"		"crosshairToggle"
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -827,13 +555,13 @@
 					"xpos"	"-2"	
 					"ypos"	"0"	
 					"wide"	"100"	
-					"tall"	"10"
+					"tall"	"20"
 					
-					"font"	"Cerbetica10Alt"	
+					"font"	"Cerbetica20Alt"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
-					"labelText"	"Crosshair Size:"
+					"labelText"	"SIZE:"
 					"textAlignment"	"west"
 			
 					"paintborder"	"0"	
@@ -849,9 +577,9 @@
 					"ControlName"	"CCvarSlider"	
 					"fieldName"	"Slider"
 					
-					"xpos"	"5"	
-					"ypos"	"10"	
-					"wide"	"340"	
+					"xpos"	"70"	
+					"ypos"	"5"	
+					"wide"	"300"	
 					"tall"	"20"
 					
 					"leftText"	"0"	
@@ -863,40 +591,60 @@
 					"cvar_name"	"cl_crosshair_scale"
 					
 					"allowoutofrange"	"0"		
-				}	
-
-				"bg"
-				{
-					"ControlName"	"imagepanel"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"0"	
-					"ypos"	"0"	
-					"zpos"	"-1"	
-					"wide"	"f0"	
-					"tall"	"f0"
-					
-					"fillcolor"		"47 3 56 194"	
 				}		
 			}	
 
-			"TitleLabelcross"
+		"ColorLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabelcross"
-			"xpos"					"30"
-			"ypos"					"0"
+			"fieldName"				"ColorLabel"
+			"xpos"					"2"
+			"ypos"					"103"
 			"zpos"					"100"
 			"wide"					"360"
-			"tall"					"30"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"Colors"
+			"fgcolor"				"ColorRed"
+
+		}
+
+		"ColorFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"ColorFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"300"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"ColorLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+
+		"CrossColorLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"CrossColorLabel"
+			"xpos"					"-2"
+			"ypos"					"5"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"20"
 			"visible"				"1"
 			"enabled"				"1"
 			"font"					"Cerbetica20"
-			"labeltext"				"crosshair color"
+			"labeltext"				"Crosshair Color"
 			"fgcolor"				"ColorRed"
 
-			"pin_to_sibling"		"TitleLabeldamage"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			"pin_to_sibling"		"ColorLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		}
 			"Crosshaircolor 1"
@@ -928,7 +676,7 @@
 				
 				"border_default"	"noborder"
 
-				"pin_to_sibling"	"TitleLabelcross"
+				"pin_to_sibling"	"CrossColorLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 			}
 
@@ -950,7 +698,7 @@
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"		
+			"sound_released"	"UI/buttonclickrelease.wav"		
 				
 				"paintbackground"	"1"
 				
@@ -1638,7 +1386,42 @@
 		
 
 		
+			"SliderLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"SliderLabel"
+			"xpos"					"0"
+			"ypos"					"50"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"MISC."
+			"fgcolor"				"ColorRed"
 
+			"pin_to_sibling"		"ColorLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
+
+		"SliderFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SliderFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"200"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"SliderLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
 			
 
 			"viewmodelSize"
@@ -1646,11 +1429,14 @@
 				"ControlName"	"EditablePanel"	
 				"fieldName"	"viewmodelSize"
 
-				"xpos"	"1"	
-				"ypos"	"190"	
+				"xpos"	"0"	
+				"ypos"	"10"	
 				"zpos"	"15"	
-				"wide"	"500"	
-				"tall"	"30"
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"	"SliderLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 				"SubButton"
 				{
@@ -1659,22 +1445,19 @@
 				
 					"xpos"	"-2"	
 					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"10"
+					"wide"	"200"	
+					"tall"	"20"
 					
-					"font"	"f9"	
+					"font"	"Cerbetica20Alt"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
-					"labelText"	"viewmodel Size:"
+					"labelText"	"VMODEL FOV:"
 					"textAlignment"	"west"
 			
 					"paintborder"	"0"	
 					
 					"paintbackground"	"0"
-					
-					"defaultFgColor_override"	"TanLight"
-					"armedFgColor_override"	"TanLight"
 				}
 				
 				"Slider"
@@ -1682,8 +1465,8 @@
 					"ControlName"	"CCvarSlider"	
 					"fieldName"	"Slider"
 					
-					"xpos"	"0"	
-					"ypos"	"10"	
+					"xpos"	"160"	
+					"ypos"	"5"	
 					"wide"	"500"	
 					"tall"	"20"
 					
@@ -1696,20 +1479,6 @@
 					"cvar_name"	"viewmodel_fov"
 					
 					"allowoutofrange"	"0"		
-				}	
-
-				"bg"
-				{
-					"ControlName"	"imagepanel"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"0"	
-					"ypos"	"0"	
-					"zpos"	"-1"	
-					"wide"	"f0"	
-					"tall"	"f0"
-					
-					"fillcolor"		"47 3 56 194"	
 				}		
 			}	
 
@@ -1718,11 +1487,14 @@
 				"ControlName"	"EditablePanel"	
 				"fieldName"	"fovSize"
 
-				"xpos"	"1"	
-				"ypos"	"225"	
+				"xpos"	"0"	
+				"ypos"	"10"	
 				"zpos"	"15"	
-				"wide"	"500"	
-				"tall"	"30"
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"viewmodelSize"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 				"SubButton"
 				{
@@ -1732,21 +1504,18 @@
 					"xpos"	"-2"	
 					"ypos"	"0"	
 					"wide"	"100"	
-					"tall"	"10"
+					"tall"	"20"
 					
-					"font"	"f9"	
+					"font"	"Cerbetica20Alt"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
-					"labelText"	"FOV Size:"
+					"labelText"	"FOV:"
 					"textAlignment"	"west"
 			
 					"paintborder"	"0"	
 					
 					"paintbackground"	"0"
-					
-					"defaultFgColor_override"	"TanLight"
-					"armedFgColor_override"	"TanLight"
 				}
 				
 				"Slider"
@@ -1754,8 +1523,8 @@
 					"ControlName"	"CCvarSlider"	
 					"fieldName"	"Slider"
 					
-					"xpos"	"0"	
-					"ypos"	"10"	
+					"xpos"	"160"	
+					"ypos"	"5"	
 					"wide"	"500"	
 					"tall"	"20"
 					
@@ -1768,20 +1537,6 @@
 					"cvar_name"	"fov_desired"
 					
 					"allowoutofrange"	"0"		
-				}	
-
-				"bg"
-				{
-					"ControlName"	"imagepanel"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"0"	
-					"ypos"	"0"	
-					"zpos"	"-1"	
-					"wide"	"f0"	
-					"tall"	"f0"
-					
-					"fillcolor"		"47 3 56 194"	
 				}		
 			}	
 
@@ -1791,11 +1546,14 @@
 				"ControlName"	"EditablePanel"	
 				"fieldName"	"volume"
 
-				"xpos"	"1"	
-				"ypos"	"260"	
+				"xpos"	"0"	
+				"ypos"	"10"	
 				"zpos"	"15"	
-				"wide"	"500"	
-				"tall"	"30"
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"fovSize"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 				"SubButton"
 				{
@@ -1805,21 +1563,18 @@
 					"xpos"	"-2"	
 					"ypos"	"0"	
 					"wide"	"100"	
-					"tall"	"10"
+					"tall"	"20"
 					
-					"font"	"f9"	
+					"font"	"Cerbetica20Alt"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
-					"labelText"	"volume:"
+					"labelText"	"VOLUME:"
 					"textAlignment"	"west"
 			
 					"paintborder"	"0"	
 					
 					"paintbackground"	"0"
-					
-					"defaultFgColor_override"	"TanLight"
-					"armedFgColor_override"	"TanLight"
 				}
 				
 				"Slider"
@@ -1827,8 +1582,8 @@
 					"ControlName"	"CCvarSlider"	
 					"fieldName"	"Slider"
 					
-					"xpos"	"0"	
-					"ypos"	"10"	
+					"xpos"	"160"	
+					"ypos"	"5"	
 					"wide"	"500"	
 					"tall"	"20"
 					
@@ -1842,36 +1597,25 @@
 					
 					"allowoutofrange"	"0"		
 				}	
-
-				"bg"
-				{
-					"ControlName"	"imagepanel"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"0"	
-					"ypos"	"0"	
-					"zpos"	"-1"	
-					"wide"	"f0"	
-					"tall"	"f0"
-					
-					"fillcolor"		"47 3 56 194"	
-				}		
 			}	
 
-		"TitleLabeldamage"
+		"DamageColorLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabeldamage"
-			"xpos"					"2"
-			"ypos"					"285"
+			"fieldName"				"DamageColorLabel"
+			"xpos"					"0"
+			"ypos"					"0"
 			"zpos"					"100"
 			"wide"					"360"
-			"tall"					"30"
+			"tall"					"20"
 			"visible"				"1"
 			"enabled"				"1"
 			"font"					"Cerbetica20"
 			"labeltext"				"damage color"
 			"fgcolor"				"ColorRed"
+
+			"pin_to_sibling"		"CrossColorLabel"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 		}
 			
@@ -1881,8 +1625,8 @@
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 1"
 				
-				"xpos"	"1"	
-				"ypos"	"315"
+				"xpos"	"0"	
+				"ypos"	"0"
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -1904,14 +1648,17 @@
 				"depressedBgColor_override"	"255 255 255 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"DamageColorLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 			}
 
 			"Damagecolor 2"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 2"
-				"xpos"	"15"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -1932,14 +1679,17 @@
 				
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 1"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 3"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 3"
-				"xpos"	"28"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -1961,14 +1711,17 @@
 				"depressedBgColor_override"	"231 72 72 255"
 				
 				"border_default"	"noborder"
+				
+				"pin_to_sibling"	"damagecolor 2"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 4"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 4"
-				"xpos"	"42"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -1990,14 +1743,17 @@
 				"depressedBgColor_override"	"231 117 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 3"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 5"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 5"
-				"xpos"	"55"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2019,14 +1775,17 @@
 				"depressedBgColor_override"	"231 154 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 4"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 6"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 6"
-				"xpos"	"68"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2048,14 +1807,17 @@
 				"depressedBgColor_override"	"231 177 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 5"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 7"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 7"
-				"xpos"	"81"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2077,14 +1839,17 @@
 				"depressedBgColor_override"	"231 177 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 6"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 				"Damagecolor 8"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 8"
-				"xpos"	"94"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2106,14 +1871,17 @@
 				"depressedBgColor_override"	"203 231 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 7"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor 9"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor 9"
-				"xpos"	"107"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2135,14 +1903,17 @@
 				"depressedBgColor_override"	"151 231 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 8"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor10"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor10"
-				"xpos"	"120"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2164,14 +1935,17 @@
 				"depressedBgColor_override"	"91 231 72 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor 9"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor11"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor11"
-				"xpos"	"133"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2193,14 +1967,17 @@
 				"depressedBgColor_override"	"27 231 113 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor10"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor12"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor12"
-				"xpos"	"146"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2222,14 +1999,17 @@
 				"depressedBgColor_override"	"72 231 169 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor11"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor13"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor13"
-				"xpos"	"159"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2251,14 +2031,17 @@
 				"depressedBgColor_override"	"72 231 222 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor12"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor14"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor14"
-				"xpos"	"172"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2280,14 +2063,17 @@
 				"depressedBgColor_override"	"72 188 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor13"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 		"Damagecolor15"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor15"
-				"xpos"	"185"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2309,14 +2095,17 @@
 				"depressedBgColor_override"	"72 143 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor14"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor16"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor16"
-				"xpos"	"198"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2338,14 +2127,17 @@
 				"depressedBgColor_override"	"72 87 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor15"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor17"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor17"
-				"xpos"	"211"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2367,14 +2159,17 @@
 				"depressedBgColor_override"	"109 72 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor16"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor18"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor18"
-				"xpos"	"224"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2396,14 +2191,17 @@
 				"depressedBgColor_override"	"132 72 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor17"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor19"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor19"
-				"xpos"	"237"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2425,14 +2223,17 @@
 				"depressedBgColor_override"	"169 72 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor18"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor20"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor20"
-				"xpos"	"250"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2454,14 +2255,17 @@
 				"depressedBgColor_override"	"203 72 231 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor19"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor21"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor21"
-				"xpos"	"263"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2483,14 +2287,17 @@
 				"depressedBgColor_override"	"231 72 225 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor20"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor22"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor22"
-				"xpos"	"276"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2512,14 +2319,17 @@
 				"depressedBgColor_override"	"231 72 143 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor21"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
 			"Damagecolor23"
 			{
 				"ControlName"	"CExImageButton"	
 				"fieldname"	"Damagecolor23"
-				"xpos"	"289"	
-				"ypos"	"315"	
+				"xpos"	"0"	
+				"ypos"	"0"	
 				"zpos"	"100"	
 				"wide"	"14"	
 				"tall"	"20"
@@ -2541,9 +2351,348 @@
 				"depressedBgColor_override"	"231 72 113 255"
 				
 				"border_default"	"noborder"
+
+				"pin_to_sibling"	"damagecolor22"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 		
 		}
+
+		"Utilities" //MARK: UTILITIES
+{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Utilities"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"743"
+		"tall"		"200"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"PaintBackgroundType"	"0"
+
+		"pin_to_sibling"		"Customization"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+
+
+	"TitleLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"titlelabel"
+			"xpos"					"2"
+			"ypos"					"0"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica32Alt"
+			"labeltext"				"utilities"
+			"fgcolor"				"ColorRed"
+
+		}
+
+		
+	
+	"filler"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"filler"
+			"xpos"					"2"
+			"ypos"					"30"
+			"zpos"					"100"
+			"wide"					"f0"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+			"fgcolor_override"		"ColorWhite"
+		}
+
+	"ItemTestButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ItemTestButton"
+		"xpos"			"10"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine sv_cheats 1;  map itemtest"
+		"actionsignallevel"		"4"
+		"labelText"		"Itemtest"
+		"allcaps"		"1"
+		"font"			"Cerbetica16Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+		
+	}
+
+	"walkwaybutton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"walkwaybutton"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine sv_cheats 1; sv_allow_point_servercommand always; mp_teams_unbalance_limit 0; map tr_walkway_rc2"
+		"actionsignallevel"		"4"
+		"labelText"		"walkway"
+		"allcaps"		"1"
+		"font"			"Cerbetica14Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"ItemTestButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+	"Drawtree"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Drawtree"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine sv_cheats 1; vgui_drawtree 1"
+		"actionsignallevel"		"4"
+		"labelText"		"Drawtree"
+		"allcaps"		"1"
+		"font"			"Cerbetica16Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"WalkwayButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}
+
+	"reload"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"reload"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine hud_reloadscheme"
+		"actionsignallevel"		"4"
+		"labelText"		"Reload HUD"
+		"allcaps"		"1"
+		"font"			"Cerbetica12Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"Drawtree"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+
+	"fullReload"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"fullReload"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+		"actionsignallevel"		"4"
+		"labelText"		"hud reload +"
+		"allcaps"		"1"
+		"font"			"Cerbetica10Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"Reload"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+	
+	"target pos"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"target pos"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine toggle tf_spectator_target_location"
+		"actionsignallevel"		"4"
+		"labelText"		"target.pos."
+		"allcaps"		"1"
+		"font"			"Cerbetica12Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"fullReload"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+
+
+	"chat on/off"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"chat on/off"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine toggle cl_enable_text_chat 0 1"
+		"actionsignallevel"		"4"
+		"labelText"		"chat toggle"
+		"allcaps"		"1"
+		"font"			"Cerbetica12Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"target pos"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+
+	//	"low on/off" ///////// does not work :( i will think about it later (COMMENTED OUT, ADD TO PR FOR WEIRDCORE LATER - CREMATOR)
+//	{
+//		"ControlName"	"CExButton"
+//		"fieldName"		"low on/off"
+//		"xpos"			"190"
+//		"ypos"			"100"
+//		"zpos"			"2"
+//		"wide"			"80"
+//		"tall"			"30"
+//		"pinCorner"		"3"
+//		"visible"		"0"
+//		"enabled"		"0"
+//		"Command"		"engine hudplayerhealth_alt"
+//		"actionsignallevel"		"4"
+//		"labelText"		"low hp on/off"
+//		"font"			"pixel8"
+//		"textAlignment"	"center"
+//		"fgcolor_override"		"violet"
+//		"armedBgColor_override"		"HUDdarkgray"	
+//		"defaultBgColor_override"	"WHUDblack"
+//		"sound_depressed"	"UI/1.wav"
+//		
+//	}
+
+	"3d icons"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"3d icons"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine toggle cl_hud_playerclass_use_playermodel"
+		"actionsignallevel"		"4"
+		"labelText"		"classmodel"
+		"allcaps"		"1"
+		"font"			"Cerbetica12Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"chat on/off"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+	}
 
 
 	}

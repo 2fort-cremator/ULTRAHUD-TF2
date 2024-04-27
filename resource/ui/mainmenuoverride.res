@@ -1,7 +1,7 @@
-"#base" "../../resource/preload.res"
+"#base" "../preload.res"
 "#base" "../../#customizations/_enabled/mainmenuoverride-classic.res"
 "#base" "mainmenuoverride-base.res"
-#base "../../resource/tools.res"
+#base "../tools.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
