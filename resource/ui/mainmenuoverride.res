@@ -157,8 +157,8 @@
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"pin_to_sibling"	"QuestLogButton"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -184,6 +184,52 @@
 			"actionsignallevel" "2"
 			"paintbackground"	"0"
 			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorRed"
+		}
+	}
+
+	"HudOptionsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudOptionsButton"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"	"QuestLogButton"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"labeltext"			"L"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"command"		"engine cl_mainmenu_safemode 1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
