@@ -40,7 +40,7 @@
 				"image"			"replay/thumbnails/teamselect_background"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"alpha"			"240"
+				"alpha"			"253"
 			}				
 
 
@@ -142,7 +142,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"ColorWhite"
+					"fgcolor_override"	"ColorRed"
 				}
 				"UpButton"
 				{
@@ -166,7 +166,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"743"
-		"tall"		"310"
+		"tall"		"350"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -204,7 +204,7 @@
 			"enabled"				"1"
 			"fillcolor"				"ColorWhite"
 		}
-
+		//MARK:CROSSHAIR
 		"CrosshairSelectLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -627,7 +627,7 @@
 			"pin_to_sibling"		"ColorLabel"
 			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		}
-
+		//MARK: CROSSHAIR COLORS
 		"CrossColorLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -1382,224 +1382,9 @@
 				"pin_to_sibling"	"Crosshaircolor22"
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
+			//MARK: DAMAGE COLORS
 
-		
-
-		
-			"SliderLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"SliderLabel"
-			"xpos"					"0"
-			"ypos"					"50"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"28"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica28"
-			"labeltext"				"MISC."
-			"fgcolor"				"ColorRed"
-
-			"pin_to_sibling"		"ColorLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-		}
-
-		"SliderFiller"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SliderFiller"
-			"xpos"					"2"
-			"ypos"					"-5"
-			"zpos"					"100"
-			"wide"					"200"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-
-			"pin_to_sibling"		"SliderLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		}
-			
-
-			"viewmodelSize"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"viewmodelSize"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"700"	
-				"tall"	"20"
-
-				"pin_to_sibling"	"SliderLabel"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"200"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"VMODEL FOV:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"160"	
-					"ypos"	"5"	
-					"wide"	"500"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"viewmodel_fov"
-					
-					"allowoutofrange"	"0"		
-				}		
-			}	
-
-			"fovSize"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"fovSize"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"700"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"viewmodelSize"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"FOV:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"160"	
-					"ypos"	"5"	
-					"wide"	"500"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"fov_desired"
-					
-					"allowoutofrange"	"0"		
-				}		
-			}	
-
-	
-			"volume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"volume"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"700"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"fovSize"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"VOLUME:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"160"	
-					"ypos"	"5"	
-					"wide"	"500"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"volume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}	
-
-		"DamageColorLabel"
+			"DamageColorLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"DamageColorLabel"
@@ -2355,6 +2140,288 @@
 				"pin_to_sibling"	"damagecolor22"
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
+			//MISC
+
+		
+			"MiscLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"MiscLabel"
+			"xpos"					"0"
+			"ypos"					"50"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"MISC."
+			"fgcolor"				"ColorRed"
+
+			"pin_to_sibling"		"ColorLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
+
+		"MiscFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"MiscFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"200"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"MiscLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+			
+			//MARK:VMODEL SIZE
+			"viewmodelSize"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"viewmodelSize"
+
+				"xpos"	"0"	
+				"ypos"	"10"	
+				"zpos"	"15"	
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"	"MiscLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"200"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"VMODEL FOV:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"160"	
+					"ypos"	"5"	
+					"wide"	"500"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"viewmodel_fov"
+					
+					"allowoutofrange"	"0"		
+				}		
+			}	
+			//MARK:FOV
+			"fovSize"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"fovSize"
+
+				"xpos"	"0"	
+				"ypos"	"10"	
+				"zpos"	"15"	
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"viewmodelSize"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"FOV:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"160"	
+					"ypos"	"5"	
+					"wide"	"500"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"fov_desired"
+					
+					"allowoutofrange"	"0"		
+				}		
+			}	
+
+			//MARK: VOLUME	
+			"volume"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"volume"
+
+				"xpos"	"0"	
+				"ypos"	"10"	
+				"zpos"	"15"	
+				"wide"	"700"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"fovSize"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"VOLUME:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"160"	
+					"ypos"	"5"	
+					"wide"	"500"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"volume"
+					
+					"allowoutofrange"	"0"		
+				}	
+			}	
+			//MARK:VMODEL TOGGLE
+			"vmodelToggle"
+		{
+			"ControlName"	"CExButton"	
+			"fieldname"	"vmodelToggle"
+			
+			"xpos"	"0"	
+			"ypos"	"10"	
+			"zpos"	"16"	
+			"wide"	"70"	
+			"tall"	"26"
+			
+			"font"	"Cerbetica8Alt"	
+			"visible"	"1"
+			"enabled"	"1"	
+			"command"	"engine toggle r_drawviewmodel"	
+			"actionsignallevel"	"4"
+			
+			"labeltext"	"VMODEL TOGGLE"	
+			"textAlignment"	"center"	
+			
+			"sound_depressed"	"UI/buttonclick.wav"	
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"armedBgColor_override"		"255 255 255 3"	
+			"defaultBgColor_override"	"ColorBlack"	
+
+			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"volume"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+		//MARK:MIN VMODLES
+			"minVmodelToggle"
+		{
+			"ControlName"	"CExButton"	
+			"fieldname"	"minVmodelToggle"
+			
+			"xpos"	"10"	
+			"ypos"	"0"	
+			"zpos"	"16"	
+			"wide"	"70"	
+			"tall"	"26"
+			
+			"font"	"Cerbetica10Alt"	
+			"visible"	"1"
+			"enabled"	"1"	
+			"command"	"engine toggle tf_use_min_viewmodels"	
+			"actionsignallevel"	"4"
+			
+			"labeltext"	"MIN VMODELS"	
+			"textAlignment"	"center"	
+			
+			"sound_depressed"	"UI/buttonclick.wav"	
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"armedBgColor_override"		"255 255 255 3"	
+			"defaultBgColor_override"	"ColorBlack"	
+
+			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"vmodelToggle"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		}
+			
+
+		
 		
 		}
 
@@ -2363,18 +2430,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"350"
 		"wide"		"743"
-		"tall"		"200"
+		"tall"		"100"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
-
-		"pin_to_sibling"		"Customization"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 
 
@@ -2416,8 +2480,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ItemTestButton"
-		"xpos"			"10"
-		"ypos"			"50"
+		"xpos"			"0"
+		"ypos"			"20"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"30"
@@ -2438,6 +2502,9 @@
 		"defaultBgColor_override"	"ColorBlack"	
 
 		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"filler"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
 	}
 
@@ -2692,7 +2759,7 @@
 		
 	}
 
-	}
+}
 
 
 	}
