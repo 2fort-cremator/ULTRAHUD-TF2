@@ -166,7 +166,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"743"
-		"tall"		"350"
+		"tall"		"400"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -618,7 +618,7 @@
 			"xpos"					"2"
 			"ypos"					"-5"
 			"zpos"					"100"
-			"wide"					"300"
+			"wide"					"400"
 			"tall"					"3"
 			"visible"				"1"
 			"enabled"				"1"
@@ -2140,13 +2140,12 @@
 				"pin_to_sibling"	"damagecolor22"
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
-			//MISC
+			//MARK:VIEWMODELS
 
-		
-			"MiscLabel"
+			"ViewmodelLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"MiscLabel"
+			"fieldName"				"ViewmodelLabel"
 			"xpos"					"0"
 			"ypos"					"50"
 			"zpos"					"100"
@@ -2155,7 +2154,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"font"					"Cerbetica28"
-			"labeltext"				"MISC."
+			"labeltext"				"VIEWMODELS"
 			"fgcolor"				"ColorRed"
 
 			"pin_to_sibling"		"ColorLabel"
@@ -2163,23 +2162,22 @@
 
 		}
 
-		"MiscFiller"
+		"ViewmodelFiller"
 		{
 			"ControlName"			"ImagePanel"
-			"fieldName"				"MiscFiller"
+			"fieldName"				"ViewmodelFiller"
 			"xpos"					"2"
 			"ypos"					"-5"
 			"zpos"					"100"
-			"wide"					"200"
+			"wide"					"400"
 			"tall"					"3"
 			"visible"				"1"
 			"enabled"				"1"
 			"fillcolor"				"ColorWhite"
 
-			"pin_to_sibling"		"MiscLabel"
+			"pin_to_sibling"		"ViewmodelLabel"
 			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		}
-			
 			//MARK:VMODEL SIZE
 			"viewmodelSize"
 			{
@@ -2192,7 +2190,7 @@
 				"wide"	"700"	
 				"tall"	"20"
 
-				"pin_to_sibling"	"MiscLabel"
+				"pin_to_sibling"	"ViewmodelLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 				"SubButton"
@@ -2238,6 +2236,112 @@
 					"allowoutofrange"	"0"		
 				}		
 			}	
+
+			//MARK:VMODEL TOGGLE
+			"vmodelToggle"
+		{
+			"ControlName"	"CExButton"	
+			"fieldname"	"vmodelToggle"
+			
+			"xpos"	"0"	
+			"ypos"	"10"	
+			"zpos"	"16"	
+			"wide"	"70"	
+			"tall"	"26"
+			
+			"font"	"Cerbetica8Alt"	
+			"visible"	"1"
+			"enabled"	"1"	
+			"command"	"engine toggle r_drawviewmodel"	
+			"actionsignallevel"	"4"
+			
+			"labeltext"	"VMODEL TOGGLE"	
+			"textAlignment"	"center"	
+			
+			"sound_depressed"	"UI/buttonclick.wav"	
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"armedBgColor_override"		"255 255 255 3"	
+			"defaultBgColor_override"	"ColorBlack"	
+
+			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"viewmodelsize"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+		//MARK:MIN VMODLES
+			"minVmodelToggle"
+		{
+			"ControlName"	"CExButton"	
+			"fieldname"	"minVmodelToggle"
+			
+			"xpos"	"10"	
+			"ypos"	"0"	
+			"zpos"	"16"	
+			"wide"	"70"	
+			"tall"	"26"
+			
+			"font"	"Cerbetica10Alt"	
+			"visible"	"1"
+			"enabled"	"1"	
+			"command"	"engine toggle tf_use_min_viewmodels"	
+			"actionsignallevel"	"4"
+			
+			"labeltext"	"MIN VMODELS"	
+			"textAlignment"	"center"	
+			
+			"sound_depressed"	"UI/buttonclick.wav"	
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"armedBgColor_override"		"255 255 255 3"	
+			"defaultBgColor_override"	"ColorBlack"	
+
+			"fgcolor_override"		"ColorWhite"
+
+			"pin_to_sibling"		"vmodelToggle"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		}
+			//MISC
+
+		
+			"MiscLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"MiscLabel"
+			"xpos"					"0"
+			"ypos"					"70"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"MISC."
+			"fgcolor"				"ColorRed"
+
+			"pin_to_sibling"		"ViewmodelLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
+
+		"MiscFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"MiscFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"400"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"MiscLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+			
+			
 			//MARK:FOV
 			"fovSize"
 			{
@@ -2250,7 +2354,7 @@
 				"wide"	"700"	
 				"tall"	"20"
 
-				"pin_to_sibling"		"viewmodelSize"
+				"pin_to_sibling"		"miscFiller"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 				"SubButton"
@@ -2285,11 +2389,11 @@
 					"wide"	"500"	
 					"tall"	"20"
 					
-					"leftText"	"0"	
-					"rightText"	"100"
+					"leftText"	"75"	
+					"rightText"	"90"
 					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
+					"minvalue"	"75"	
+					"maxvalue"	"90"
 					
 					"cvar_name"	"fov_desired"
 					
@@ -2355,70 +2459,7 @@
 					"allowoutofrange"	"0"		
 				}	
 			}	
-			//MARK:VMODEL TOGGLE
-			"vmodelToggle"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"vmodelToggle"
 			
-			"xpos"	"0"	
-			"ypos"	"10"	
-			"zpos"	"16"	
-			"wide"	"70"	
-			"tall"	"26"
-			
-			"font"	"Cerbetica8Alt"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine toggle r_drawviewmodel"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"VMODEL TOGGLE"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"volume"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		}
-		//MARK:MIN VMODLES
-			"minVmodelToggle"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"minVmodelToggle"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"70"	
-			"tall"	"26"
-			
-			"font"	"Cerbetica10Alt"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine toggle tf_use_min_viewmodels"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"MIN VMODELS"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"vmodelToggle"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
 			
 
 		
@@ -2430,7 +2471,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"350"
+		"ypos"		"400"
 		"wide"		"743"
 		"tall"		"100"
 		"autoResize"		"0"
