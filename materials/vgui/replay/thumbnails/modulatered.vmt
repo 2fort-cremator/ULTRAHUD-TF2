@@ -1,0 +1,7 @@
+"Modulate"
+{
+	"$baseTexture" "vgui/replay/thumbnails/modulatered"
+	"$vertexalpha" 1
+	"$translucent" 0
+	"$additive" 1
+}

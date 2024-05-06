@@ -13,6 +13,21 @@
 		"enabled"			"1"
 	}
 
+	"WaveBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"WaveBG"
+		"xpos"			"170"
+		"ypos"			"3"
+		"zpos"			"-10"
+		"wide"			"515"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"		"2"
+		"bgcolor_override"		"0 0 0 150"
+	}
+
 	"WaveCompleteSummaryPanel"
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
@@ -24,6 +39,7 @@
 		"tall"				"400"
 		"visible"			"1"
 		"enabled"			"1"
+		"auto_wide_to_contents"		"1"
 	}
 
 	"BossStatusPanel"

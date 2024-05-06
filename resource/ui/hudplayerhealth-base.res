@@ -4,7 +4,7 @@
 	//BG for player class
 	"HudPlayerClassBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPlayerClassBG"
 		"visible"			"1"
 		"enabled"			"1"
@@ -15,7 +15,9 @@
 		"tall"				"90"
 		"wide_minmode"				"0"
 		"tall_minmode"				"0"
-		"fillcolor"			"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"roundedcorners"			"3"
+		"bgcolor_override"			"0 0 0 150"
 	}
 	// player health data
 	"HudPlayerHealth"
@@ -79,16 +81,19 @@
 	}
 	"HealthBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName" 		"HealthBG"
 		"xpos"			"0"
 		"ypos"			"92"
 		"zpos"			"-10"
-		"wide"			"225"
+		"wide"			"128"
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
+		"paintBackgroundType"	"2"
+		"roundedcorners"		"4"
+		"roundedcorners_minmode"		"15"
+		"bgcolor_override"		"0 0 0 150"
 	}
 
 	"BarBG"
@@ -155,15 +160,15 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"2"
 		"ypos"			"97"
-		"xpos_minmode"			"46"
-		"ypos_minmode"			"97"
+		"xpos_minmode"			"0"
 		"zpos"			"5"
-		"wide"			"32"
+		"wide"			"126"
+		"wide_minmode"		"128"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"textAlignment_minmode"	"center"
 		"font"			"HudClassHealth"
 		"fgcolor"		"ColorWhite"
 
@@ -176,12 +181,12 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"4"
-		"wide"			"32"
+		"wide"			"126"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"textAlignment_minmode"	"center"
 		"font"			"HudClassHealth"
 		"fgcolor"		"0 0 0 200"
 

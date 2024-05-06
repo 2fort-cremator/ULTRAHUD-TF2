@@ -20,15 +20,15 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-
+	
 	"WaveCountLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"WaveCountLabel"
-		"font"					"Cerbetica14"
-		"fgcolor"				"TanLight"
-		"xpos"					"5"
-		"ypos"					"0"
+		"font"					"Cerbetica14Alt"
+		"fgcolor"				"ColorWhite"
+		"xpos"					"cs-1.5"
+		"ypos"					"7"
 		"zpos"					"3"
 		"wide"					"70"
 		"tall"					"10"
@@ -37,9 +37,6 @@
 		"allcaps"				"1"
 		"textAlignment"			"east"
 		"labelText"				"%wave_count%"
-		"pin_to_sibling"		"NewProgressBarBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"WaveCountLabelShadow"
@@ -107,8 +104,8 @@
 	{
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBar"
-		"xpos"					"c-75"
-		"ypos"					"10"
+		"xpos"					"3"
+		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"150"
 		"tall"					"10"
@@ -120,6 +117,27 @@
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		"pin_to_sibling"		"WaveCountLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}
+
+	"Modulate"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"150"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/modulatered"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"drawcolor"			"c_hudnumbersdefault"
+
+		"pin_to_sibling"	"ProgressBar"
 	}
 
 	"NewProgressBarBG"
@@ -133,8 +151,8 @@
 		"tall"					"10"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"fillcolor"				"ColorRed"
 	}
 

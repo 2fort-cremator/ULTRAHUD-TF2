@@ -54,16 +54,19 @@
 	}
 	"AmmoBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName" 		"AmmoBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"540"
-		"tall"			"244"
+		"wide"			"60"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"roundedcorners"		"10"
+		"roundedcorners_minmode"		"15"
+		"bgcolor_override"		"0 0 0 150"
 	}
 	"AmmoInReserve"
 	{
