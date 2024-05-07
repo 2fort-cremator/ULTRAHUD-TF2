@@ -19,7 +19,7 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG"
 		"xpos"				"2"
 		"ypos"				"4"
@@ -29,7 +29,8 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"0 0 0 150"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
@@ -85,7 +86,7 @@
 
 	"ItemEffectMeterBG2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG2"
 		"xpos"				"2"
 		"ypos"				"4"
@@ -94,7 +95,8 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"0 0 0 150"
 
 		"pin_to_sibling"	"ItemEffectMeter2"
 	}

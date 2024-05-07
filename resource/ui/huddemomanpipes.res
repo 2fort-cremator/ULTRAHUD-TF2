@@ -134,7 +134,7 @@
 		}
 		"PipeBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"PipeBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -142,7 +142,8 @@
 			"wide"			"60"
 			"tall"			"28"
 			"wide_minmode"			"66"
-			"fillcolor"		"0 0 0 150"
+			"paintBackgroundType"		"2"
+			"bgcolor_override"		"0 0 0 150"
 		}
 		"PipeIcon"
 		{

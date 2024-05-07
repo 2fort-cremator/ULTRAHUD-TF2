@@ -16,7 +16,6 @@
 		"wide_minmode"				"0"
 		"tall_minmode"				"0"
 		"paintBackgroundType"		"2"
-		"roundedcorners"			"3"
 		"bgcolor_override"			"0 0 0 150"
 	}
 	// player health data
@@ -91,8 +90,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackgroundType"	"2"
-		"roundedcorners"		"4"
-		"roundedcorners_minmode"		"15"
 		"bgcolor_override"		"0 0 0 150"
 	}
 
@@ -228,7 +225,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusHookBleedImage"
@@ -244,7 +241,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/bleed_drop_grapple"
+		"image"			"bleed_drop_grapple"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMilkImage"
@@ -260,7 +257,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusGasImage"
@@ -276,7 +273,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/covered_in_gas"
+		"image"			"covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -292,7 +289,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
@@ -307,7 +304,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"

@@ -64,8 +64,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackgroundType"		"2"
-		"roundedcorners"		"10"
-		"roundedcorners_minmode"		"15"
 		"bgcolor_override"		"0 0 0 150"
 	}
 	"AmmoInReserve"

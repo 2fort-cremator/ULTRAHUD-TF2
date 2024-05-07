@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"103"	[$WIN32]
+		"x_offset"		"0"
+		"xpos"			"107"	[$WIN32]
 		"ypos"			"r58"	[$WIN32]
 		"xpos_minmode"			"398"	[$WIN32]
 		"ypos_minmode"			"r138"	[$WIN32]
@@ -18,7 +18,7 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG"
 		"xpos"				"2"
 		"ypos"				"4"
@@ -27,7 +27,8 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"0 0 0 150"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
