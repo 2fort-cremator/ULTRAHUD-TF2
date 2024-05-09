@@ -68,8 +68,8 @@
 		"TitleLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabel"
-			"xpos"					"cs-0.5"
+			"fieldName"				"TitleLabel"
+			"xpos"					"50"
 			"ypos"					"20"
 			"zpos"					"100"
 			"wide"					"260"
@@ -83,7 +83,41 @@
 
 		}
 
-		
+		"CustomColorsLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"CustomColorsLabel"
+			"xpos"					"rs1.5"
+			"ypos"					"20"
+			"zpos"					"100"
+			"wide"					"260"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica16Alt"
+			"labeltext"				"Custom Colors"
+			"textAlignment"		"east"
+			"fgcolor"				"CustomColorStatus"
+
+		}
+
+		"MainFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"MainFiller"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"100"
+			"wide"					"700"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"TitleLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
 		
 	
 
@@ -121,7 +155,7 @@
 			"ControlName"		"CScrollableList"
 			"fieldName"		"menuscroller"
 			"xpos"		"40"
-			"ypos"		"55"
+			"ypos"		"60"
 			"zpos"		"90"
 			"wide"		"f0.9"
 			"tall"		"400"

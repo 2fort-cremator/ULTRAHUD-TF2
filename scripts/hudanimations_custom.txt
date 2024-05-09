@@ -100,8 +100,8 @@ event HudMedicSolidColorCharge
 
 event HudMedicOrangePulseCharge
 {
-	Animate	ChargeLabel 				FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
-	Animate	ChargeLabel 				FgColor		"Flashing Uber Color2"	Linear 0.3 0.4
+	Animate	ChargeLabel 				FgColor		"Flashing Uber Label Color1"	Linear 0.0 0.1
+	Animate	ChargeLabel 				FgColor		"Flashing Uber Label Color2"	Linear 0.3 0.4
 
 	Animate	ChargeMeter 				FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
 	Animate	ChargeMeter 				FgColor		"Flashing Uber Color2"	Linear 0.3 0.4

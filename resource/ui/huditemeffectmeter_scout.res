@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"107"	[$WIN32]
+		"xpos"			"63"	[$WIN32]
 		"ypos"			"r58"	[$WIN32]
 		"xpos_minmode"			"358"	[$WIN32]
 		"ypos_minmode"			"r138"	[$WIN32]
@@ -28,7 +28,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintBackgroundType"		"2"
-		"bgcolor_override"			"0 0 0 150"
+		"bgcolor_override"			"HudElementBG"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}

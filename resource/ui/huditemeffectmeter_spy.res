@@ -25,7 +25,7 @@
 		"wide"			"60"
 		"tall"			"28"
 		"paintBackgroundType"	"2"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"HudElementBG"
 		"visible"		"1"
 		"enabled"		"1"				
 	}

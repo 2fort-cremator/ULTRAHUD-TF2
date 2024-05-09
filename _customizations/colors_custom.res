@@ -1,6 +1,9 @@
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
+	//////////////////////// CUSTOM COLORS ///////////////////////////
+
+	///////////////////// GAME MUST BE RESTARTED /////////////////////
+	////////////////// FOR CHANGES TO TAKE EFFECT ///////////////////
 	Colors
 	{
 		// HUD COLORS
@@ -26,7 +29,7 @@ Scheme
 		"TextColor"					"117 107 94 255"
 		//---------------------------------------------
 		//Custom Color Status
-		"CustomColorStatus"		"255 0 0 255"
+		"CustomColorStatus"		"0 255 0 255"
 		//---------------------------------------------
 		// Gameplay
 		"Ammo In Clip"				"255 255 255 255"
@@ -40,20 +43,19 @@ Scheme
 		"Damage Numbers"			"72 255 255 255"
 		"ItemPanelBG"				"100 0 0 255"
 		"Button Color"				"72 255 255 255"
-		"HudElementBG"				"0 0 0 150"  //This is the background of most hud elements, change it to change said background.
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"Uber Bar Color"			"72 255 255 255"
-		"Solid Color Uber"			"72 255 255 255"
-		"Flashing Uber Color1"		"72 255 255 255"
-		"Flashing Uber Color2"		"39 107 217 255"
+		"Uber Bar Color"			"255 166 0 255"
+		"Solid Color Uber"			"255 166 0 255"
+		"Flashing Uber Color1"		"255 166 0 255"
+		"Flashing Uber Color2"		"255 255 0 255"
 
-		"Flashing Uber Label Color1"		"255 166 0 255"
-		"Flashing Uber Label Color2"		"255 255 0 255"
+		"Flashing Uber Label Color1"		"39 107 217 255"
+		"Flashing Uber Label Color2"		"72 255 255 255"
 		//---------------------------------------------
 		// Player Stats
 		"StatBar1"					"15 255 255 128"

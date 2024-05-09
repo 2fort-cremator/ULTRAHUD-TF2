@@ -27,7 +27,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintBackgroundType"		"2"
-		"bgcolor_override"			"0 0 0 150"
+		"bgcolor_override"			"HudElementBG"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}

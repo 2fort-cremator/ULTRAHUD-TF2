@@ -127,7 +127,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"		"Uber Bar Color"
-		"bgcolor_override"		"72 255 255 25"
+		"bgcolor_override"		"255 72 72 25"
 	}
 
 	"ChargeMeterBG"

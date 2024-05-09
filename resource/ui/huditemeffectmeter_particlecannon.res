@@ -18,16 +18,17 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG"
 		"xpos"				"2"
 		"ypos"				"4"
 		"zpos"				"1"
-		"wide"				"90"
+		"wide"				"84"
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 150"
+		"PaintBackgroundType"		"2"
+		"bgcolor_override"			"HudElementBG"
 
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
@@ -68,7 +69,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"West"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
