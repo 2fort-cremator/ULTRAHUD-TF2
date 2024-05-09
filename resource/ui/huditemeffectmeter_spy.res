@@ -17,14 +17,15 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"28"
-		"fillcolor"		"0 0 0 150"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 150"
 		"visible"		"1"
 		"enabled"		"1"				
 	}

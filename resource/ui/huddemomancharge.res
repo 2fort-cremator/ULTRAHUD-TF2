@@ -26,7 +26,7 @@
 		"fieldName"		"Modulate"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"117"
 		"tall"			"8"
 		"visible"		"1"
@@ -34,6 +34,7 @@
 		"image"			"replay/thumbnails/modulate"
 		"scaleImage"	"1"
 		"alpha"			"255"
+		"drawcolor"			"c_hudnumbersdefault"
 
 		"pin_to_sibling"	"ChargeMeter"
 	}
@@ -45,7 +46,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"3"
-		"wide"				"120"
+		"wide"				"115"
 		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"

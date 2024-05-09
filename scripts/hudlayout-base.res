@@ -141,7 +141,7 @@
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"1"
+		"zpos"				"3"
 		"wide"				"f0"
 		"tall"				"500"
 		"MeterFG"			"White"

@@ -61,7 +61,7 @@
 
 	"ChargeMeterBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ChargeMeterBG"
 		"xpos"				"5"
 		"ypos"				"4"
@@ -70,7 +70,8 @@
 		"tall"				"16"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 150"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"0 0 0 150"
 
 		"pin_to_sibling"	"ChargeMeter"
 	}
