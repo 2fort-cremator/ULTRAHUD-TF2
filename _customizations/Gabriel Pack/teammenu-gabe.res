@@ -128,7 +128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/heads/v1_head"
+		"image"			"replay/thumbnails/heads/gabehead_blue"
 
 		"pin_to_sibling"	"teambutton0"
 	}
@@ -232,7 +232,7 @@
 		"xpos"			"4"
 		"ypos"			"5"
 		"zpos"			"-10"
-		"wide"			"106"
+		"wide"			"108"
 		"tall"			"109"
 		"visible"		"1"
 		"enabled"		"1"

@@ -1,5 +1,5 @@
 "#base" "../preload.res"
-"#base" "../../#customizations/_enabled/mainmenuoverride-classic.res"
+"#base" "../../_customizations/ENABLED/Gabriel Pack/mainmenuoverride-gabe.res"
 "#base" "mainmenuoverride-base.res"
 #base "../tools.res"
 
