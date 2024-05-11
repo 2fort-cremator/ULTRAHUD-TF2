@@ -6,26 +6,6 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
-		"Cerbetica72"
-		{
-			"1"
-			{
-				"name"			"VCR OSD Mono"
-				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica72Alt"
-		{
-			"1"
-			{
-				"name"			"BroshKill"
-				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 		"Cerbetica56"
 		{
 			"1"

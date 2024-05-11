@@ -220,7 +220,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/heads/v2_head"
+		"image"			"replay/thumbnails/heads/gabehead_red"
 
 		"pin_to_sibling"	"teambutton1"
 	}
