@@ -69,7 +69,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TitleLabel"
-			"xpos"					"50"
+			"xpos"					"30"
 			"ypos"					"20"
 			"zpos"					"100"
 			"wide"					"260"
@@ -88,7 +88,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"CustomColorsLabel"
 			"xpos"					"rs1.5"
-			"ypos"					"20"
+			"ypos"					"17"
 			"zpos"					"100"
 			"wide"					"260"
 			"tall"					"30"
@@ -96,6 +96,7 @@
 			"enabled"				"1"
 			"font"					"Cerbetica16Alt"
 			"labeltext"				"Custom Colors"
+			"allcaps"			"1"
 			"textAlignment"		"east"
 			"fgcolor"				"CustomColorStatus"
 
@@ -108,7 +109,7 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"100"
-			"wide"					"700"
+			"wide"					"793"
 			"tall"					"3"
 			"visible"				"1"
 			"enabled"				"1"
@@ -126,7 +127,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"exitbutton"
 			"xpos"			"r80"
-			"ypos"			"10"
+			"ypos"			"7"
 			"zpos"			"10"
 			"wide"			"56"
 			"tall"			"56"
@@ -136,7 +137,7 @@
 			"enabled"		"1"
 			"default"		"0"
 			"actionsignallevel"	"2"
-			"font"		"Cerbetica40Alt"
+			"font"		"Cerbetica32Alt"
 			"labelText"		"X"
 			"Command"			"engine cl_mainmenu_safemode 0"
 			
@@ -155,7 +156,7 @@
 			"ControlName"		"CScrollableList"
 			"fieldName"		"menuscroller"
 			"xpos"		"40"
-			"ypos"		"60"
+			"ypos"		"64"
 			"zpos"		"90"
 			"wide"		"f0.9"
 			"tall"		"400"
@@ -200,7 +201,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"743"
-		"tall"		"400"
+		"tall"		"450"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2335,6 +2336,280 @@
 			"pin_to_sibling"		"vmodelToggle"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
+
+		//MARK: SOUND
+		"SoundLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"SoundLabel"
+			"xpos"					"0"
+			"ypos"					"70"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"28"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"Cerbetica28"
+			"labeltext"				"SOUND"
+			"fgcolor"				"ColorRed"
+
+			"pin_to_sibling"		"ViewmodelLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
+
+		"SoundFiller"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SoundFiller"
+			"xpos"					"2"
+			"ypos"					"-5"
+			"zpos"					"100"
+			"wide"					"400"
+			"tall"					"3"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"ColorWhite"
+
+			"pin_to_sibling"		"SoundLabel"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		}
+
+			//MARK: GAME VOLUME
+			"volume"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"volume"
+
+				"xpos"	"0"	
+				"ypos"	"10"	
+				"zpos"	"15"	
+				"wide"	"350"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"SoundFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"GAME:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"70"	
+					"ypos"	"5"	
+					"wide"	"270"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"volume"
+					
+					"allowoutofrange"	"0"		
+				}	
+			}	
+
+			//MARK: MUSIC VOLUME
+			"MusicVolume"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"MusicVolume"
+
+				"xpos"	"10"	
+				"ypos"	"0"	
+				"zpos"	"15"	
+				"wide"	"350"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"volume"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"MUSIC:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"80"	
+					"ypos"	"5"	
+					"wide"	"270"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"snd_musicvolume"
+					
+					"allowoutofrange"	"0"		
+				}	
+			}	
+
+			//MARK: HITSOUND VOLUME
+			"HitVolume"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"HitVolume"
+
+				"xpos"	"0"	
+				"ypos"	"2"	
+				"zpos"	"15"	
+				"wide"	"350"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"volume"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"HIT:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"70"	
+					"ypos"	"5"	
+					"wide"	"270"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"tf_dingaling_volume"
+					
+					"allowoutofrange"	"0"		
+				}	
+			}
+
+			//MARK: HITSOUND VOLUME
+			"KillVolume"
+			{
+				"ControlName"	"EditablePanel"	
+				"fieldName"	"KillVolume"
+
+				"xpos"	"10"	
+				"ypos"	"0"	
+				"zpos"	"15"	
+				"wide"	"350"	
+				"tall"	"20"
+
+				"pin_to_sibling"		"HitVolume"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"	
+					"fieldName"	"SubButton"
+				
+					"xpos"	"-2"	
+					"ypos"	"0"	
+					"wide"	"100"	
+					"tall"	"20"
+					
+					"font"	"Cerbetica20Alt"	
+					"visible"	"1"
+					"enabled"	"1"	
+					
+					"labelText"	"KILL:"
+					"textAlignment"	"west"
+			
+					"paintborder"	"0"	
+					
+					"paintbackground"	"0"
+				}
+				
+				"Slider"
+				{
+					"ControlName"	"CCvarSlider"	
+					"fieldName"	"Slider"
+					
+					"xpos"	"80"	
+					"ypos"	"5"	
+					"wide"	"270"	
+					"tall"	"20"
+					
+					"leftText"	"0"	
+					"rightText"	"100"
+					
+					"minvalue"	"0"	
+					"maxvalue"	"100"
+					
+					"cvar_name"	"tf_dingaling_lasthit_volume"
+					
+					"allowoutofrange"	"0"		
+				}	
+			}
 			//MISC
 
 		
@@ -2353,7 +2628,7 @@
 			"labeltext"				"MISC."
 			"fgcolor"				"ColorRed"
 
-			"pin_to_sibling"		"ViewmodelLabel"
+			"pin_to_sibling"		"SoundLabel"
 			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		}
@@ -2434,65 +2709,6 @@
 					"allowoutofrange"	"0"		
 				}		
 			}	
-
-			//MARK: VOLUME	
-			"volume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"volume"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"700"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"fovSize"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"VOLUME:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"160"	
-					"ypos"	"5"	
-					"wide"	"500"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"volume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}	
 			
 			
 
@@ -2505,7 +2721,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"400"
+		"ypos"		"450"
 		"wide"		"743"
 		"tall"		"100"
 		"autoResize"		"0"

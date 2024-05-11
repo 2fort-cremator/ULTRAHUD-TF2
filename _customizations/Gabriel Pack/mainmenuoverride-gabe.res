@@ -237,7 +237,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
-		"xpos"			"cs-0.32"
+		"xpos"			"cs-0.30"
 		"ypos"			"40"
 		"zpos"			"1"
 		"auto_wide_tocontents"		"1"
