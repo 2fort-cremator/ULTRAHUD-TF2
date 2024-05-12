@@ -82,10 +82,10 @@
 		"command"		"questlog"
 		"tooltip"		"#TF_QuestMap_Intro_Title"
 	}
-	"MOTD_ShowButtonPanel"
+	"HudOptionsButton"
 	{
 		"label"			"w"
-		"command"		"motd_show"
+		"command"		"engine cl_mainmenu_safemode 1"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 }

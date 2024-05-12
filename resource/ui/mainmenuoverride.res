@@ -1,7 +1,8 @@
 "#base" "../preload.res"
 "#base" "../../_customizations/ENABLED/Gabriel Pack/mainmenuoverride-gabe.res"
 "#base" "mainmenuoverride-base.res"
-#base "../tools.res"
+#base "../../_customizations/ENABLED/Gabriel Pack/hudoptions_gabe.res"
+#base "../hudoptions.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -148,50 +149,6 @@
 		}
 	}
 
-	"MOTD_ShowButtonPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-
-		"pin_to_sibling"	"QuestLogButton"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"20"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"font"				"CustomIcons"
-			"use_proportional_insets" "1"
-			"textAlignment"		"center"
-			"default"			"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorRed"
-		}
-	}
-
 	"HudOptionsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -248,7 +205,7 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"pin_to_sibling"	"MOTD_ShowButtonPanel"
+		"pin_to_sibling"	"HudOptionsButton"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
