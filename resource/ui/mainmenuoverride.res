@@ -1,4 +1,5 @@
 "#base" "../preload.res"
+#base	"../../_customizations/ENABLED/Streamer Mode/mainmenuoverride-streamer.res"
 "#base" "../../_customizations/ENABLED/Gabriel Pack/mainmenuoverride-gabe.res"
 "#base" "mainmenuoverride-base.res"
 #base "../../_customizations/ENABLED/Gabriel Pack/hudoptions_gabe.res"
