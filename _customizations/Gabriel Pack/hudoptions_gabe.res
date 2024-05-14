@@ -48,22 +48,7 @@
 
 		} // Background
 
-		"InfoImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"InfoImage"
-			"xpos"					"9999"
-			"ypos"					"5"
-			"zpos"					"100"
-			"wide"					"40"
-			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"info"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
-		}
+	
 
 		"TitleLabel"
 		{
@@ -83,33 +68,12 @@
 
 		}
 
-
-		//MARK: OUT OF GAME CUSTOMIZATION LABELS
-		"CustomColorsLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"CustomColorsLabel"
-			"xpos"					"r250"
-			"ypos"					"17"
-			"zpos"					"100"
-			"auto_wide_tocontents"		"1"
-			"tall"					"30"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica16Alt"
-			"labeltext"				"Custom Colors"
-			"allcaps"			"1"
-			"textAlignment"		"east"
-			"fgcolor"				"CustomColorStatus"
-
-		}
-
 		"GabrielLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"GabrielLabel"
-			"xpos"					"s8"
-			"ypos"					"0"
+			"xpos"					"r300"
+			"ypos"					"17"
 			"zpos"					"100"
 			"auto_wide_tocontents"		"1"
 			"tall"					"30"
@@ -118,10 +82,7 @@
 			"font"					"Cerbetica20"
 			"labeltext"				"Masquerading Divinity"
 			"allcaps"			"1"
-			"textAlignment"		"east"
 			"fgcolor"				"255 196 0 255"
-			
-			"pin_to_sibling"		"CustomColorsLabel"
 
 		}
 

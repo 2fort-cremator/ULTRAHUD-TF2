@@ -83,25 +83,6 @@
 
 		}
 
-		"CustomColorsLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"CustomColorsLabel"
-			"xpos"					"rs1.5"
-			"ypos"					"17"
-			"zpos"					"100"
-			"wide"					"260"
-			"tall"					"30"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica16Alt"
-			"labeltext"				"Custom Colors"
-			"allcaps"			"1"
-			"textAlignment"		"east"
-			"fgcolor"				"CustomColorStatus"
-
-		}
-
 		"MainFiller"
 		{
 			"ControlName"			"ImagePanel"
