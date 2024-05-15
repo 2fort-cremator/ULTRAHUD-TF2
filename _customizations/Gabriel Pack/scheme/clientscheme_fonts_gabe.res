@@ -10,10 +10,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"56"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica56Alt" //Alt version that uses BroshK
@@ -40,20 +40,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"40"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica32"
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -83,10 +83,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica24"
@@ -103,10 +103,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica24Outline"
@@ -124,10 +124,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"outline"		"1"
 			}
 		}
@@ -145,10 +145,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica18"
@@ -165,10 +165,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica16"
@@ -185,10 +185,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica14"
@@ -205,10 +205,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica12"
@@ -225,10 +225,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica10"
@@ -245,10 +245,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica8"
@@ -265,10 +265,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"8"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica6"
@@ -285,10 +285,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"6"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica4"
@@ -305,10 +305,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"4"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica2"
@@ -325,10 +325,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"2"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		// DEFAULT
@@ -336,14 +336,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"underline"		"1"
@@ -372,7 +372,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -382,7 +382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -390,7 +390,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -398,7 +398,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -407,7 +407,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -416,7 +416,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -425,7 +425,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -435,7 +435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -443,7 +443,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -451,7 +451,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -460,7 +460,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -469,7 +469,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -481,7 +481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -489,7 +489,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -497,7 +497,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -506,7 +506,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -515,7 +515,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -524,14 +524,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
@@ -555,7 +555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -567,7 +567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -606,7 +606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -615,7 +615,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -624,7 +624,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -633,7 +633,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -642,7 +642,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -654,7 +654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -665,7 +665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -676,7 +676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -687,7 +687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -698,7 +698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -709,7 +709,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -720,7 +720,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
@@ -731,7 +731,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -742,7 +742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -764,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -775,7 +775,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -786,7 +786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -797,7 +797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -808,7 +808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -820,7 +820,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -831,7 +831,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -843,7 +843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -855,7 +855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -867,7 +867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -878,7 +878,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				//"weight"		"500"
 				"additive"		"0"
@@ -889,7 +889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -900,7 +900,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -911,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -922,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -934,7 +934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1006,7 +1006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -1018,7 +1018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -1076,7 +1076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1086,7 +1086,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1096,7 +1096,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1105,7 +1105,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1114,7 +1114,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1196,7 +1196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1207,7 +1207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1219,7 +1219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1230,7 +1230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1242,7 +1242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1277,7 +1277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1287,7 +1287,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1297,7 +1297,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1320,7 +1320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"28"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1331,7 +1331,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"40"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1342,7 +1342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"antialias" 	"1"
 				"custom"		"1" [$OSX]
@@ -1353,7 +1353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"antialias"		"1"
@@ -1377,7 +1377,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1388,7 +1388,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1399,7 +1399,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1411,7 +1411,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1423,7 +1423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1435,7 +1435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1447,7 +1447,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1459,7 +1459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"34"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1482,7 +1482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"52"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1491,7 +1491,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"72"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1500,7 +1500,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1509,7 +1509,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1518,7 +1518,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1531,7 +1531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1543,7 +1543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1554,7 +1554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
@@ -1566,7 +1566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1578,7 +1578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1589,7 +1589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -1601,7 +1601,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1755,7 +1755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -1767,7 +1767,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1779,7 +1779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1828,7 +1828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"36"
 				"weight"		"500"
 			}
@@ -1837,7 +1837,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"30"
 				"weight"		"500"
 			}
@@ -1846,7 +1846,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"28"
 				"weight"		"500"
 			}
@@ -1855,7 +1855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1864,7 +1864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -1873,7 +1873,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"22"
 				"weight"		"500"
 			}
@@ -1882,7 +1882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 			}
@@ -1920,7 +1920,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1931,7 +1931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"600"
 				"additive"		"0"
@@ -1943,7 +1943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
@@ -1955,7 +1955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1989,7 +1989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2033,7 +2033,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
@@ -2044,7 +2044,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2055,7 +2055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2066,7 +2066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2077,7 +2077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -2088,7 +2088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"8"
 				"antialias"		"1"
 				"weight"		"500"
@@ -2098,7 +2098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
@@ -2109,7 +2109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2120,7 +2120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2132,7 +2132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2143,7 +2143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"500"
 				"blur"			"3"
@@ -2155,7 +2155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"1"
@@ -2514,7 +2514,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2578,7 +2578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2589,7 +2589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2600,7 +2600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2611,7 +2611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2622,7 +2622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2635,7 +2635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2646,7 +2646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2658,7 +2658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2671,7 +2671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2683,7 +2683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2694,7 +2694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"blur"			"3"
@@ -2707,7 +2707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"VCR OSD Mono"
+				"name"			"Alagard"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2921,6 +2921,11 @@ Scheme
 		{
 			"font" 	"resource/fonts/Geizer.otf"
 			"name" 	"Geizer"
+		}
+		"11"
+		{
+			"font" 	"resource/fonts/alagard.ttf"
+			"name" 	"Alagard"
 		}
 	}
 }
