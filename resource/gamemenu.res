@@ -88,4 +88,14 @@
 		"command"		"engine cl_mainmenu_safemode 1"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
+	"QuitButton"
+	{
+		"command"		"engine quit"
+		"OnlyAtMenu"		"1"
+	}
+	"DisconnectButton"
+	{
+		"command"		"engine disconnect"
+		"OnlyInGame"		"1"
+	}
 }

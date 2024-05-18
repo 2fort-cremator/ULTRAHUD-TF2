@@ -116,7 +116,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"rs1-10"
-		"ypos"			"65"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"

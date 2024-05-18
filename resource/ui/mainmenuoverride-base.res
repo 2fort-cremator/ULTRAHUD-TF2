@@ -237,8 +237,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
-		"xpos"			"c-130"
-		"ypos"			"40"
+		"xpos"			"47"
+		"ypos"			"30"
 		"zpos"			"1"
 		"auto_wide_tocontents"		"1"
 		"tall"			"70"
@@ -346,8 +346,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"r70"
+		"xpos"			"cs0.18"
+		"ypos"			"r150"
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"50"
@@ -363,8 +363,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"UltrahudLogo"
-		"xpos"			"cs-2"
-		"ypos"			"r120"
+		"xpos"			"cs0.7"
+		"ypos"			"r200"
 		"zpos"			"6"
 		"wide"			"75"
 		"tall"			"75"
@@ -399,18 +399,30 @@
 
 	"NoGCImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"220"
 		"ypos"			"220"
 		"zpos"			"99"
-		"wide"			"45"
-		"tall"			"45"
+		"wide"			"300"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\shock"
+		"bgcolor_override" 		"0 0 0 200"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
+
+		"SubImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"		"200"
+			"ypos"		"5"
+			"wide"		"20"
+			"tall"		"20"
+			"scaleImage"		"1"
+			"image"		"replay/thumbnails/ultrahud/ultrahudlogo"
+		}
 	}
 
 	"RankBorder"
@@ -499,14 +511,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"240"
+		"xpos"			"10"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"140"
+		"tall"			"180"
 		"visible"		"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"Transparent"
+
+		"pin_to_sibling"		"QuitButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		"TitleLabel"
 		{
@@ -516,7 +531,7 @@
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"120"
+			"ypos"			"160"
 			"wide"			"260"
 			"tall"			"20"
 			"visible"		"1"
@@ -622,7 +637,7 @@
 			"ypos"			"0"
 			"zpos"			"-10"
 			"wide"			"300"
-			"tall"			"140"
+			"tall"			"400"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -634,10 +649,10 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"-55"
-		"wide"			"230"
+		"wide"			"110"
 		"tall"			"40"
 		"labeltext"		"#MMenu_CharacterSetup"
 		"textalignment"		"center"
@@ -659,14 +674,14 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"3"
-		"ypos"			"-20"
+		"xpos"			"10"
+		"ypos"			"0"
 		"zpos"			"-55"
-		"wide"			"50"
-		"tall"			"20"
-		"labeltext"		"Store"
+		"wide"			"110"
+		"tall"			"40"
+		"labeltext"		"#StoreTitle"
 		"textalignment"		"center"
-		"font"			"Cerbetica10Alt"
+		"font"			"HudFontSmallishBold"
 		"allcaps"		"1"
 		"command" 		"engine open_store"
 		"visible"		"1"
@@ -681,7 +696,7 @@
 		"armedFgColor_override"	"255 255 255 255"
 
 		"pin_to_sibling"	"CharacterSetupButton"
-		"pin_to_sibling_corner"		"PIN_BOTTOMRight"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"SteamWorkshopButton"
@@ -797,16 +812,106 @@
 		"pin_to_sibling"		"SettingButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
+
+	"QuitButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"QuitButton"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"12"
+		"wide"			"230"
+		"tall"			"40"
+		"visible"		"1"
+
+		"pin_to_sibling"		"SteamWorkshopButton"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-55"
+			"wide"			"230"
+			"tall"			"40"
+			"labeltext"		"Quit"
+			"textalignment"		"center"
+			"font"			"HudFontSmallishBold"
+			"allcaps"		"1"
+			"command"		"engine quit"
+			"visible"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"	"0 0 0 200"
+			"armedBgColor_override"		"206 4 4 59"
+
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"	"255 255 255 255"
+
+			"SubImage"
+			{
+
+			}
+		}
+	}
+}
+
+	"DisconnectButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DisconnectButton"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"12"
+		"wide"			"230"
+		"tall"			"40"
+		"visible"		"1"
+
+		"pin_to_sibling"		"SteamWorkshopButton"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-55"
+			"wide"			"230"
+			"tall"			"40"
+			"labeltext"		"Disconnect"
+			"textalignment"		"center"
+			"font"			"HudFontSmallishBold"
+			"allcaps"		"1"
+			"command"		"engine disconnect"
+			"visible"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"	"0 0 0 200"
+			"armedBgColor_override"		"206 4 4 59"
+
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"	"255 255 255 255"	
+		}
+	}
+
 	"AchievementsButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
-		"xpos"			"110"
-		"ypos"			"62"
+		"xpos"			"0"
+		"ypos"			"18"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"		"CharacterSetupButton"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -1265,4 +1370,3 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
-}
