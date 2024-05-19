@@ -91,11 +91,13 @@
 	"QuitButton"
 	{
 		"command"		"engine quit"
+		"label"			"#TF_Quit_Title"
 		"OnlyAtMenu"		"1"
 	}
 	"DisconnectButton"
 	{
 		"command"		"engine disconnect"
+		"label"			"#TF_Disconnect"
 		"OnlyInGame"		"1"
 	}
 }

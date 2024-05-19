@@ -895,7 +895,12 @@
 			"armedBgColor_override"		"206 4 4 59"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"	"255 255 255 255"	
+			"armedFgColor_override"	"255 255 255 255"
+
+			"SubImage"
+			{
+
+			}
 		}
 	}
 
