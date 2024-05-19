@@ -8,7 +8,7 @@
 
 </div>
 
-A simple HUD which tries to bring the ULTRAKILL HUD into TF2.
+A simple HUD which is themed primarily around ULTRAKILL.
 
 I was unappeased with the lack of ULTRAKILL themed content for TF2, especially HUDs, so I decided to take matters into my own hands. This is still very early in development, so expect some bugs.
 
