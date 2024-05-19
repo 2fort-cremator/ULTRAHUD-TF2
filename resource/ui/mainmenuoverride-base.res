@@ -346,8 +346,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs0.18"
-		"ypos"			"r150"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"50"
@@ -357,14 +357,18 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 		"xp_source_notification_center_x"	"350"
 		"show_model"	"0"
+
+		"pin_to_sibling"	"FriendsContainer"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 	}
 
 	"UltrahudLogo"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"UltrahudLogo"
-		"xpos"			"cs0.7"
-		"ypos"			"r200"
+		"xpos"			"0"
+		"ypos"			"-22"
 		"zpos"			"6"
 		"wide"			"75"
 		"tall"			"75"
@@ -372,6 +376,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"		"replay/thumbnails/ultrahud/ultrahudlogo"
+		
+		"pin_to_sibling"		"RankPanel"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 	}
 
 	"NoGCMessage"
@@ -857,21 +865,20 @@
 			}
 		}
 	}
-}
+
 
 	"DisconnectButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"230"
 		"tall"			"40"
 		"visible"		"1"
 
-		"pin_to_sibling"		"SteamWorkshopButton"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"		"QuitButton"
 
 		"SubButton"
 		{
@@ -909,7 +916,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
 		"xpos"			"0"
-		"ypos"			"18"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1375,3 +1382,4 @@
 			"armedFgColor_override"		"ColorRed"
 		}
 	}
+}
