@@ -728,7 +728,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"r1"
+			"xpos"			"c0"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
@@ -745,8 +745,6 @@
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-		//	"labeltext"		"#MMenu_FindAGame"
-			"labeltext"		" "
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"

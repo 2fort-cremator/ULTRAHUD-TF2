@@ -68,8 +68,8 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"0 0 0 200"
 		"tileImage"		"1"
 	}
