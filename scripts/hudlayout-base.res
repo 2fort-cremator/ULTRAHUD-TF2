@@ -1,4 +1,4 @@
-#base	"..\#customizations\_streamermode\scripts\hudlayout.res"
+#base	"meter.res"
 
 "Resource/HudLayout.res"
 {
