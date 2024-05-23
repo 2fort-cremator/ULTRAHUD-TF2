@@ -3,6 +3,11 @@ event HudHealthBonusPulse
 {
 	Animate	HurtBar 	alpha		"0"		Linear 0.0 0.0
 	Animate	OverHealBar 	Alpha		"255"			Linear 0.0 0.0
+
+	Animate HealthBG BgColor "0 100 0 100"			Linear 0.0 0.5
+	Animate HealthBG BgColor "HudElementBG"			Linear 0.5 0.5
+
+	RunEvent HudHealthBonusPulseLoop 1
 }
 
 // call to loop HudHealthBonusPulse
@@ -13,6 +18,7 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
+	Animate HealthBG "BgColor" "HudElementBG" Linear 0.0 0.1
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
@@ -23,6 +29,10 @@ event HudHealthDyingPulse
 {
 	Animate	HurtBar 	alpha		"255"		Linear 0.0 0.0
 	Animate	OverHealBar 	Alpha		"0"			Linear 0.0 0.0
+	Animate HealthBG BgColor "100 0 0 100"			Linear 0.0 0.5
+	Animate HealthBG BgColor "HudElementBG"			Linear 0.5 0.5
+
+	RunEvent HudHealthDyingPulseLoop 1
 }
 
 // call to loop HudHealthDyingPulse
@@ -33,6 +43,7 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
+	Animate HealthBG "BgColor" "HudElementBG" Linear 0.0 0.1
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
