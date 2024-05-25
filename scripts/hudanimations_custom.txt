@@ -4,10 +4,10 @@ event HudHealthBonusPulse
 	Animate	HurtBar 	alpha		"0"		Linear 0.0 0.0
 	Animate	OverHealBar 	Alpha		"255"			Linear 0.0 0.0
 
-	Animate HealthBG BgColor "0 100 0 100"			Linear 0.0 0.5
-	Animate HealthBG BgColor "HudElementBG"			Linear 0.5 0.5
+	Animate HealthBG BgColor "0 100 0 100"			Linear 0.0 0.1
+	Animate HealthBG BgColor "HudElementBG"			Linear 0.1 0.6
 
-	RunEvent HudHealthBonusPulseLoop 1
+	RunEvent HudHealthBonusPulseLoop 0.6
 }
 
 // call to loop HudHealthBonusPulse
@@ -19,6 +19,7 @@ event HudHealthBonusPulseLoop
 event HudHealthBonusPulseStop
 {
 	Animate HealthBG "BgColor" "HudElementBG" Linear 0.0 0.1
+
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
@@ -29,10 +30,11 @@ event HudHealthDyingPulse
 {
 	Animate	HurtBar 	alpha		"255"		Linear 0.0 0.0
 	Animate	OverHealBar 	Alpha		"0"			Linear 0.0 0.0
-	Animate HealthBG BgColor "100 0 0 100"			Linear 0.0 0.5
-	Animate HealthBG BgColor "HudElementBG"			Linear 0.5 0.5
 
-	RunEvent HudHealthDyingPulseLoop 1
+	Animate HealthBG BgColor "100 0 0 100"			Linear 0.0 0.15
+	Animate HealthBG BgColor "HudElementBG"			Linear 0.15 0.15
+
+	RunEvent HudHealthDyingPulseLoop 0.3
 }
 
 // call to loop HudHealthDyingPulse
@@ -54,11 +56,15 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
 
-	Animate	AmmoInClip					FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
-	Animate	AmmoInReserve				FgColor		"Ammo In Reserve Low"	Linear 0.0 0.0
-	Animate	AmmoNoClip					FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
+	Animate	AmmoBG BgColor "50 0 0 150" Linear 0.0 0.15
+	Animate	AmmoBG BgColor "HudElementBG" Linear 0.15 0.15
 
-	RunEvent HudLowAmmoPulseLoop		0.4
+	RunEvent HudLowAmmoPulseLoop		0.3
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
 }
 
 event HudLowAmmoPulseStop

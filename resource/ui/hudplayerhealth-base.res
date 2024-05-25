@@ -31,7 +31,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"380"
-		"HealthDeathWarning"	"1.0"
+		"HealthDeathWarning"	"1"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 	"PlayerStatusHealthImage"
@@ -190,6 +190,7 @@
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 		"proportionaltoparent"	"1"
 	}
+
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
