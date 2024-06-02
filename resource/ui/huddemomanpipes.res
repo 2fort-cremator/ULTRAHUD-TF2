@@ -82,7 +82,7 @@
 		"fieldName"			"PipesPresentPanel"
 		"xpos"				"191"
 		"ypos"				"10"
-		"xpos_minmode"				"60"
+		"xpos_minmode"				"122"
 		"ypos_minmode"				"40"
 		"zpos"				"1"
 		"wide"				"f0"

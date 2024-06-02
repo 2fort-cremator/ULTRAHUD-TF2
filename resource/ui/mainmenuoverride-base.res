@@ -261,6 +261,34 @@
 
 	}
 
+	"HudNameBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HudNameBG"
+		"xpos"			"49"
+		"ypos"			"32"
+		"zpos"			"1"
+		"auto_wide_tocontents"		"1"
+		"tall"			"70"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Team Fortress 2"
+		"font"			"Cerbetica56Alt"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+
+		"fgcolor"	"ColorBlack"
+
+	}
+
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"

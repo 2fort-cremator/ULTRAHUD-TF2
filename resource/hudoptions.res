@@ -2704,7 +2704,7 @@
 		"xpos"		"0"
 		"ypos"		"450"
 		"wide"		"743"
-		"tall"		"100"
+		"tall"		"160"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2796,7 +2796,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"walkway"
 		"allcaps"		"1"
-		"font"			"Cerbetica14Alt"
+		"font"			"Cerbetica10Alt"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -3030,6 +3030,73 @@
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
 	}
+
+
+	"speedometerONButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"speedometerONButton"
+		"xpos"			"0"
+		"ypos"			"60"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine hud_Speedometer_on; hud_reloadscheme"
+		"actionsignallevel"		"4"
+		"labelText"		"speedometer ON"
+		"allcaps"		"1"
+		"font"			"Cerbetica10Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"filler"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		
+	}
+
+
+	"speedometerOFFButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"speedometerOFFButton"
+		"xpos"			"-90"
+		"ypos"			"60"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine hud_Speedometer_off; hud_reloadscheme"
+		"actionsignallevel"		"4"
+		"labelText"		"speedometer OFF"
+		"allcaps"		"1"
+		"font"			"Cerbetica8Alt"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"filler"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		
+	}
+
 
 }
 
