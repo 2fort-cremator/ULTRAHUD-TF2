@@ -728,7 +728,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"c0"
+			"xpos"			"c150"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
