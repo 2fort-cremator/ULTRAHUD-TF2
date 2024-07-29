@@ -233,60 +233,21 @@
 		}
 	}
 
-	"HudName"
+
+	"TFLogo"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HudName"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TFLogo"
 		"xpos"			"47"
-		"ypos"			"30"
-		"zpos"			"1"
-		"auto_wide_tocontents"		"1"
-		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"3"
+		"ypos"			"35"
+		"tall"			"45"
+		"wide"			"356"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Team Fortress 2"
-		"font"			"Cerbetica56Alt"
-		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-
-		"fgcolor"	"ColorRed"
-
-	}
-
-	"HudNameBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HudNameBG"
-		"xpos"			"49"
-		"ypos"			"32"
-		"zpos"			"1"
-		"auto_wide_tocontents"		"1"
-		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Team Fortress 2"
-		"font"			"Cerbetica56Alt"
-		"textAlignment"	"center"
-		"textinsetx"	"0"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-
-		"fgcolor"	"ColorBlack"
-
+		"image"			"replay/thumbnails/logo_tf"
+		"scaleImage"	"1"
+		"command"		"engine play vo/heavy_battlecry02.mp3"
 	}
 
 	"TFLogoImage"
