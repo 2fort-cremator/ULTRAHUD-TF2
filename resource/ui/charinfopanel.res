@@ -44,7 +44,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"150"
 	}
 
 	"BackgroundHeader"
@@ -167,11 +166,11 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"BackButton"
-		"xpos"				"c-330"
-		"ypos"				"r100"
+		"xpos"				"40"
+		"ypos"				"r50"
 		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"30"
+		"wide"				"80"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
@@ -179,7 +178,6 @@
 		"tabPosition"		"0"
 		"labelText"			"Back (&Q)"
 		"font"				"HudFontMediumSmall"
-		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"default"			"0"
