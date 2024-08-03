@@ -46,6 +46,22 @@
 		"image"		"replay/thumbnails/teamselect_background"
 	}
 
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"150"
+		"ypos"			"30"
+		"zpos"			"-10"
+		"wide"			"670"
+		"tall"			"420"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/teamselect_background"
+		"alpha"		"200"
+	}
+
 	"BackgroundHeader"
 	{
 		"ControlName"		"ImagePanel"

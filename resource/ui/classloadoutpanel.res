@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override"		"0 0 0 0"
 		"outoffocus_bgcolor_override"	"0 0 0 0"
 
-		"item_xpos_offcenter_a"			"-310"
-		"item_xpos_offcenter_b"			"165"
+		"item_xpos_offcenter_a"			"70"
+		"item_xpos_offcenter_b"			"215"
 		"item_ypos"						"60"
 		"item_ydelta"					"75"
 		"item_mod_wide"					"40"
@@ -99,21 +99,7 @@
 		}
 	}
 
-	"TerminalBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBG"
-		"xpos"			"50"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"750"
-		"tall"			"390"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"200"
-	}
+	
 
 	"ClassLabel"
 	{
@@ -168,16 +154,16 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
 		"xpos"				"c-135"
-		"ypos"				"25"
+		"ypos"				"100"
 		"zpos"				"-1"
-		"wide"				"270"
-		"tall"				"340"
+		"wide"				"200"
+		"tall"				"280"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"render_texture"	"0"
-		"fov"				"30"
+		"fov"				"20"
 		"allow_manip"		"1"
 
 		"model"
@@ -240,7 +226,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"PassiveAttribsLabel"
 		"font"				"ItemFontAttribLarge"
-		"xpos"				"cs-0.5"
+		"xpos"				"c-100"
 		"ypos"				"r230"
 		"zpos"				"0"
 		"wide"				"270"
@@ -325,8 +311,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
-		"xpos"				"c-166"
-		"ypos"				"c-126"
+		"xpos"				"c216"
+		"ypos"				"c-206"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -354,8 +340,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
-		"xpos"				"c-166"
-		"ypos"				"c-99"
+		"xpos"				"2"
+		"ypos"				"0"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -377,14 +363,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"pin_to_sibling"		"RedButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"CharacterLoadoutButton"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"CharacterLoadoutButton"
-		"xpos"				"c-166"
-		"ypos"				"c-180"
+		"xpos"				"2"
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"25"
 		"tall"				"25"
@@ -409,14 +398,17 @@
 
 		"defaultBgColor_override"		"ColorRed"
 		"depressedBgColor_override" 	"ColorRed"
+
+		"pin_to_sibling"		"BlueButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"TauntLoadoutButton"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"TauntLoadoutButton"
-		"xpos"				"c-166"
-		"ypos"				"c-153"
+		"xpos"				"2"
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"25"
 		"tall"				"25"
@@ -441,6 +433,9 @@
 
 		"defaultBgColor_override"		"ColorRed"
 		"depressedBgColor_override" 	"ColorRed"
+
+		"pin_to_sibling"		"CharacterLoadoutButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"TauntsExplanation"
