@@ -2113,7 +2113,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias" 	"0"
 			}
 		}
 		"ItemFontAttribLarger"
