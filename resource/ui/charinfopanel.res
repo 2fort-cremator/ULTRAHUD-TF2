@@ -194,8 +194,6 @@
 		"tabPosition"		"0"
 		"labelText"			"Back (&Q)"
 		"font"				"HudFontMediumSmall"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"default"			"0"
 		"Command"			"back"
 
