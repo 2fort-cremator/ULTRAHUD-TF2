@@ -21,7 +21,7 @@
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
 		"thumbnails_rows"				"4"
 		"thumbnails_columns"			"4"
-		"thumbnails_x"					"c-300"
+		"thumbnails_x"					"c-250"
 		"thumbnails_y"					"60"
 		"thumbnails_delta_x"			"8"
 		"thumbnails_delta_y"			"8"
@@ -56,22 +56,6 @@
 		}
 	}
 
-	"TerminalBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBG"
-		"xpos"			"50"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"750"
-		"tall"			"390"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"200"
-	}
-
 	"CaratLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -86,8 +70,8 @@
 		"font"					"Cerbetica40"
 		"labelText"				"#Armory"
 		"textAlignment"			"center"
-		"xpos"					"cs-0.5"
-		"ypos"					"15"
+		"xpos"					"c-250"
+		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"560"
 		"tall"					"40"
@@ -105,7 +89,7 @@
 		"font"					"HudFontSmall"
 		"labelText"				"#Store_FilterLabel"
 		"textAlignment"			"west"
-		"xpos"					"c-300"
+		"xpos"					"c-250"
 		"ypos"					"37"
 		"zpos"					"1"
 		"wide"					"65"
@@ -146,13 +130,14 @@
 		"defaultSelectionBG2Color_override"	"DarkerGrey"
 
 		"pin_to_sibling"			"FiltersLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"DataPanel"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"DataPanel"
-		"xpos"					"c20"
+		"xpos"					"c105"
 		"ypos"					"30"
 		"zpos"					"1"
 		"wide"					"270"
@@ -195,7 +180,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"SelectedItemModelPanel"
-		"xpos"					"c25"
+		"xpos"					"c105"
 		"ypos"					"40"
 		"zpos"					"1"
 		"wide"					"260"
@@ -283,7 +268,7 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"PrevPageButton"
-		"xpos"					"c-300"
+		"xpos"					"c-258"
 		"ypos"					"290"
 		"zpos"					"5"
 		"wide"					"20"
@@ -318,8 +303,8 @@
 		"font"					"HudFontSmall"
 		"labelText"				"%thumbnailpage%"
 		"textAlignment"			"center"
-		"xpos"					"c-278"
-		"ypos"					"290"
+		"xpos"					"1"
+		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"45"
 		"tall"					"20"
@@ -328,14 +313,17 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"ColorRed"
+
+		"pin_to_sibling"		"PrevPageButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"NextPageButton"
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"NextPageButton"
-		"xpos"					"c-233"
-		"ypos"					"290"
+		"xpos"					"2"
+		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"20"
 		"tall"					"20"
@@ -360,13 +348,16 @@
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorRed"
 		"bgcolor_override"		"Transparent"
+
+		"pin_to_sibling"		"CurPageLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"WikiButton"
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"WikiButton"
-		"xpos"					"c130"
+		"xpos"					"c210"
 		"ypos"					"290"
 		"zpos"					"20"
 		"wide"					"160"
@@ -429,7 +420,7 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"StoreButton"
-		"xpos"					"c-197"
+		"xpos"					"c-147"
 		"ypos"					"290"
 		"zpos"					"20"
 		"wide"					"200"
@@ -441,7 +432,7 @@
 		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Store"
 		"font"					"HudFontMediumSmall"
-		"textAlignment"			"center"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"openstore"

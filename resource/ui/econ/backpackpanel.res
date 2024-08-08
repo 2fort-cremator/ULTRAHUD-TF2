@@ -161,7 +161,7 @@
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
-		"ypos"				"15"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"350"
 		"tall"				"25"

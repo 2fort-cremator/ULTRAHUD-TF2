@@ -21,7 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ScreenName"
 		"xpos"			"cs-0.5"
-		"ypos"			"7"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"70"
@@ -30,7 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"WARpAINTS"
+		"labelText"		"WARPAINTS"
 		"font"			"Cerbetica40"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
@@ -42,22 +42,6 @@
 
 		"fgcolor"	"ColorRed"
 
-	}
-
-	"TerminalBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBG"
-		"xpos"			"50"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"750"
-		"tall"			"390"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"200"
 	}
 
 	"ItemName"
@@ -102,7 +86,7 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"180"
+		"xpos"			"r300"
 		"ypos"			"cs-0.6"
 		"zpos"			"5"
 		"wide"			"230"
@@ -186,8 +170,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs1.4"
-		"ypos"				"c-135"
+		"xpos"				"414"
+		"ypos"				"c-45"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -286,33 +270,33 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"cs0.3"
-		"ypos"			"p.2"
-		"wide"			"250"
-		"tall"			"200"
+		"xpos"			"180"
+		"ypos"			"50"
+		"wide"			"300"
+		"tall"			"300"
 		"zpos"			"100"
 		"visible"		"1"
-		"bgcolor_override"	"DarkerGrey"
+		"bgcolor_override"	"Transparent"
 		"PaintBackgroundType"	"2"
 		"mouseinputenabled"		"1"
 		"proportionaltoparent"	"1"
 		"paintborder"			"0"
 
-		"ModelInspectionPanelBG"
+		"PaintKitPreviewContainerBG"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"ModelInspectionPanelBG"
+			"fieldName"		"PaintkitPreviewContainerBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-10"
-			"wide"			"250"
-			"tall"			"200"
+			"wide"			"300"
+			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"		"replay/thumbnails/teamselect_background"
 
-			"pin_to_sibling"		"ModelInspectionPanel"
+			"pin_to_sibling"		"PaintKitPreviewContainer"
 		}
 
 		"fixed_item"
@@ -386,10 +370,10 @@
 			"fieldName"			"ComboBoxValidPaintkits"
 			"Font"				"HudFontSmallest"
 			"wrap"				"0"
-			"xpos"				"80"
-			"ypos"				"10"
+			"xpos"				"85"
+			"ypos"				"12"
 			"zpos"				"100"
-			"wide"				"165"
+			"wide"				"204"
 			"tall"				"15"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -425,8 +409,8 @@
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
-			"xpos"			"8"
-			"ypos"			"10"
+			"xpos"			"10"
+			"ypos"			"12"
 			"wide"			"70"
 			"tall"			"15"
 			"autoResize"	"0"
@@ -447,7 +431,7 @@
 			"fieldName"			"ComboBoxValidItems"
 			"Font"				"HudFontSmallest"
 			"wrap"				"0"
-			"xpos"				"80"
+			"xpos"				"85"
 			"ypos"				"30"
 
 			"fixed_paintkit"
@@ -456,7 +440,7 @@
 			}
 
 			"zpos"				"100"
-			"wide"				"165"
+			"wide"				"204"
 			"tall"				"15"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -492,7 +476,7 @@
 			"font"			"Cerbetica10Alt"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
-			"xpos"			"8"
+			"xpos"			"11"
 			"ypos"			"30"
 
 			"fixed_paintkit"
@@ -523,7 +507,7 @@
 		{
 			"ControlName"	"Slider"
 			"fieldName"		"WearSlider"
-			"xpos"			"8"
+			"xpos"			"11"
 			"ypos"			"70"
 
 			"fixed_item"
@@ -532,7 +516,7 @@
 			}
 
 			"zpos"			"1"
-			"wide"			"234"
+			"wide"			"279"
 			"tall"			"30"
 			"numticks"		"4"
 			"rangemin"		"1"
@@ -560,7 +544,7 @@
 			"font"			"Cerbetica10Alt"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
-			"xpos"			"8"
+			"xpos"			"11"
 			"ypos"			"50"
 
 			"fixed_item"
@@ -592,7 +576,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"9"
+			"xpos"			"11"
 			"ypos"			"125"
 
 			"fixed_item"
@@ -606,7 +590,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"230"
+			"wide"			"137"
 			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -636,8 +620,8 @@
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
-			"xpos"			"8"
-			"ypos"			"95"
+			"xpos"			"11"
+			"ypos"			"100"
 
 			"fixed_item"
 			{
@@ -672,12 +656,46 @@
 			}
 		}
 
+		"SeedLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"ItemLabel"
+			"font"			"Cerbetica10Alt"
+			"labelText"		"Seed"
+			"textAlignment"	"west"
+			"xpos"			"11"
+			"ypos"			"90"
+
+			"fixed_paintkit"
+			{
+				"ypos"		"10"
+			}
+
+			"wide"			"70"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"ColorWhite"
+
+			"fixed_item"
+			{
+				"visible"	"0"
+			}
+
+			"consume_mode"
+			{
+				"labelText"		"#TF_ItemPreview_RedeemItem"
+			}
+		}
+
 		"MarketButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
-			"xpos"			"9"
-			"ypos"			"155"
+			"xpos"			"152"
+			"ypos"			"125"
 
 			"fixed_item"
 			{
@@ -690,7 +708,7 @@
 			}
 
 			"zpos"			"100"
-			"wide"			"230"
+			"wide"			"137"
 			"tall"			"25"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
 			"font"			"HudFontMediumSmall"

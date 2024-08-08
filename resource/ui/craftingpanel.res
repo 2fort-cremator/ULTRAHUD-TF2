@@ -116,8 +116,8 @@
 			"depressedBgColor_override"	"Transparent"
 		}
 
-		"filter_xoffset"	"-290"
-		"filter_ypos"		"30"
+		"filter_xoffset"	"-240"
+		"filter_ypos"		"347"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
 
@@ -142,22 +142,6 @@
 		}
 	}
 
-	"TerminalBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TerminalBG"
-		"xpos"			"50"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"750"
-		"tall"			"390"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"200"
-	}
-
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -166,7 +150,7 @@
 		"labelText"			"CRAFTING"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
-		"ypos"				"20"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"40"
@@ -181,8 +165,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"selectedrecipecontainer"
-		"xpos"				"c20"
-		"ypos"				"50"
+		"xpos"				"c60"
+		"ypos"				"40"
 		"zpos"				"5"
 		"wide"				"300"
 		"tall"				"350"
@@ -349,11 +333,11 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"recipecontainerscroller"
-		"xpos"					"c-290"
-		"ypos"					"70"
+		"xpos"					"c-240"
+		"ypos"					"79"
 		"zpos"					"5"
 		"wide"					"280"
-		"tall"					"220"
+		"tall"					"262"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"		"59 54 48 255"
 		"bgcolor_override"		"200 187 161 0"
@@ -365,10 +349,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RecipeContainerBG"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"10"
 		"zpos"			"-10"
 		"wide"			"305"
-		"tall"			"240"
+		"tall"			"320"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"

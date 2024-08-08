@@ -276,7 +276,7 @@
 		"zpos"			"-55"
 		"wide"			"80"
 		"tall"			"20"
-		"labeltext"		"Spy"
+		"labeltext"		"French"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
 		"allcaps"		"1"
