@@ -724,60 +724,82 @@
 			}
 		}
 
+			"FindAGameButton-mover"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"FindAGameButton-mover"
+				"xpos"		"-5"
+				"ypos"		"0"
+				"wide"		"35"
+				"tall"		"35"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"		"0"
+				"PaintBackgroundType"	"0"
+
+				
+			}
+
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"c150"
+			"xpos"			"rs1-60"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"f6"
+			"wide"			"140"
+			"tall"			"f"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Cerbetica20"
-			"textAlignment"	"center"
-			"allcaps"		"1"
+			"font"			"Cerbetica24"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
+			"labeltext"		"#MMenu_FindAGame"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
+			"textinsety"	"10"
+			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"0 0 0 0"
+			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "234 234 234 155"
+			
+			"border_default"	""
+			"border_armed"		"OptionsCategoryBorder"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
+				"xpos"			"2"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
 				"drawcolor_override" "TanLight"
 			}
 		}
+
 	}
 }
+	
