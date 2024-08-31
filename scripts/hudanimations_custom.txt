@@ -197,5 +197,21 @@ event TeamStatus_PlayerAlive
 //==================================================================================
 
 event CompetitiveGame_LowerChatWindow { }
-event CompetitiveGame_RestoreChatWindow { }
+event CompetitiveGame_RestoreChatWindow 
+{
+	RunEvent HudHealthBonusPulseStop 0.0 
+	RunEvent HudHealthDyingPulseStop 0.0 
+	RunEvent HudLowAmmoPulseStop 0.0 
+	RunEvent Startup 0.0
+}
 event HudTournament_MoveChatWindow { }
+
+event Startup
+{
+	Animate HudPlayerHealth wide 0 linear 0.0 0.0
+	Animate HudPlayerHealth wide 128 linear 0.0 0.3
+	Animate HudWeaponAmmo wide 0 linear 0.0 0.0
+	Animate HudWeaponAmmo wide 60 linear 0.32 0.42
+	Animate classmodelpanel wide 0 linear 0.0 0.0
+	Animate classmodelpanel wide 128 linear 0.0 0.3
+}

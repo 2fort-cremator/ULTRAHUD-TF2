@@ -121,6 +121,103 @@
 			"spotlight" 		"1"
 			"modelname"			""
 		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-60"
+			}
+			"Sniper"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-65"
+			}
+			"Soldier"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"-2"
+				"origin_z" 			"-60"
+			}
+			"Demoman"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"-2"
+				"origin_z" 			"-62"
+			}
+			"Medic"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-67"
+			}
+			"Heavy"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-70"
+			}
+			"Pyro"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-60"
+			}
+			"Spy"
+			{
+				"fov"				"15"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"0"
+				"origin_z" 			"-67"
+			}
+			"Engineer"
+			{
+				"fov"				"12"
+				"angles_x" 			"0"
+				"angles_y" 			"180"
+				"angles_z" 			"0"
+				"origin_x" 			"200"
+				"origin_y" 			"-3"
+				"origin_z" 			"-60"
+			}
+		}
 	}
 	"classmodelpanelBG"
 	{
