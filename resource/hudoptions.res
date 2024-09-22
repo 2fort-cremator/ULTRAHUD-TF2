@@ -2871,6 +2871,33 @@
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
+			"DemoSmokeButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DemoSmokeButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_demosmoke;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"ActThreePlaceholder"
+			}
+
 			"MannequinsImage"
 			{
 				"ControlName"      "ImagePanel"
