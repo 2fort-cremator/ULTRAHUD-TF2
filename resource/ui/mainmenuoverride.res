@@ -1,8 +1,5 @@
-"#base" "../preload.res"
 #base	"../../_customizations/ENABLED/Streamer Mode/mainmenuoverride-streamer.res"
 #base	"../../_customizations/ENABLED/menu_old/mainmenuoverride-old.res"
-#base "custommenubackgrounds.res"
-"#base" "../../_customizations/ENABLED/Gabriel Pack/mainmenuoverride-gabe.res"
 "#base" "mainmenuoverride-base.res"
 #base "../../_customizations/ENABLED/Gabriel Pack/hudoptions_gabe.res"
 #base "../hudoptions.res"
@@ -189,7 +186,7 @@
 			"actionsignallevel" "2"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"command"		"engine cl_mainmenu_safemode 1"
+			"command"		"engine cl_mainmenu_safemode 1;"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

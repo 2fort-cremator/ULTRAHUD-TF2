@@ -1,3 +1,4 @@
+#base "mainmenuoverride_backgrounds.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -144,6 +145,7 @@
 		}
 	}
 
+
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -161,15 +163,15 @@
 
 		if_wider
 		{
-			"wide"		"f0"
-			"tall"		"o0.628"
+			"wide"			"f0"
+			"tall"			"o0.628"
 		}
 
 		if_taller
 		{
-			"wide"		"o1.6"
-			"tall"		"f0"
-		}
+			"wide"			"o1.6"
+			"tall"			"f0"
+		}	
 	}
 
 	"BackgroundDimmer"

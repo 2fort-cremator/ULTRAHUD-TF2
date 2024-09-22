@@ -139,7 +139,7 @@
 			"xpos"		"40"
 			"ypos"		"64"
 			"zpos"		"90"
-			"wide"		"f0.9"
+			"wide"		"f0"
 			"tall"		"400"
 			"visible"	"1"
 
@@ -181,8 +181,8 @@
 		"fieldName"		"Customization"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"743"
-		"tall"		"450"
+		"wide"		"793"
+		"tall"		"850"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2690,10 +2690,411 @@
 					"allowoutofrange"	"0"		
 				}		
 			}	
-			
-			
 
-		
+			//MARK: BACKGROUNDS
+			"BGLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"BGLabel"
+				"xpos"					"0"
+				"ypos"					"70"
+				"zpos"					"100"
+				"wide"					"360"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica28"
+				"labeltext"				"BACKGROUNDS"
+				"fgcolor"				"ColorRed"
+
+				"pin_to_sibling"		"MiscLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"BGEnable"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"BGEnable"
+				"xpos"			"10"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"80"
+				"tall"			"30"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine exec hud_commands;exec menu_customizations;exec hud_customizations"
+				"actionsignallevel"		"4"
+				"labelText"		"ENABLE"
+				"allcaps"		"1"
+				"font"			"Cerbetica12Alt"
+				"textAlignment"	"center"
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"ColorBlack"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"BGLabel"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				
+			}
+
+			"BGFiller"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"BGFiller"
+				"xpos"					"2"
+				"ypos"					"-5"
+				"zpos"					"100"
+				"wide"					"400"
+				"tall"					"3"
+				"visible"				"1"
+				"enabled"				"1"
+				"fillcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"BGLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"ActOneImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "ActOneImage"
+				"xpos"             "0"
+				"ypos"             "15"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_upward"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"BGFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"ActOneButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"ActOneButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_actone;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"ActOneImage"
+			}
+
+			"ActTwoImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "ActTwoImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_gabe"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ActOneImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"ActTwoButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"ActTwoButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_acttwo;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"ActTwoImage"
+			}
+
+			"ActThreePlaceholder"
+			{
+				"ControlName"      "label"
+				"fieldName"        "ActThreePlaceholder"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"labeltext"			"ERR 404 IMAGE NOT FOUND"
+				"fgcolor_override"		"ColorRed"
+				"font"			"Cerbetica14Alt"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ActTwoImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"MannequinsImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "MannequinsImage"
+				"xpos"             "0"
+				"ypos"             "5"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/mannequins"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ActOneImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"MannequinsButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MannequinsButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_mannequins;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"MannequinsImage"
+			}
+			
+			"SirenSongImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "SirenSongImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_sirencallsong"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"MannequinsImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"SirenSongButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"SirenSongButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_sirensong;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"SirenSongImage"
+			}
+
+			"SufferingLeavesImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "SufferingLeavesImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/sufferingleaves"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"SirenSongImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"SufferingLeavesButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"SufferingLeavesButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_sufferingleaves;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"SufferingLeavesImage"
+			}
+
+			"DeepBlueImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "DeepBlueImage"
+				"xpos"             "0"
+				"ypos"             "5"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/deepblue"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"MannequinsImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DeepBlueButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DeepBlueButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_deepblue;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DeepBlueImage"
+			}
+
+			"DeathOdysseyImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "DeathOdysseyImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/deathodyssey"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"DeepBlueImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"DeathOdysseyButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DeathOdysseyButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_deathodyssey;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DeathOdysseyImage"
+			}
 		
 		}
 
@@ -2702,7 +3103,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"450"
+		"ypos"		"850"
 		"wide"		"743"
 		"tall"		"160"
 		"autoResize"		"0"
@@ -2888,7 +3289,7 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+		"Command"		"engine fullhudreload"
 		"actionsignallevel"		"4"
 		"labelText"		"hud reload +"
 		"allcaps"		"1"
