@@ -95,7 +95,7 @@
 
 	"BarBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BarBG"
 		"xpos"			"0"
 		"ypos"			"-8"
@@ -104,7 +104,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ColorRed"
+		"bgcolor_override"		"ColorRed"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 

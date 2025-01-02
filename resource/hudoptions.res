@@ -182,7 +182,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"793"
-		"tall"		"850"
+		"tall"		"2000"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2712,38 +2712,6 @@
 
 			}
 
-			"BGEnable"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"BGEnable"
-				"xpos"			"10"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"80"
-				"tall"			"30"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine exec hud_commands;exec menu_customizations;exec hud_customizations"
-				"actionsignallevel"		"4"
-				"labelText"		"ENABLE"
-				"allcaps"		"1"
-				"font"			"Cerbetica12Alt"
-				"textAlignment"	"center"
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"ColorBlack"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"BGLabel"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-				
-			}
-
 			"BGFiller"
 			{
 				"ControlName"			"ImagePanel"
@@ -3122,6 +3090,43 @@
 
 				"pin_to_sibling"		"DeathOdysseyImage"
 			}
+
+			"MenusLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MenusLabel"
+				"xpos"					"0"
+				"ypos"					"380"
+				"zpos"					"100"
+				"wide"					"360"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica28"
+				"labeltext"				"MENUS"
+				"fgcolor"				"ColorRed"
+
+				"pin_to_sibling"		"BGLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"MenusFiller"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"MenusFiller"
+				"xpos"					"2"
+				"ypos"					"-5"
+				"zpos"					"100"
+				"wide"					"400"
+				"tall"					"3"
+				"visible"				"1"
+				"enabled"				"1"
+				"fillcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"MenusLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
 		
 		}
 
@@ -3130,7 +3135,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"850"
+		"ypos"		"1000"
 		"wide"		"743"
 		"tall"		"160"
 		"autoResize"		"0"

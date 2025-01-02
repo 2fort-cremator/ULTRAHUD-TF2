@@ -199,10 +199,9 @@ event TeamStatus_PlayerAlive
 event CompetitiveGame_LowerChatWindow { }
 event CompetitiveGame_RestoreChatWindow 
 {
-	RunEvent HudHealthBonusPulseStop 0.0 
-	RunEvent HudHealthDyingPulseStop 0.0 
 	RunEvent HudLowAmmoPulseStop 0.0 
 	RunEvent Startup 0.0
+	//RunEvent Radiant 0.0
 }
 event HudTournament_MoveChatWindow { }
 
@@ -214,4 +213,24 @@ event Startup
 	Animate HudWeaponAmmo wide 60 linear 0.32 0.42
 	Animate classmodelpanel wide 0 linear 0.0 0.0
 	Animate classmodelpanel wide 128 linear 0.0 0.3
+}
+
+event Radiant
+{
+	Animate BarBG BgColor "ColorRed" linear 0.0 0.0
+	Animate BarBG BgColor "ColorOrange" linear 0.0 0.5
+	Animate BarBG BgColor "ColorYellow" linear 0.5 0.5
+	Animate BarBG BgColor "ColorGreen" linear 1.0 0.5
+	Animate BarBG BgColor "ColorCyan" linear 1.5 0.5
+	Animate BarBG BgColor "ColorBlue" linear 2.0 0.5
+	Animate BarBG BgColor "ColorPurple" linear 2.5 0.5
+	Animate BarBG BgColor "ColorMagenta" linear 3.0 0.5
+	Animate BarBG BgColor "ColorRed" linear 3.5 0.5
+	
+	RunEvent RadiantLoop 4.0
+}
+
+event RadiantLoop 
+{
+	RunEvent Radiant 0.0
 }
