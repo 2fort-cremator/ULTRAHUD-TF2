@@ -3127,6 +3127,161 @@
 				"pin_to_sibling"		"MenusLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 			}
+
+			"ClassModelLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"ClassModelLabel"
+				"xpos"					"0"
+				"ypos"					"10"
+				"zpos"					"100"
+				"wide"					"205"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"labeltext"				"Loadout Preview"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"MenusFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultClassModelImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DefaultClassModelImage"
+				"xpos"			"0"
+				"ypos"			"35"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/scout_default"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"MenusFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultClassModelLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultClassModelLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Default"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultClassModelImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultClassModelButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultClassModelButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"128"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine classloadout_model_default"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultClassModelImage"
+			}
+
+			"FullClassModelImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FullClassModelImage"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/scout_fullbody"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"DefaultClassModelImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"FullClassModelLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"FullClassModelLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Full Body"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"FullClassModelImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"FullClassModelButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultClassModelButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"128"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine classloadout_model_fullbody"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"FullClassModelImage"
+			}
 		
 		}
 
@@ -3135,7 +3290,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"1000"
+		"ypos"		"1200"
 		"wide"		"743"
 		"tall"		"160"
 		"autoResize"		"0"
