@@ -162,7 +162,8 @@
 		}
 
 		"tabskv"
-		{
+		{	
+			"ypos"						"r100"
 			"textinsetx"				"25"
 			"textinsety"				"5"
 			"textAlignment"				"north"
@@ -192,8 +193,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Back (&Q)"
-		"font"				"HudFontMediumSmall"
+		"labelText"			"Back (Q) &Q"
+		"font"				"HudFontSmall"
 		"default"			"0"
 		"Command"			"back"
 

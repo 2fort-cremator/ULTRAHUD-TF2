@@ -10,7 +10,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"0 0 0 0"
 	}
 
 	"MainBackground"
@@ -191,38 +191,7 @@
 			}
 		}
 
-		"AveragesBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"AveragesBG"
-			"xpos"			"c-315"
-			"ypos"			"170"
-			"wide"			"620"
-			"tall"			"300"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"	"Transparent"
-			"PaintBackgroundType"	"2"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"AveragesBG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"620"
-				"tall"			"300"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"		"1"
-				"image"			"replay/thumbnails/teamselect_background"
-				
-			}
-		}
+		
 		"AveragesLabel"
 		{
 			"ControlName"	"Label"
@@ -1963,11 +1932,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"c-283"
-		"ypos"			"270"
+		"xpos"			"c-253"
+		"ypos"			"313"
 		"zpos"			"12"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"43"
+		"tall"			"43"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
@@ -1996,8 +1965,8 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-283"
-		"ypos"			"308"
+		"xpos"			"c-253"
+		"ypos"			"358"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
