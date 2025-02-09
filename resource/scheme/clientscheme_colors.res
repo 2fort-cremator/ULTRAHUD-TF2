@@ -24,6 +24,7 @@ Scheme
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
 		"TextColor"					"117 107 94 255"
+		"ColorOrange"				"255 149 0 255"
 		//---------------------------------------------
 		//Custom Color Status
 		"CustomColorStatus"		"255 0 0 255"

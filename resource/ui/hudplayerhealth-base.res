@@ -1,3 +1,5 @@
+#base "hud_healthbar_color.res"
+
 "Resource/UI/HudPlayerHealth.res"
 {
 
@@ -104,7 +106,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"ColorRed"
+//		"bgcolor_override"		"ColorRed"  icommented so customization can work
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
